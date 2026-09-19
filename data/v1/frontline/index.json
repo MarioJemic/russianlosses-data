@@ -1,0 +1,399 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "frontline_snapshots",
+  "generated_at": "2026-09-19T10:48:11.091Z",
+  "coverage_start": "2022-02-23",
+  "coverage_end": "2026-09-18",
+  "record_count": 75,
+  "sources": [
+    {
+      "name": "DeepStateMap public history",
+      "url": "https://deepstatemap.live/",
+      "role": "Geographic control snapshots filtered and mirrored by this project"
+    }
+  ],
+  "methodology": "The 2022-02-23 baseline contains only the pre-full-scale-invasion occupation footprint. Later records point to dated DeepStateMap-derived snapshots. The latest stable alias is copied at generation time.",
+  "license_notice": "No blanket license is granted for this collection. Each upstream source retains its own rights and terms. Review the source-specific terms and preserve attribution before reuse.",
+  "snapshots": [
+    {
+      "date": "2022-02-23",
+      "phase": "pre_invasion_baseline",
+      "occupied_km2": 43744,
+      "url": "/data/v1/frontline/baseline.geojson"
+    },
+    {
+      "date": "2022-02-24",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20220224.geojson"
+    },
+    {
+      "date": "2022-03-07",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20220307.geojson"
+    },
+    {
+      "date": "2022-03-20",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20220320.geojson"
+    },
+    {
+      "date": "2022-04-03",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20220403.geojson"
+    },
+    {
+      "date": "2022-04-15",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20220415.geojson"
+    },
+    {
+      "date": "2022-05-13",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20220513.geojson"
+    },
+    {
+      "date": "2022-06-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20220601.geojson"
+    },
+    {
+      "date": "2022-06-15",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20220615.geojson"
+    },
+    {
+      "date": "2022-07-15",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20220715.geojson"
+    },
+    {
+      "date": "2022-08-29",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20220829.geojson"
+    },
+    {
+      "date": "2022-09-11",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20220911.geojson"
+    },
+    {
+      "date": "2022-10-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20221001.geojson"
+    },
+    {
+      "date": "2022-10-15",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20221015.geojson"
+    },
+    {
+      "date": "2022-11-11",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20221111.geojson"
+    },
+    {
+      "date": "2022-12-15",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20221215.geojson"
+    },
+    {
+      "date": "2023-01-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20230101.geojson"
+    },
+    {
+      "date": "2023-02-15",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20230215.geojson"
+    },
+    {
+      "date": "2023-03-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20230301.geojson"
+    },
+    {
+      "date": "2024-07-08",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20240708.geojson"
+    },
+    {
+      "date": "2024-08-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20240801.geojson"
+    },
+    {
+      "date": "2024-08-08",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20240808.geojson"
+    },
+    {
+      "date": "2024-08-14",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20240814.geojson"
+    },
+    {
+      "date": "2024-08-19",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20240819.geojson"
+    },
+    {
+      "date": "2024-08-29",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20240829.geojson"
+    },
+    {
+      "date": "2024-09-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20240901.geojson"
+    },
+    {
+      "date": "2024-10-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20241001.geojson"
+    },
+    {
+      "date": "2024-11-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20241101.geojson"
+    },
+    {
+      "date": "2024-12-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20241201.geojson"
+    },
+    {
+      "date": "2025-01-02",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20250102.geojson"
+    },
+    {
+      "date": "2025-02-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20250201.geojson"
+    },
+    {
+      "date": "2025-03-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20250301.geojson"
+    },
+    {
+      "date": "2025-04-02",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20250402.geojson"
+    },
+    {
+      "date": "2025-05-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20250501.geojson"
+    },
+    {
+      "date": "2025-06-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20250601.geojson"
+    },
+    {
+      "date": "2025-07-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20250701.geojson"
+    },
+    {
+      "date": "2025-08-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20250801.geojson"
+    },
+    {
+      "date": "2025-09-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20250901.geojson"
+    },
+    {
+      "date": "2025-10-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20251001.geojson"
+    },
+    {
+      "date": "2025-11-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20251101.geojson"
+    },
+    {
+      "date": "2025-11-28",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20251128.geojson"
+    },
+    {
+      "date": "2025-12-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20251201.geojson"
+    },
+    {
+      "date": "2026-01-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260101.geojson"
+    },
+    {
+      "date": "2026-02-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260201.geojson"
+    },
+    {
+      "date": "2026-03-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260301.geojson"
+    },
+    {
+      "date": "2026-03-23",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260323.geojson"
+    },
+    {
+      "date": "2026-03-24",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260324.geojson"
+    },
+    {
+      "date": "2026-04-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260401.geojson"
+    },
+    {
+      "date": "2026-05-08",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260508.geojson"
+    },
+    {
+      "date": "2026-05-23",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260523.geojson"
+    },
+    {
+      "date": "2026-05-31",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260531.geojson"
+    },
+    {
+      "date": "2026-06-04",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260604.geojson"
+    },
+    {
+      "date": "2026-06-06",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260606.geojson"
+    },
+    {
+      "date": "2026-06-09",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260609.geojson"
+    },
+    {
+      "date": "2026-06-13",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260613.geojson"
+    },
+    {
+      "date": "2026-06-24",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260624.geojson"
+    },
+    {
+      "date": "2026-06-27",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260627.geojson"
+    },
+    {
+      "date": "2026-07-13",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260713.geojson"
+    },
+    {
+      "date": "2026-07-16",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260716.geojson"
+    },
+    {
+      "date": "2026-07-25",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260725.geojson"
+    },
+    {
+      "date": "2026-08-12",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260812.geojson"
+    },
+    {
+      "date": "2026-08-14",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260814.geojson"
+    },
+    {
+      "date": "2026-08-19",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260819.geojson"
+    },
+    {
+      "date": "2026-08-23",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260823.geojson"
+    },
+    {
+      "date": "2026-08-25",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260825.geojson"
+    },
+    {
+      "date": "2026-08-28",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260828.geojson"
+    },
+    {
+      "date": "2026-08-31",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260831.geojson"
+    },
+    {
+      "date": "2026-09-03",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260903.geojson"
+    },
+    {
+      "date": "2026-09-10",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260910.geojson"
+    },
+    {
+      "date": "2026-09-11",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260911.geojson"
+    },
+    {
+      "date": "2026-09-13",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260913.geojson"
+    },
+    {
+      "date": "2026-09-14",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260914.geojson"
+    },
+    {
+      "date": "2026-09-16",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260916.geojson"
+    },
+    {
+      "date": "2026-09-17",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260917.geojson"
+    },
+    {
+      "date": "2026-09-18",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20260918.geojson"
+    }
+  ],
+  "latest": {
+    "date": "2026-09-18",
+    "url": "/data/v1/frontline/latest.geojson"
+  }
+}

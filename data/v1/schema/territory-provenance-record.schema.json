@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://russianlosses.mario-jemic.workers.dev/data/v1/schema/territory-provenance-record.schema.json",
+  "title": "Occupied-territory observation provenance",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["date", "method", "source_occupied_km2", "reference_date", "net_change_method"],
+  "properties": {
+    "date": { "type": "string", "format": "date" },
+    "method": { "enum": ["upstream", "project_baseline", "carried_forward"] },
+    "source_occupied_km2": { "type": ["number", "null"], "minimum": 0 },
+    "reference_date": { "type": "string", "format": "date" },
+    "net_change_method": { "enum": ["initial_reference", "upstream_endpoints", "baseline_derived", "carried_forward_endpoint"] }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "method": { "const": "project_baseline" } } },
+      "then": { "properties": { "source_occupied_km2": { "type": "null" } } },
+      "else": { "properties": { "source_occupied_km2": { "type": "number" } } }
+    }
+  ]
+}

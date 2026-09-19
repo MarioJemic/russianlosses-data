@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://russianlosses.mario-jemic.workers.dev/data/v1/schema/territory-periodic-record.schema.json",
+  "title": "Periodic occupied-territory summary",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["date", "period_type", "period", "start_date", "end_date", "observations", "start_occupied_km2", "end_occupied_km2", "net_change_km2", "min_occupied_km2", "max_occupied_km2"],
+  "properties": {
+    "date": { "type": "string", "format": "date" },
+    "period_type": { "enum": ["month", "year"] },
+    "period": { "type": "string", "pattern": "^\\d{4}(-\\d{2})?$" },
+    "start_date": { "type": "string", "format": "date" },
+    "end_date": { "type": "string", "format": "date" },
+    "observations": { "type": "integer", "minimum": 1 },
+    "start_occupied_km2": { "type": "number", "minimum": 0 },
+    "end_occupied_km2": { "type": "number", "minimum": 0 },
+    "net_change_km2": { "type": "number" },
+    "min_occupied_km2": { "type": "number", "minimum": 0 },
+    "max_occupied_km2": { "type": "number", "minimum": 0 }
+  }
+}

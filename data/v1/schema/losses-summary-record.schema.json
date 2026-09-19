@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://russianlosses.mario-jemic.workers.dev/data/v1/schema/losses-summary-record.schema.json",
+  "title": "Reported loss summary record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["date", "metric", "latest_daily", "last_7_days", "last_30_days", "cumulative", "daily_average", "first_date", "observation_days"],
+  "properties": {
+    "date": { "type": "string", "format": "date" },
+    "metric": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+    "latest_daily": { "type": "integer", "minimum": 0 },
+    "last_7_days": { "type": "integer", "minimum": 0 },
+    "last_30_days": { "type": "integer", "minimum": 0 },
+    "cumulative": { "type": "integer", "minimum": 0 },
+    "daily_average": { "type": "number", "minimum": 0 },
+    "first_date": { "type": "string", "format": "date" },
+    "observation_days": { "type": "integer", "minimum": 1 }
+  }
+}

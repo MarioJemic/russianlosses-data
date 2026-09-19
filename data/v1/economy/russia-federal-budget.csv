@@ -1,0 +1,10 @@
+date,year,period,period_type,observation_status,release_date,revenue_rub_billion,expenditure_rub_billion,deficit_rub_billion,deficit_pct_gdp,oil_gas_revenue_rub_billion,non_oil_gas_revenue_rub_billion,oil_gas_revenue_yoy_pct,non_oil_gas_revenue_yoy_pct,source_url
+2022-12-31,2022,Full-year 2022,full_year,actual,,27820,31110,3290,2.3,,,,,https://www.osw.waw.pl/en/publikacje/osw-commentary/2023-02-16/russian-economy-2022-adaptation-and-a-growing-budget-gap
+2023-12-31,2023,Full-year 2023,full_year,actual,,29123,32364,3241,1.9,,,,,https://interfax.com/newsroom/top-stories/98312/
+2024-12-31,2024,Full-year 2024,full_year,actual,,36708.6,40180.5,3471.9,1.7,,,,,https://en.kremlin.ru/acts/news/77521
+2025-12-31,2025,Full-year 2025,full_year,estimate,,36562.2,42298.7,5736.5,2.6,,,,,https://en.kremlin.ru/acts/news/78392
+2026-02-28,2026,Jan-Feb 2026,year_to_date,preliminary,,4767,8216,3449,1.5,,,,,https://tradingeconomics.com/russia/government-budget-value
+2026-04-30,2026,Jan-Apr 2026,year_to_date,preliminary,2026-05-08,11721,17598,5880,2.5,,,,,https://tradingeconomics.com/russia/government-budget-value
+2026-05-31,2026,Jan-May 2026,year_to_date,preliminary,2026-06-08,14781,20791,6010,2.6,,,,,https://tradingeconomics.com/russia/government-budget-value
+2026-06-30,2026,Jan-Jun 2026,year_to_date,preliminary,2026-07-09,18622,24353,5731,2.5,,,,,https://tradingeconomics.com/russia/government-budget-value
+2026-07-31,2026,Jan-Jul 2026,year_to_date,preliminary,2026-08-11,22112,28567,6455,2.8,4595,17518,-16.8,18.3,https://ebs.publicnow.com/view/DF2308E0B17A71E5D1790EA4AECC6E363593E779

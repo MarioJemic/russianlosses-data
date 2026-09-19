@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://russianlosses.mario-jemic.workers.dev/data/v1/schema/fiscal-budget-record.schema.json",
+  "title": "Russian federal budget record",
+  "description": "One full-year or cumulative year-to-date federal budget observation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "date",
+    "year",
+    "period",
+    "period_type",
+    "observation_status",
+    "release_date",
+    "revenue_rub_billion",
+    "expenditure_rub_billion",
+    "deficit_rub_billion",
+    "deficit_pct_gdp",
+    "oil_gas_revenue_rub_billion",
+    "non_oil_gas_revenue_rub_billion",
+    "oil_gas_revenue_yoy_pct",
+    "non_oil_gas_revenue_yoy_pct",
+    "source_url"
+  ],
+  "properties": {
+    "date": { "type": "string", "format": "date" },
+    "year": { "type": "integer", "minimum": 2000, "maximum": 2100 },
+    "period": { "type": "string", "minLength": 1 },
+    "period_type": { "enum": ["full_year", "year_to_date"] },
+    "observation_status": { "enum": ["actual", "estimate", "preliminary"] },
+    "release_date": {
+      "oneOf": [
+        { "type": "string", "format": "date" },
+        { "type": "null" }
+      ]
+    },
+    "revenue_rub_billion": { "type": "number", "minimum": 0 },
+    "expenditure_rub_billion": { "type": "number", "minimum": 0 },
+    "deficit_rub_billion": { "type": "number", "minimum": 0 },
+    "deficit_pct_gdp": { "type": "number", "minimum": 0 },
+    "oil_gas_revenue_rub_billion": { "type": ["number", "null"], "minimum": 0 },
+    "non_oil_gas_revenue_rub_billion": { "type": ["number", "null"], "minimum": 0 },
+    "oil_gas_revenue_yoy_pct": { "type": ["number", "null"] },
+    "non_oil_gas_revenue_yoy_pct": { "type": ["number", "null"] },
+    "source_url": { "type": "string", "format": "uri" }
+  }
+}

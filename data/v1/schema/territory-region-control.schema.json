@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://russianlosses.mario-jemic.workers.dev/data/v1/schema/territory-region-control.schema.json",
+  "title": "Territory control by Ukrainian region",
+  "description": "Current ADM1 region control estimates or dated historical snapshots, with independent national observations matched at or before each map date.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "dataset",
+    "generated_at",
+    "coverage_start",
+    "coverage_end",
+    "record_count",
+    "map_geometry_url",
+    "units",
+    "sources",
+    "methodology",
+    "limitation",
+    "license_notice"
+  ],
+  "if": { "properties": { "dataset": { "const": "territory_region_control" } } },
+  "then": {
+    "required": ["summary", "regions"],
+    "properties": { "record_count": { "const": 27 }, "snapshots": false }
+  },
+  "else": {
+    "required": ["snapshots"],
+    "properties": { "summary": false, "regions": false }
+  },
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "dataset": { "enum": ["territory_region_control", "territory_region_control_history"] },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "coverage_start": { "type": "string", "format": "date" },
+    "coverage_end": { "type": "string", "format": "date" },
+    "record_count": { "type": "integer", "minimum": 1 },
+    "map_geometry_url": { "const": "/data/v1/territory/regions.geojson" },
+    "units": {
+      "type": "object",
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "official_ukraine_area_km2",
+        "reported_national_date",
+        "reported_national_occupied_km2",
+        "reported_national_free_km2",
+        "reported_national_occupied_share_pct",
+        "geometry_area_km2",
+        "geometry_occupied_km2"
+      ],
+      "properties": {
+        "official_ukraine_area_km2": { "const": 603550 },
+        "reported_national_date": { "type": ["string", "null"], "format": "date" },
+        "reported_national_occupied_km2": { "type": ["number", "null"], "minimum": 0, "maximum": 603550 },
+        "reported_national_free_km2": { "type": ["number", "null"], "minimum": 0, "maximum": 603550 },
+        "reported_national_occupied_share_pct": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+        "geometry_area_km2": { "type": "number", "exclusiveMinimum": 0 },
+        "geometry_occupied_km2": { "type": "number", "minimum": 0 }
+      },
+      "if": { "properties": { "reported_national_date": { "const": null } } },
+      "then": {
+        "properties": {
+          "reported_national_occupied_km2": { "const": null },
+          "reported_national_free_km2": { "const": null },
+          "reported_national_occupied_share_pct": { "const": null }
+        }
+      },
+      "else": {
+        "properties": {
+          "reported_national_occupied_km2": { "type": "number" },
+          "reported_national_free_km2": { "type": "number" },
+          "reported_national_occupied_share_pct": { "type": "number" }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 3,
+      "items": { "$ref": "#/$defs/source" }
+    },
+    "methodology": { "type": "string", "minLength": 1 },
+    "limitation": { "type": "string", "minLength": 1 },
+    "license_notice": { "type": "string", "minLength": 1 },
+    "regions": {
+      "type": "array",
+      "minItems": 27,
+      "maxItems": 27,
+      "items": { "$ref": "#/$defs/region" }
+    },
+    "snapshots": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["date", "phase", "summary", "regions"],
+        "properties": {
+          "date": { "type": "string", "format": "date" },
+          "phase": { "enum": ["pre_invasion_baseline", "full_scale_war"] },
+          "summary": { "$ref": "#/properties/summary" },
+          "regions": { "$ref": "#/properties/regions" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "url", "role"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "role": { "type": "string", "minLength": 1 }
+      }
+    },
+    "region": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "region_id",
+        "name",
+        "short_name",
+        "source_name",
+        "source_shape_id",
+        "area_km2",
+        "occupied_km2",
+        "free_km2",
+        "occupied_share_pct",
+        "free_share_pct",
+        "status"
+      ],
+      "properties": {
+        "region_id": { "type": "string", "pattern": "^UA-[0-9]{2}$" },
+        "name": { "type": "string", "minLength": 1 },
+        "short_name": { "type": "string", "minLength": 1 },
+        "source_name": { "type": "string", "minLength": 1 },
+        "source_shape_id": { "type": "string", "minLength": 1 },
+        "area_km2": { "type": "number", "exclusiveMinimum": 0 },
+        "occupied_km2": { "type": "number", "minimum": 0 },
+        "free_km2": { "type": "number", "minimum": 0 },
+        "occupied_share_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+        "free_share_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+        "status": { "enum": ["free", "partially_occupied", "occupied"] }
+      }
+    }
+  }
+}

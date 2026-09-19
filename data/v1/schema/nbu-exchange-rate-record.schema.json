@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://russianlosses.mario-jemic.workers.dev/data/v1/schema/nbu-exchange-rate-record.schema.json",
+  "title": "NBU daily exchange-rate record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["date", "usd_uah", "eur_uah", "rub_uah"],
+  "properties": {
+    "date": { "type": "string", "format": "date" },
+    "usd_uah": { "type": ["number", "null"], "exclusiveMinimum": 0 },
+    "eur_uah": { "type": ["number", "null"], "exclusiveMinimum": 0 },
+    "rub_uah": { "type": ["number", "null"], "exclusiveMinimum": 0 }
+  }
+}

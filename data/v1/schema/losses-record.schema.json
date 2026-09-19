@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://russianlosses.mario-jemic.workers.dev/data/v1/schema/losses-record.schema.json",
+  "title": "Reported Russian losses record",
+  "description": "One daily increment or cumulative running-total record. Dataset metadata defines which mode applies.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "date",
+    "personnel",
+    "boats",
+    "submarines",
+    "tanks",
+    "armoured_personnel_vehicles",
+    "artillery_systems",
+    "mlrs",
+    "vehicles",
+    "special_equipment",
+    "air_defence_systems",
+    "aircraft",
+    "helicopters",
+    "uav",
+    "unmanned_ground_vehicles",
+    "cruise_missiles"
+  ],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "personnel": { "$ref": "#/$defs/count" },
+    "boats": { "$ref": "#/$defs/count" },
+    "submarines": { "$ref": "#/$defs/count" },
+    "tanks": { "$ref": "#/$defs/count" },
+    "armoured_personnel_vehicles": { "$ref": "#/$defs/count" },
+    "artillery_systems": { "$ref": "#/$defs/count" },
+    "mlrs": { "$ref": "#/$defs/count" },
+    "vehicles": { "$ref": "#/$defs/count" },
+    "special_equipment": { "$ref": "#/$defs/count" },
+    "air_defence_systems": { "$ref": "#/$defs/count" },
+    "aircraft": { "$ref": "#/$defs/count" },
+    "helicopters": { "$ref": "#/$defs/count" },
+    "uav": { "$ref": "#/$defs/count" },
+    "unmanned_ground_vehicles": { "$ref": "#/$defs/count" },
+    "cruise_missiles": { "$ref": "#/$defs/count" }
+  },
+  "$defs": {
+    "count": {
+      "type": "integer",
+      "minimum": 0
+    }
+  }
+}

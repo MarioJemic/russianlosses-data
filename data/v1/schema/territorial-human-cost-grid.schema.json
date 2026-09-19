@@ -1,0 +1,244 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://russianlosses.mario-jemic.workers.dev/data/v1/schema/territorial-human-cost-grid.schema.json",
+  "title": "Territorial human-cost grid",
+  "description": "Modeled allocation of monthly reported Russian personnel losses across observed ten-kilometre grid-cell control transitions.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "dataset",
+    "generated_at",
+    "coverage_start",
+    "coverage_end",
+    "record_count",
+    "event_count",
+    "interpolated_event_count",
+    "snapshot_count",
+    "grid",
+    "units",
+    "sources",
+    "methodology",
+    "confidence_method",
+    "limitation",
+    "license_notice",
+    "months",
+    "cells"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "dataset": { "const": "territorial_human_cost_grid" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "coverage_start": { "const": "2022-02-23" },
+    "coverage_end": { "type": "string", "format": "date" },
+    "record_count": { "type": "integer", "minimum": 1 },
+    "event_count": { "type": "integer", "minimum": 1 },
+    "interpolated_event_count": { "type": "integer", "minimum": 0 },
+    "snapshot_count": { "type": "integer", "minimum": 2 },
+    "grid": { "$ref": "#/$defs/grid" },
+    "units": {
+      "type": "object",
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 2,
+      "items": { "$ref": "#/$defs/source" }
+    },
+    "methodology": { "type": "string", "minLength": 1 },
+    "confidence_method": { "type": "string", "minLength": 1 },
+    "limitation": { "type": "string", "minLength": 1 },
+    "license_notice": { "type": "string", "minLength": 1 },
+    "months": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/month" }
+    },
+    "cells": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/cell" }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "url", "role"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "role": { "type": "string", "minLength": 1 }
+      }
+    },
+    "grid": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cell_size_km",
+        "modeled_cell_area_km2",
+        "method",
+        "reference_latitude",
+        "latitude_step_degrees",
+        "longitude_step_degrees",
+        "origin",
+        "boundary_bbox",
+        "cells_inside_ukraine",
+        "excluded_context_cells",
+        "published_cells"
+      ],
+      "properties": {
+        "cell_size_km": { "const": 10 },
+        "modeled_cell_area_km2": { "const": 100 },
+        "method": { "type": "string", "minLength": 1 },
+        "reference_latitude": { "type": "number" },
+        "latitude_step_degrees": { "type": "number", "exclusiveMinimum": 0 },
+        "longitude_step_degrees": { "type": "number", "exclusiveMinimum": 0 },
+        "origin": { "$ref": "#/$defs/coordinate" },
+        "boundary_bbox": {
+          "type": "array",
+          "prefixItems": [
+            { "type": "number" },
+            { "type": "number" },
+            { "type": "number" },
+            { "type": "number" }
+          ],
+          "items": false
+        },
+        "cells_inside_ukraine": { "type": "integer", "minimum": 1 },
+        "excluded_context_cells": { "type": "integer", "minimum": 0 },
+        "published_cells": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "coordinate": {
+      "type": "array",
+      "prefixItems": [{ "type": "number" }, { "type": "number" }],
+      "items": false
+    },
+    "nullableNumber": {
+      "type": ["number", "null"]
+    },
+    "month": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "month",
+        "period_start",
+        "period_end",
+        "loss_observation_days",
+        "reported_personnel_losses",
+        "russian_gained_cells",
+        "ukrainian_liberated_cells",
+        "changed_cell_events",
+        "unique_changed_cells",
+        "russian_gained_km2",
+        "ukrainian_liberated_km2",
+        "gross_changed_km2",
+        "reported_personnel_per_changed_km2",
+        "reported_personnel_per_100km2",
+        "allocated_reported_personnel",
+        "interpolated_transition_events"
+      ],
+      "properties": {
+        "month": { "type": "string", "pattern": "^\\d{4}-\\d{2}$" },
+        "period_start": { "type": "string", "format": "date" },
+        "period_end": { "type": "string", "format": "date" },
+        "loss_observation_days": { "type": "integer", "minimum": 0, "maximum": 31 },
+        "reported_personnel_losses": { "type": "integer", "minimum": 0 },
+        "russian_gained_cells": { "type": "integer", "minimum": 0 },
+        "ukrainian_liberated_cells": { "type": "integer", "minimum": 0 },
+        "changed_cell_events": { "type": "integer", "minimum": 0 },
+        "unique_changed_cells": { "type": "integer", "minimum": 0 },
+        "russian_gained_km2": { "type": "number", "minimum": 0 },
+        "ukrainian_liberated_km2": { "type": "number", "minimum": 0 },
+        "gross_changed_km2": { "type": "number", "minimum": 0 },
+        "reported_personnel_per_changed_km2": { "$ref": "#/$defs/nullableNumber" },
+        "reported_personnel_per_100km2": { "$ref": "#/$defs/nullableNumber" },
+        "allocated_reported_personnel": { "$ref": "#/$defs/nullableNumber" },
+        "interpolated_transition_events": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sequence",
+        "direction",
+        "from_status",
+        "to_status",
+        "observed_from",
+        "observed_to",
+        "interval_days",
+        "observed_month",
+        "modeled_month",
+        "confidence",
+        "changed_area_km2",
+        "reported_personnel_losses",
+        "reported_personnel_per_changed_km2",
+        "reported_personnel_per_100km2",
+        "modeled_personnel_allocation"
+      ],
+      "properties": {
+        "sequence": { "type": "integer", "minimum": 1 },
+        "direction": { "enum": ["russian_gain", "ukrainian_liberation"] },
+        "from_status": { "enum": ["government_controlled", "russian_occupied"] },
+        "to_status": { "enum": ["government_controlled", "russian_occupied"] },
+        "observed_from": { "type": "string", "format": "date" },
+        "observed_to": { "type": "string", "format": "date" },
+        "interval_days": { "type": "integer", "minimum": 1 },
+        "observed_month": { "type": "string", "pattern": "^\\d{4}-\\d{2}$" },
+        "modeled_month": { "type": "string", "pattern": "^\\d{4}-\\d{2}$" },
+        "confidence": { "enum": ["same_month", "month_boundary", "interpolated_interval"] },
+        "changed_area_km2": { "const": 100 },
+        "reported_personnel_losses": { "$ref": "#/$defs/nullableNumber" },
+        "reported_personnel_per_changed_km2": { "$ref": "#/$defs/nullableNumber" },
+        "reported_personnel_per_100km2": { "$ref": "#/$defs/nullableNumber" },
+        "modeled_personnel_allocation": { "$ref": "#/$defs/nullableNumber" }
+      }
+    },
+    "cell": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "row",
+        "column",
+        "center",
+        "bounds",
+        "modeled_area_km2",
+        "baseline_status",
+        "latest_status",
+        "transition_count",
+        "first_change_month",
+        "latest_change_month",
+        "events"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^g10-r\\d+-c\\d+$" },
+        "row": { "type": "integer" },
+        "column": { "type": "integer" },
+        "center": { "$ref": "#/$defs/coordinate" },
+        "bounds": {
+          "type": "array",
+          "prefixItems": [
+            { "type": "number" },
+            { "type": "number" },
+            { "type": "number" },
+            { "type": "number" }
+          ],
+          "items": false
+        },
+        "modeled_area_km2": { "const": 100 },
+        "baseline_status": { "enum": ["government_controlled", "initial_occupation"] },
+        "latest_status": { "enum": ["government_controlled", "russian_occupied", "initial_occupation"] },
+        "transition_count": { "type": "integer", "minimum": 0 },
+        "first_change_month": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}$" },
+        "latest_change_month": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}$" },
+        "events": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/event" }
+        }
+      }
+    }
+  }
+}

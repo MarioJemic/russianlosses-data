@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://russianlosses.pages.dev/data/v1/schema/territory-monthly-combined-record.schema.json",
+  "title": "Combined monthly same-source territory change",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["month", "start_date", "end_date", "target_end_date", "net_change_km2", "source", "preferred_source", "fallback_used", "fallback_reason", "observation_status", "missing_reason", "source_url", "source_generated_at"],
+  "properties": {
+    "month": { "type": "string", "pattern": "^\\d{4}-\\d{2}$" },
+    "start_date": { "type": "string", "format": "date" },
+    "end_date": { "type": ["string", "null"], "format": "date" },
+    "target_end_date": { "type": "string", "format": "date" },
+    "net_change_km2": { "type": ["number", "null"] },
+    "source": { "enum": ["nzz", "deepstate", null] },
+    "preferred_source": { "const": "deepstate" },
+    "fallback_used": { "type": "boolean" },
+    "fallback_reason": { "type": ["string", "null"] },
+    "observation_status": { "enum": ["complete", "partial", "missing"] },
+    "missing_reason": { "enum": [null, "no_comparable_same_source_endpoints"] },
+    "source_url": { "type": ["string", "null"], "format": "uri" },
+    "source_generated_at": { "type": ["string", "null"], "format": "date-time" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "observation_status": { "const": "missing" } } },
+      "then": { "properties": { "net_change_km2": { "type": "null" }, "end_date": { "type": "null" }, "source": { "type": "null" }, "fallback_used": { "const": false }, "missing_reason": { "type": "string" } } },
+      "else": { "properties": { "net_change_km2": { "type": "number" }, "end_date": { "type": "string" }, "source": { "enum": ["nzz", "deepstate"] }, "source_url": { "type": "string" }, "source_generated_at": { "type": "string" }, "missing_reason": { "type": "null" } } }
+    },
+    {
+      "if": { "properties": { "fallback_used": { "const": true } } },
+      "then": { "properties": { "source": { "const": "nzz" }, "fallback_reason": { "type": "string", "minLength": 1 } } },
+      "else": { "properties": { "fallback_reason": { "type": "null" } } }
+    }
+  ]
+}

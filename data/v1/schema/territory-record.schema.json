@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://russianlosses.mario-jemic.workers.dev/data/v1/schema/territory-record.schema.json",
+  "title": "Occupied territory record",
+  "description": "One normalized occupied-area observation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "date",
+    "occupied_km2",
+    "occupied_share_pct",
+    "net_change_km2"
+  ],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "occupied_km2": {
+      "type": "number",
+      "minimum": 0
+    },
+    "occupied_share_pct": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "net_change_km2": {
+      "type": "number"
+    }
+  }
+}

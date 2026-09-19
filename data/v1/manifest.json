@@ -1,0 +1,1599 @@
+{
+  "api_version": "v1",
+  "schema_version": "1.1.0",
+  "generated_at": "2026-09-19T21:04:53.085Z",
+  "publisher": {
+    "name": "Russian Losses Dashboard",
+    "website": "https://russianlosses.pages.dev/",
+    "repository": "https://github.com/MarioJemic/russianlosses"
+  },
+  "license_notice": "No blanket license is granted for this collection. Each upstream source retains its own rights and terms. Review the source-specific terms and preserve attribution before reuse.",
+  "attribution": "Keep the upstream source attribution attached to derived datasets and review each source before redistribution or commercial reuse.",
+  "datasets": [
+    {
+      "id": "losses_daily",
+      "title": "Daily reported Russian losses",
+      "description": "Daily reported or claimed personnel and equipment loss increments.",
+      "coverage_start": "2022-02-24",
+      "coverage_end": "2026-09-18",
+      "record_count": 1668,
+      "schema": "/data/v1/schema/losses-record.schema.json",
+      "sources": [
+        {
+          "name": "Russian Casualties in Ukraine API",
+          "url": "https://russian-casualties.in.ua/api/v1/data/csv/daily",
+          "role": "Daily reported Russian loss increments"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/losses/daily.json",
+          "media_type": "application/json",
+          "bytes": 708072,
+          "sha256": "c9fbb23654e55271892759ec6743408dafff7677e15587e9fda17d040ff11598"
+        },
+        {
+          "path": "/data/v1/losses/daily.csv",
+          "media_type": "text/csv",
+          "bytes": 79588,
+          "sha256": "52ced547d036fdd39aa4e3051777f0daeb4915d2f341066732bc8cd9c8b0094c"
+        }
+      ],
+      "category": "losses",
+      "catalog_group": "primary",
+      "generated_at": "2026-09-19T10:48:11.091Z",
+      "last_observation": "2026-09-18",
+      "temporal_resolution": "date"
+    },
+    {
+      "id": "losses_cumulative",
+      "title": "Cumulative reported Russian losses",
+      "description": "Running totals calculated from every published daily loss field.",
+      "coverage_start": "2022-02-24",
+      "coverage_end": "2026-09-18",
+      "record_count": 1668,
+      "schema": "/data/v1/schema/losses-record.schema.json",
+      "sources": [
+        {
+          "name": "Russian Casualties in Ukraine API",
+          "url": "https://russian-casualties.in.ua/api/v1/data/csv/daily",
+          "role": "Daily reported Russian loss increments"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/losses/cumulative.json",
+          "media_type": "application/json",
+          "bytes": 760237,
+          "sha256": "0f6a83f3d04183bb3c45eb5619e48c86ea256a4128587291f653f3a7046d2cbe"
+        },
+        {
+          "path": "/data/v1/losses/cumulative.csv",
+          "media_type": "text/csv",
+          "bytes": 131617,
+          "sha256": "bd6a1f4c5ce12c1032eec180904f04b88bffd9ec39ba7b586c141e996d986159"
+        }
+      ],
+      "category": "losses",
+      "catalog_group": "primary",
+      "generated_at": "2026-09-19T10:48:11.091Z",
+      "last_observation": "2026-09-18",
+      "temporal_resolution": "date"
+    },
+    {
+      "id": "losses_summary",
+      "title": "Latest reported loss summary",
+      "description": "Latest daily, 7-day, 30-day, cumulative, and daily-average values for each reported loss metric.",
+      "coverage_start": "2022-02-24",
+      "coverage_end": "2026-09-18",
+      "record_count": 15,
+      "schema": "/data/v1/schema/losses-summary-record.schema.json",
+      "sources": [
+        {
+          "name": "Russian Casualties in Ukraine API",
+          "url": "https://russian-casualties.in.ua/api/v1/data/csv/daily",
+          "role": "Daily reported Russian loss increments"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/losses/summary.json",
+          "media_type": "application/json",
+          "bytes": 5120,
+          "sha256": "af7b4f13c854206039c49ed558e6d210b63c454d973d01fd5716771da36cde3e"
+        },
+        {
+          "path": "/data/v1/losses/summary.csv",
+          "media_type": "text/csv",
+          "bytes": 1007,
+          "sha256": "e7e82cc6afa046f273e9accf1ee79a94213d19fb72b22a7a49a02fd5a432266b"
+        }
+      ],
+      "category": "losses",
+      "catalog_group": "primary",
+      "generated_at": "2026-09-19T10:48:11.091Z",
+      "last_observation": "2026-09-18",
+      "temporal_resolution": "date"
+    },
+    {
+      "id": "replacement_cost_model",
+      "title": "Modeled replacement cost",
+      "description": "Low, base, and high unit-cost assumptions applied to the latest cumulative reported losses.",
+      "coverage_start": "2026-09-18",
+      "coverage_end": "2026-09-18",
+      "record_count": 39,
+      "schema": "/data/v1/schema/replacement-cost-record.schema.json",
+      "sources": [
+        {
+          "name": "Russian Casualties in Ukraine API",
+          "url": "https://russian-casualties.in.ua/api/v1/data/csv/daily",
+          "role": "Daily reported Russian loss increments"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/models/replacement-cost.json",
+          "media_type": "application/json",
+          "bytes": 9030,
+          "sha256": "9fba2bbf3cfa102f69e32c5aac9621e34414ecaf0c376e40d37eb04e6b448c86"
+        },
+        {
+          "path": "/data/v1/models/replacement-cost.csv",
+          "media_type": "text/csv",
+          "bytes": 2308,
+          "sha256": "4f2fd6a6b193706b5a4229b38a21607a90d0753c4e99868e46933d5e36ffefb8"
+        }
+      ],
+      "category": "losses",
+      "catalog_group": "primary",
+      "generated_at": "2026-09-19T10:48:11.091Z",
+      "last_observation": "2026-09-18",
+      "temporal_resolution": "date"
+    },
+    {
+      "id": "territory_daily",
+      "title": "Occupied territory area",
+      "description": "Normalized occupied-area observations, including an explicit pre-invasion baseline.",
+      "coverage_start": "2021-12-31",
+      "coverage_end": "2026-09-02",
+      "record_count": 1654,
+      "schema": "/data/v1/schema/territory-record.schema.json",
+      "sources": [
+        {
+          "name": "Conflict Investigations NZZ Maps territory series",
+          "url": "https://github.com/conflict-investigations/nzz-maps",
+          "role": "Occupied-area time series derived by the upstream project"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/territory/daily.json",
+          "media_type": "application/json",
+          "bytes": 574747,
+          "sha256": "a351bc34bf79bf67ba8dfa8a2b4470deebf2ff0dee8f2ec5721299bf154b107c"
+        },
+        {
+          "path": "/data/v1/territory/daily.csv",
+          "media_type": "text/csv",
+          "bytes": 50618,
+          "sha256": "ade0fc5eb33016b09e3dd55887961a19ea174e5a7050e82c4d6e04fe5d47fe02"
+        },
+        {
+          "path": "/data/v1/territory/provenance.csv",
+          "media_type": "text/csv",
+          "bytes": 100063,
+          "sha256": "490a1a5ab4777464ace78bf73e368eea2c9f7374d91e5201918c64fe38bcf01c"
+        },
+        {
+          "path": "/data/v1/territory/source.csv",
+          "media_type": "text/csv",
+          "bytes": 50246,
+          "sha256": "a5bd218300af03351593e9b18444329a94fb2a2af400dd4527d9cb606f1950bb"
+        }
+      ],
+      "category": "territory",
+      "catalog_group": "primary",
+      "generated_at": "2026-09-19T10:48:11.091Z",
+      "last_observation": "2026-09-02",
+      "temporal_resolution": "date"
+    },
+    {
+      "id": "territory_periodic",
+      "title": "Monthly and yearly territory summaries",
+      "description": "Derived start, end, net-change, minimum, and maximum occupied-area observations by month and year.",
+      "coverage_start": "2022-02-28",
+      "coverage_end": "2026-09-02",
+      "record_count": 61,
+      "schema": "/data/v1/schema/territory-periodic-record.schema.json",
+      "sources": [
+        {
+          "name": "Conflict Investigations NZZ Maps territory series",
+          "url": "https://github.com/conflict-investigations/nzz-maps",
+          "role": "Occupied-area time series derived by the upstream project"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/territory/periodic.json",
+          "media_type": "application/json",
+          "bytes": 50991,
+          "sha256": "14d56865d72ae600cfad882e23e3bebfc6a3abab12c045201946b1711296e424"
+        },
+        {
+          "path": "/data/v1/territory/periodic.csv",
+          "media_type": "text/csv",
+          "bytes": 5921,
+          "sha256": "7a5851e2d2610855188a745985b6b8645e27ddc3509436cd4fb872b91b610569"
+        }
+      ],
+      "category": "territory",
+      "catalog_group": "primary",
+      "generated_at": "2026-09-19T10:48:11.091Z",
+      "last_observation": "2026-09-02",
+      "temporal_resolution": "mixed"
+    },
+    {
+      "id": "territory_region_control",
+      "title": "Territory control by Ukrainian region",
+      "description": "Current ADM1 region control estimates in regions.json; the accompanying regions-history.json contains 75 actual snapshots from 2022-02-23 through 2026-09-18, including the pre-invasion baseline. Dataset coverage and record_count describe the 27 latest region rows.",
+      "coverage_start": "2026-09-18",
+      "coverage_end": "2026-09-18",
+      "record_count": 27,
+      "schema": "/data/v1/schema/territory-region-control.schema.json",
+      "sources": [
+        {
+          "name": "Ukraine Common Operational Dataset administrative boundaries",
+          "url": "https://data.humdata.org/dataset/cod-ab-ukr",
+          "role": "2022 ADM1 land boundaries distributed through geoBoundaries gbHumanitarian"
+        },
+        {
+          "name": "DeepStateMap public history",
+          "url": "https://deepstatemap.live/",
+          "role": "Dated Russian-occupied geometry and the separate prewar Crimea/Donbas footprint"
+        },
+        {
+          "name": "Conflict Investigations NZZ Maps territory series",
+          "url": "https://github.com/conflict-investigations/nzz-maps",
+          "role": "Latest national occupied-area observation at or before each map date"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/territory/regions.json",
+          "media_type": "application/json",
+          "bytes": 12806,
+          "sha256": "12667af97395be1bb0f9744a0f9d5511cf10d1ba39e1ede49e7836679ee46634"
+        },
+        {
+          "path": "/data/v1/territory/regions.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 973077,
+          "sha256": "7f9e88f92fbf1cfa45f25b8d6994669c43d616276b40f54b1787a1ab5ba75b3a"
+        },
+        {
+          "path": "/data/v1/territory/regions-history.json",
+          "media_type": "application/json",
+          "bytes": 873250,
+          "sha256": "b95080abee19f1fcdbe52449b0fe4c494cbda1b2aac6ab2cdaa3dede097a44f3"
+        }
+      ],
+      "category": "territory",
+      "catalog_group": "primary",
+      "generated_at": "2026-09-19T10:48:11.091Z",
+      "last_observation": "2026-09-18",
+      "temporal_resolution": "date"
+    },
+    {
+      "id": "territorial_human_cost_grid",
+      "title": "Modeled human cost of territorial change",
+      "description": "Ten-kilometre grid-cell control histories with monthly reported personnel losses divided by gross changed area and allocated to observed transitions.",
+      "coverage_start": "2022-02-23",
+      "coverage_end": "2026-09-18",
+      "record_count": 1907,
+      "schema": "/data/v1/schema/territorial-human-cost-grid.schema.json",
+      "sources": [
+        {
+          "name": "DeepStateMap public history",
+          "url": "https://deepstatemap.live/",
+          "role": "Dated territorial-control snapshots used to classify grid-cell transitions"
+        },
+        {
+          "name": "Russian Casualties in Ukraine API",
+          "url": "https://russian-casualties.in.ua/api/v1/data/csv/daily",
+          "role": "Daily reported Russian personnel-loss increments aggregated by calendar month"
+        },
+        {
+          "name": "Ukraine Common Operational Dataset administrative boundaries",
+          "url": "https://data.humdata.org/dataset/cod-ab-ukr",
+          "role": "2022 ADM0 land boundary used to keep grid-cell centers inside internationally recognized Ukraine"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/territory/human-cost-grid.json",
+          "media_type": "application/json",
+          "bytes": 2712937,
+          "sha256": "5dfed0ce3da073df10be1cae5ef6f2df6c2f1ade8fff21239cc14ae059414501"
+        },
+        {
+          "path": "/data/v1/territory/human-cost-monthly.csv",
+          "media_type": "text/csv",
+          "bytes": 4746,
+          "sha256": "c5a9d7abf5ae7a37c0735929c466f93a4ceb4bcd6d4f90f68cc9a9fa99224141"
+        }
+      ],
+      "category": "territory",
+      "catalog_group": "primary",
+      "generated_at": "2026-09-19T10:48:11.091Z",
+      "last_observation": "2026-09-18",
+      "temporal_resolution": "date"
+    },
+    {
+      "id": "frontline_snapshots",
+      "title": "Frontline snapshot catalog",
+      "description": "Pre-invasion baseline, dated geographic snapshots, and a stable latest GeoJSON alias.",
+      "coverage_start": "2022-02-23",
+      "coverage_end": "2026-09-18",
+      "record_count": 75,
+      "schema": "/data/v1/schema/frontline-index.schema.json",
+      "sources": [
+        {
+          "name": "DeepStateMap public history",
+          "url": "https://deepstatemap.live/",
+          "role": "Geographic control snapshots filtered and mirrored by this project"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/frontline/index.json",
+          "media_type": "application/json",
+          "bytes": 11907,
+          "sha256": "ebe30893c0bf63a7072d7ccc0dff13b834a692f76c66514ab1c33203091a18dd"
+        },
+        {
+          "path": "/data/v1/frontline/latest.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87611,
+          "sha256": "3e02eab33462a80425b13ae7916ae5d939c63757a0b8eaec98f43f4a8ea154f1"
+        },
+        {
+          "path": "/data/v1/frontline/baseline.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 59266,
+          "sha256": "d039bc596fd97862e462b9a27bb39d9e66c0a6cc5d1b53f2ea7b2fb4436a60c6"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220224.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 54739,
+          "sha256": "5dbd632ef5681ab046449234807367c4b04f9d67d5bcbc913c93991f0f84a338"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220307.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 92999,
+          "sha256": "2050c42f61d35e2cd8b8aeb63d04fd7e1d5386e673951e814493e470df4fb392"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220320.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 118987,
+          "sha256": "76201f1095057e8622664f37823695bbe6a01979538b5f634e0fb7c159165f1c"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220403.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 90445,
+          "sha256": "f1eba2668b8249526bbcb9a23ce33a9b3da81bda15c6e35a98a368fd888ad8dc"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220415.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 97352,
+          "sha256": "bb26820b75cd39c61e44958cc1b5820482f4c670f043a2697af3f3c793ac18d3"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220513.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 82345,
+          "sha256": "f009ac70ee1c3ab376d251d54ddcc1db92f3dcf2fa7fc1640cc47df2485d9e39"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220601.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 131002,
+          "sha256": "3043ae41f3cd91dfb10a0060e4043daf43cbeec68b02e84167fae71d1ba291d2"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220615.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 134674,
+          "sha256": "dce1ac6699cc3ddea0b3555bb8eef6f360a8d9f1798823f4dab3ca818983ad89"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220715.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 152148,
+          "sha256": "ae2a1192e3f9c9739133c82c2bbac879879d78ddf4daeaef232c0b9bcfe58e06"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220829.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 154325,
+          "sha256": "28ce63d1159755b5de85b7b8332564103cbfcc5b2bdd5e312a4194a78707df08"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220911.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 145751,
+          "sha256": "8bfaf6eac477f42f62acd7ca4e9914cb0cd05ca4279ea94d22e067c132ed6b03"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20221001.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 121842,
+          "sha256": "2f3adb943baee9e5ca4d491c8f7bb993b5ae4bf5a0f196fd0a7b5fcc8141ca95"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20221015.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 123857,
+          "sha256": "dc6df4bd9512dff32b04ceb6f3d3c7583a64e5c01f4e361062351b93dc85c43d"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20221111.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 190722,
+          "sha256": "b1a56ac0ca98e49646a0703c773d5862ddbf5deaa956c1a166d5193d8fd50717"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20221215.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 194754,
+          "sha256": "3f5df7f1bebf99c70a0e37261b2dc7659ae8d885cfdd33e85678a4c7888483bf"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230101.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 195575,
+          "sha256": "4dfb119e3f8f77dbc57995cbdc76a10b13c2a297e283fd1565b281a5f93fecfc"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230215.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 199622,
+          "sha256": "e71a1c677e2285252634a667bdb690fb37d202a112226cf65cbf0575f317d522"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230301.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 200090,
+          "sha256": "d9abf36dc036d9439c3b9cb53caa951f29965db69197ebeeeacf602324b8fd94"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240708.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78867,
+          "sha256": "73acabcb2bf774d647974f2818b80573d36bec170b23afd2f10618d598db4f3a"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240801.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 67278,
+          "sha256": "ada1311ac73c99120b5b8105c5d3b5ed5f8ed088dda77e04d9da5959df123d57"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240808.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 96294,
+          "sha256": "0c63b119ebfc37bce184789682b470dfcfef2b5417639a89b5246911a1cd9f9d"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240814.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 96892,
+          "sha256": "f90ab9dd0ad22727a6b324f10220c182a003cb2629bcf8449327517597d549e4"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240819.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 99025,
+          "sha256": "d2a2c8fa22e90cfb6446b5e85d4b802ce8ede93138f697e74b4103a2a1ea4598"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240829.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 99926,
+          "sha256": "9c8a393f8b7be7c717c8785988490053a75fcb2adc13084193eaaf6756bde3dd"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240901.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 101462,
+          "sha256": "ccb502a31703fc105ea972a13ed897a5f337fc88bbcd0da939bc2f12bb578784"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20241001.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 101797,
+          "sha256": "a6e41f0e4ad3c1de9c6524b070c9f859080dd6310462118a8cb8027a51c8b82a"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20241101.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 98140,
+          "sha256": "e615c38fa5e2774dcd6ce91faa62c8ee527cde3a54246c824cb19f1c737adcb3"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20241201.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 96691,
+          "sha256": "3c720d137b99bc68085822674749ead48f2d2d3d6c2302102b94ddba2988dda5"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250102.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 93450,
+          "sha256": "37305bf0d10b0bfc2f0d16606c3af3ead12955836aac241e2e67d3aef0711aa9"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250201.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95475,
+          "sha256": "64578c51b3b61867a3b098af0dbbb056446da36b72fd2c1c40bc804523a2a115"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250301.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 97348,
+          "sha256": "81a11bd28eacfed571108d39e866b7138baa4f8abdde1683709bb66267fb4ae3"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250402.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 94710,
+          "sha256": "e6af324322422b623bd2b66654aa2676c5b0a7c6f08dac614e1011ff62e363cf"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250501.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 92386,
+          "sha256": "87300728f41992731b365a3b23e5347b85c9b7b86c53740b7a36d8b6767f5850"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250601.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 94142,
+          "sha256": "9e9090a043a9ea9160114bad319410094c596cf03752da3980748108b8658861"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250701.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 94046,
+          "sha256": "9330d76b32daf80a45cc756f7ae92c1390f6029a52f7865c0d2156b97f107938"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250801.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95233,
+          "sha256": "48742f2af2697dfdd5ab15928427b90cff068ed25dd3ae4657ded67a094b682a"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250901.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95968,
+          "sha256": "948d069966b67ba5b14838bcbfeab9ead3dbbcd37f99b85ed173341c44ff06b5"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20251001.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 96384,
+          "sha256": "bf874d72d8dbd6693aff3468e6b3612fe996302f73805bc03c09c6f2b1d08899"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20251101.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 96511,
+          "sha256": "97c70911564166267c57f1f397ddf43428ac50598a221ffbb7da9083cd790f93"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20251128.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 89412,
+          "sha256": "c3c245a2ccf901c1003b48db7d4aae23ea4efd00fb18ef0b645375b10a29f47f"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20251201.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 89449,
+          "sha256": "02c5019c8ba8da80adfd7c4bae51f7f6ffdd7105ff5a2d0cc8a3041414a2b400"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260101.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 86278,
+          "sha256": "d616a21d9819f58c64b3446b15b2a1f930b424cb1815b8db1f6a2be111303f21"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260201.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 86617,
+          "sha256": "d19acd5639b12386f36df9f4718cefe8a933c62296b31a03e05c48f3cd1ef446"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260301.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 86673,
+          "sha256": "5004057d792deb9332cee7cc3e951cf5230199717bbcc708d8d37d942ffcfcb1"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260323.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88029,
+          "sha256": "00bc56621488a9a3e48c5d3ab94822ef4048aea719f0fbf33e7dc91a90e6c451"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260324.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88012,
+          "sha256": "f445dac56ec98312a199edbc1e0f974d0e3140518e7fe4a4242ea0504faf5ef1"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260401.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87619,
+          "sha256": "915322b161e1b34aa8be3ab4d857f1c47db2b15ca59b8b9ab9b99e924afe763b"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260508.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 89302,
+          "sha256": "185c2d4494e6bc782c66bf9dd1225a1ab5b8e83f5e0c14125dabeff088ada4a7"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260523.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 89879,
+          "sha256": "ee1a2bf5e518fbe8b88eb913caa88fe8f91bfc41b7238b0c85f7981154ef0dad"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260531.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88947,
+          "sha256": "ae21308ca27aa30a16249c98d46bf9f16f7391cc6db372862bc5fbe62911291f"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260604.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 89018,
+          "sha256": "b66abb1640086473edbffed38e8199d2b5dda8c46e46dac49896cb83593f70ae"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260606.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88972,
+          "sha256": "dec207e73e67f7aca11d931ec80034053e40adefa62a761f30d2f24f7c58a6b8"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260609.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88874,
+          "sha256": "cd9722571b24b8449d1ff5b5001f5179b20b33d13b7a770f78632576334dc941"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260613.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88781,
+          "sha256": "0dbb390b79b82cebac26671d149f17fb1d4053b719fdd176d8884e9fcf76a945"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260624.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88906,
+          "sha256": "1142b4c216a216d46dfaa142c94edc4d883593dc70cbfb440c17b3cd0923fd1a"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260627.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88692,
+          "sha256": "7a88bd1a00de4a838bc0f3b1f4b5a0a87a6f19621c7afbd682603d506290886c"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260713.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88470,
+          "sha256": "c6390739de814d5d6e9f9e0d0b53e1506e803fc1dd011a9b46d3e2faa55e78f9"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260716.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88377,
+          "sha256": "77e7543c48b6b978d7656bf068c08e16d874271426e9ee772875ada1f3525c86"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260725.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88305,
+          "sha256": "f10d0255dd085809379af859ca5bf601074e0498abb76591255fbf4f2d2507c0"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260812.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88578,
+          "sha256": "151223243053a6f09a416eac12b1b9eb9b092ab1284d3bec2fa0d4784c13a88a"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260814.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88530,
+          "sha256": "ea37a3616c744cb0b6a17bcfc0e5e83eb36aa572f6a75ec73ec28d314dec4f23"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260819.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88701,
+          "sha256": "8f4be347e032f209dc5c0703306391eeca6934a8ccceded0d1f8544e21b887f4"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260823.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88534,
+          "sha256": "8217ea39571dc71847f84440f58fc66280a240ef030e610afa50e0140896cb26"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260825.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88498,
+          "sha256": "73bcdc532671b02f0483158e51c5fa5c28cc9b1b3888031353ff203de314a9ac"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260828.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88195,
+          "sha256": "d1f1f32131d0245752bf1258b953b13b6048b1d3e4dda2073ba9d56a71b1b667"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260831.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88014,
+          "sha256": "a1fce82b266b9d0d82a36b73b2b6097d2eb8fcfdd53f007c59d21001110f6775"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260903.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88042,
+          "sha256": "87264f6392c7cd636b3c8b42472532ef016ef33b25f5afb5974b5aa0e352fbaa"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260910.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88053,
+          "sha256": "06626dd102b4bffab1abbe5838a61318f9e6cd0e820a137f512cb12d50ca7a51"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260911.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87933,
+          "sha256": "50b3b3898ec134305699860d12c3bcc4275ead1fac3cc91bb8e2e33da76a46f4"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260913.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87931,
+          "sha256": "f8f0c111109865771c401cbe292abec67b0119b8c79b91f7890207b55d03b5cc"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260914.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87724,
+          "sha256": "75fb925ccc6199818fdf86013cd417a6bbaca9d06176ad8025da61a39939c68c"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260916.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87560,
+          "sha256": "d461f2815641b8fc091e9f979099b252c0567404a21b82974a4589c5b72b044a"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260917.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87608,
+          "sha256": "5c292e16f9013e7ce4fa5eb601511f9c8f9d3113b613205bb1464c55966cd919"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260918.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87611,
+          "sha256": "3e02eab33462a80425b13ae7916ae5d939c63757a0b8eaec98f43f4a8ea154f1"
+        }
+      ],
+      "category": "territory",
+      "catalog_group": "primary",
+      "generated_at": "2026-09-19T10:48:11.091Z",
+      "last_observation": "2026-09-18",
+      "temporal_resolution": "date"
+    },
+    {
+      "id": "territory_monthly_combined",
+      "title": "Combined monthly territory changes",
+      "description": "Uses the dashboard Combined algorithm: exact previous calendar month-end opening (23 February for February 2022), latest usable closing from the same source, later coverage preferred, DeepState wins ties. Alternate-source replacement covers the entire interval. No subtraction of DS and NZZ absolute areas, interpolation, or bridging missing months. Partial intervals retain their actual end date; missing data is null, not zero. Mixed-source sums are estimates, not a single-source occupied-area total. Source revisions may affect changes.",
+      "category": "territory",
+      "catalog_group": "primary",
+      "generated_at": "2026-09-19T21:04:53.085Z",
+      "last_observation": "2026-09-18",
+      "temporal_resolution": "month",
+      "coverage_start": "2022-02-23",
+      "coverage_end": "2026-09-18",
+      "record_count": 56,
+      "schema": "/data/v1/schema/territory-monthly-combined-record.schema.json",
+      "sources": [
+        {
+          "name": "Conflict Investigations NZZ Maps",
+          "url": "https://github.com/conflict-investigations/nzz-maps",
+          "role": "Independent same-source monthly area differences; absolute totals are not joined"
+        },
+        {
+          "name": "DeepStateMap",
+          "url": "https://deepstatemap.live/",
+          "role": "Independent same-source monthly area differences; absolute totals are not joined"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/territory/monthly-combined.json",
+          "media_type": "application/json",
+          "bytes": 34502,
+          "sha256": "660466bcecf5aed1ebf8416bef1ccfe5da387f2de36106501cfc644df377fa24"
+        },
+        {
+          "path": "/data/v1/territory/monthly-combined.csv",
+          "media_type": "text/csv",
+          "bytes": 12972,
+          "sha256": "aeaabe1741a5922b5e4968d041f584da2515bc945471e2674849363bb990d82d"
+        }
+      ]
+    },
+    {
+      "id": "social_corruption",
+      "title": "Corruption Perceptions Index",
+      "description": "Transparency International Corruption Perceptions Index. Rank position is lower-is-better; CPI score is 0 highly corrupt to 100 very clean. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
+      "category": "social",
+      "catalog_group": "primary",
+      "generated_at": "2026-09-19T21:04:53.085Z",
+      "last_observation": "2025",
+      "temporal_resolution": "year",
+      "time_basis": "reference_year",
+      "coverage_start": "2012-01-01",
+      "coverage_end": "2025-12-31",
+      "record_count": 28,
+      "schema": "/data/v1/schema/social-annual-record.schema.json",
+      "sources": [
+        {
+          "name": "Transparency International CPI",
+          "url": "https://www.transparency.org/en/cpi/2025",
+          "role": "Transparency International Corruption Perceptions Index. Rank position is lower-is-better; CPI score is 0 highly corrupt to 100 very clean."
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/social/corruption.json",
+          "media_type": "application/json",
+          "bytes": 18111,
+          "sha256": "4e31a403b2121582803712cea52a9ab8b14a1ed08f35ff7413d7af26d34d26f1"
+        },
+        {
+          "path": "/data/v1/social/corruption.csv",
+          "media_type": "text/csv",
+          "bytes": 4484,
+          "sha256": "9c5c946c38397792ee26d149d684280a9dc2722d9d6cdc88bc6ab92a31b9aa51"
+        }
+      ]
+    },
+    {
+      "id": "social_gini",
+      "title": "Gini Index",
+      "description": "World Bank Gini index, 0-100. Lower values indicate a more equal income distribution. Missing observations remain null; national survey years and coverage differ. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
+      "category": "social",
+      "catalog_group": "primary",
+      "generated_at": "2026-09-19T21:04:53.085Z",
+      "last_observation": "2023",
+      "temporal_resolution": "year",
+      "time_basis": "reference_year",
+      "coverage_start": "2010-01-01",
+      "coverage_end": "2023-12-31",
+      "record_count": 28,
+      "schema": "/data/v1/schema/social-annual-record.schema.json",
+      "sources": [
+        {
+          "name": "World Bank Gini index",
+          "url": "https://data.worldbank.org/indicator/SI.POV.GINI",
+          "role": "World Bank Gini index, 0-100. Lower values indicate a more equal income distribution. Missing observations remain null; national survey years and coverage differ."
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/social/gini.json",
+          "media_type": "application/json",
+          "bytes": 17680,
+          "sha256": "7c2856cc3c4e95af4dcac5f1755d947b8bd5be89ad1aa94b7622ed7a9e058491"
+        },
+        {
+          "path": "/data/v1/social/gini.csv",
+          "media_type": "text/csv",
+          "bytes": 3936,
+          "sha256": "61547a08376dfefc97ad8177f80805462769bf61c63af529265abbb615531e11"
+        }
+      ]
+    },
+    {
+      "id": "social_life_expectancy",
+      "title": "Life Expectancy",
+      "description": "Life expectancy at birth, both sexes. Published WDI estimates from UN population estimates and national statistical sources; not a count of wartime deaths. Source revisions and wartime population coverage affect comparability. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
+      "category": "social",
+      "catalog_group": "primary",
+      "generated_at": "2026-09-19T21:04:53.085Z",
+      "last_observation": "2024",
+      "temporal_resolution": "year",
+      "time_basis": "reference_year",
+      "coverage_start": "2000-01-01",
+      "coverage_end": "2024-12-31",
+      "record_count": 50,
+      "schema": "/data/v1/schema/social-annual-record.schema.json",
+      "sources": [
+        {
+          "name": "World Bank WDI",
+          "url": "https://data.worldbank.org/indicator/SP.DYN.LE00.IN?locations=RU-UA",
+          "role": "Life expectancy at birth, both sexes. Published WDI estimates from UN population estimates and national statistical sources; not a count of wartime deaths. Source revisions and wartime population coverage affect comparability."
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/social/life-expectancy.json",
+          "media_type": "application/json",
+          "bytes": 40563,
+          "sha256": "bc5ad7716cfefb2a8c8598cae03de6e6e2b23a0c612202fc556979c55c7bb7f5"
+        },
+        {
+          "path": "/data/v1/social/life-expectancy.csv",
+          "media_type": "text/csv",
+          "bytes": 17245,
+          "sha256": "d6fd386f24ce40469a14a0c6cb1693737199c41d52b051cf45e54563736a2688"
+        }
+      ]
+    },
+    {
+      "id": "social_natural_change",
+      "title": "Natural Population Change",
+      "description": "Birth rate minus death rate per 1,000 people, matched by country and year. Derived from published WDI demographic estimates; excludes migration and is not total population change. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
+      "category": "social",
+      "catalog_group": "primary",
+      "generated_at": "2026-09-19T21:04:53.085Z",
+      "last_observation": "2024",
+      "temporal_resolution": "year",
+      "time_basis": "reference_year",
+      "coverage_start": "2000-01-01",
+      "coverage_end": "2024-12-31",
+      "record_count": 50,
+      "schema": "/data/v1/schema/social-annual-record.schema.json",
+      "sources": [
+        {
+          "name": "WDI birth rate",
+          "url": "https://data.worldbank.org/indicator/SP.DYN.CBRT.IN?locations=RU-UA",
+          "role": "Birth rate minus death rate per 1,000 people, matched by country and year. Derived from published WDI demographic estimates; excludes migration and is not total population change."
+        },
+        {
+          "name": "WDI death rate",
+          "url": "https://data.worldbank.org/indicator/SP.DYN.CDRT.IN?locations=RU-UA",
+          "role": "Birth rate minus death rate per 1,000 people, matched by country and year. Derived from published WDI demographic estimates; excludes migration and is not total population change."
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/social/natural-change.json",
+          "media_type": "application/json",
+          "bytes": 41741,
+          "sha256": "12bd44c06f1f9bc5189a05434246aa4cf512a4360f96f85186f90024ad71c434"
+        },
+        {
+          "path": "/data/v1/social/natural-change.csv",
+          "media_type": "text/csv",
+          "bytes": 18151,
+          "sha256": "900dec1c38684d4e0960afea2f729068c408187a9624a971ce5df58d5ff44482"
+        }
+      ]
+    },
+    {
+      "id": "social_press_freedom",
+      "title": "Press Freedom",
+      "description": "RSF World Press Freedom Index, 0-100; higher means greater press freedom. Edition year, generally assessing the preceding calendar year with exceptional updates. Uses only the methodology introduced in 2022; earlier scores are not joined to this series. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
+      "category": "social",
+      "catalog_group": "primary",
+      "generated_at": "2026-09-19T21:04:53.085Z",
+      "last_observation": "2026",
+      "temporal_resolution": "year",
+      "time_basis": "edition_year",
+      "coverage_start": "2022-01-01",
+      "coverage_end": "2026-12-31",
+      "record_count": 10,
+      "schema": "/data/v1/schema/social-annual-record.schema.json",
+      "sources": [
+        {
+          "name": "RSF 2022",
+          "url": "https://rsf.org/en/index?year=2022",
+          "role": "RSF World Press Freedom Index, 0-100; higher means greater press freedom. Edition year, generally assessing the preceding calendar year with exceptional updates. Uses only the methodology introduced in 2022; earlier scores are not joined to this series."
+        },
+        {
+          "name": "RSF 2023",
+          "url": "https://rsf.org/en/index?year=2023",
+          "role": "RSF World Press Freedom Index, 0-100; higher means greater press freedom. Edition year, generally assessing the preceding calendar year with exceptional updates. Uses only the methodology introduced in 2022; earlier scores are not joined to this series."
+        },
+        {
+          "name": "RSF 2024",
+          "url": "https://rsf.org/en/index?year=2024",
+          "role": "RSF World Press Freedom Index, 0-100; higher means greater press freedom. Edition year, generally assessing the preceding calendar year with exceptional updates. Uses only the methodology introduced in 2022; earlier scores are not joined to this series."
+        },
+        {
+          "name": "RSF 2025",
+          "url": "https://rsf.org/en/index?year=2025",
+          "role": "RSF World Press Freedom Index, 0-100; higher means greater press freedom. Edition year, generally assessing the preceding calendar year with exceptional updates. Uses only the methodology introduced in 2022; earlier scores are not joined to this series."
+        },
+        {
+          "name": "RSF 2026",
+          "url": "https://rsf.org/en/index?year=2026",
+          "role": "RSF World Press Freedom Index, 0-100; higher means greater press freedom. Edition year, generally assessing the preceding calendar year with exceptional updates. Uses only the methodology introduced in 2022; earlier scores are not joined to this series."
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/social/press-freedom.json",
+          "media_type": "application/json",
+          "bytes": 11164,
+          "sha256": "6817c9d8514097b0860aab8b97b7a16b5430e4f840b8548d8c18b4a5b58a9e6d"
+        },
+        {
+          "path": "/data/v1/social/press-freedom.csv",
+          "media_type": "text/csv",
+          "bytes": 2402,
+          "sha256": "54c83333c9293b2be7f4b4d90aca844000f428803c46a834007f92072616b221"
+        }
+      ]
+    },
+    {
+      "id": "social_youth_unemployment",
+      "title": "Youth Unemployment",
+      "description": "ILO modeled estimates via World Bank WDI. Share of the labor force aged 15-24 without work, available and seeking employment, not the share of all young people. Lower unemployment alone does not establish greater social stability. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
+      "category": "social",
+      "catalog_group": "primary",
+      "generated_at": "2026-09-19T21:04:53.085Z",
+      "last_observation": "2025",
+      "temporal_resolution": "year",
+      "time_basis": "reference_year",
+      "coverage_start": "2000-01-01",
+      "coverage_end": "2025-12-31",
+      "record_count": 52,
+      "schema": "/data/v1/schema/social-annual-record.schema.json",
+      "sources": [
+        {
+          "name": "World Bank WDI",
+          "url": "https://data.worldbank.org/indicator/SL.UEM.1524.ZS?locations=RU-UA",
+          "role": "ILO modeled estimates via World Bank WDI. Share of the labor force aged 15-24 without work, available and seeking employment, not the share of all young people. Lower unemployment alone does not establish greater social stability."
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/social/youth-unemployment.json",
+          "media_type": "application/json",
+          "bytes": 42177,
+          "sha256": "89fd18b86e029c9dd99cf3b8a23b433b91b5a5ff4a612e08a142721eb96fa7fb"
+        },
+        {
+          "path": "/data/v1/social/youth-unemployment.csv",
+          "media_type": "text/csv",
+          "bytes": 17984,
+          "sha256": "2fb6347f33ad6ba751345f3dbc9141175f93607e89d6918e670f1f5a7c7afc94"
+        }
+      ]
+    },
+    {
+      "id": "social_rule_of_law",
+      "title": "Rule of Law",
+      "description": "World Bank WGI perception-based governance score, 0-100; higher means stronger rule of law. The 2025 revision recalculates the historical series consistently. Shaded bands show the published 90% confidence intervals, not separate observations. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
+      "category": "social",
+      "catalog_group": "primary",
+      "generated_at": "2026-09-19T21:04:53.085Z",
+      "last_observation": "2024",
+      "temporal_resolution": "year",
+      "time_basis": "reference_year",
+      "coverage_start": "2000-01-01",
+      "coverage_end": "2024-12-31",
+      "record_count": 50,
+      "schema": "/data/v1/schema/social-annual-record.schema.json",
+      "sources": [
+        {
+          "name": "World Bank WGI (2025 revision)",
+          "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+          "role": "World Bank WGI perception-based governance score, 0-100; higher means stronger rule of law. The 2025 revision recalculates the historical series consistently. Shaded bands show the published 90% confidence intervals, not separate observations."
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/social/rule-of-law.json",
+          "media_type": "application/json",
+          "bytes": 40354,
+          "sha256": "c4fd8dd39a79159a23093ca56bfcc06737bfadbfe80d40b0af725341b1a7a2a3"
+        },
+        {
+          "path": "/data/v1/social/rule-of-law.csv",
+          "media_type": "text/csv",
+          "bytes": 17364,
+          "sha256": "89dfb26bf0169a7fdc04a82c8b7e9161c8ef0c8753461a83c4892157979f2fb8"
+        }
+      ]
+    },
+    {
+      "id": "russia_federal_budget",
+      "title": "Russian federal budget execution",
+      "description": "Full-year and cumulative YTD federal revenue, expenditure, and deficit observations with explicit status and per-row provenance.",
+      "coverage_start": "2022-12-31",
+      "coverage_end": "2026-07-31",
+      "record_count": 9,
+      "schema": "/data/v1/schema/fiscal-budget-record.schema.json",
+      "sources": [
+        {
+          "name": "Federal budget source: osw.waw.pl",
+          "url": "https://www.osw.waw.pl/en/publikacje/osw-commentary/2023-02-16/russian-economy-2022-adaptation-and-a-growing-budget-gap",
+          "role": "Revenue, expenditure, and deficit observations for Full-year 2022"
+        },
+        {
+          "name": "Federal budget source: interfax.com",
+          "url": "https://interfax.com/newsroom/top-stories/98312/",
+          "role": "Revenue, expenditure, and deficit observations for Full-year 2023"
+        },
+        {
+          "name": "Federal budget source: en.kremlin.ru",
+          "url": "https://en.kremlin.ru/acts/news/77521",
+          "role": "Revenue, expenditure, and deficit observations for Full-year 2024"
+        },
+        {
+          "name": "Federal budget source: en.kremlin.ru",
+          "url": "https://en.kremlin.ru/acts/news/78392",
+          "role": "Revenue, expenditure, and deficit observations for Full-year 2025"
+        },
+        {
+          "name": "Federal budget source: tradingeconomics.com",
+          "url": "https://tradingeconomics.com/russia/government-budget-value",
+          "role": "Revenue, expenditure, and deficit observations for Jan-Feb 2026, Jan-Apr 2026, Jan-May 2026, Jan-Jun 2026"
+        },
+        {
+          "name": "Federal budget source: ebs.publicnow.com",
+          "url": "https://ebs.publicnow.com/view/DF2308E0B17A71E5D1790EA4AECC6E363593E779",
+          "role": "Revenue, expenditure, and deficit observations for Jan-Jul 2026"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/economy/russia-federal-budget.json",
+          "media_type": "application/json",
+          "bytes": 8044,
+          "sha256": "6394cccdec53d19e8851ed3bfe065df3fb0ba7c8d7a2dfd0320576e1f2dcb081"
+        },
+        {
+          "path": "/data/v1/economy/russia-federal-budget.csv",
+          "media_type": "text/csv",
+          "bytes": 1587,
+          "sha256": "2614e4c2e84b2566c6b13475564cacdeb6f05e2828c8d97ab5aca2d6c819cf65"
+        }
+      ],
+      "category": "economy",
+      "catalog_group": "additional",
+      "generated_at": "2026-09-19T10:48:11.091Z",
+      "last_observation": "2026-07-31",
+      "temporal_resolution": "date"
+    },
+    {
+      "id": "world_bank_macro",
+      "title": "World Bank macro indicators",
+      "description": "Annual Russia and Ukraine GDP, exports, industry, manufacturing, labor, unemployment, and population observations.",
+      "coverage_start": "2021-12-31",
+      "coverage_end": "2025-12-31",
+      "record_count": 10,
+      "schema": "/data/v1/schema/world-bank-macro-record.schema.json",
+      "sources": [
+        {
+          "name": "World Bank Indicators API",
+          "url": "https://data.worldbank.org/",
+          "role": "Officially reported annual GDP, exports, industry, manufacturing, labor, unemployment, and population indicators"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/economy/world-bank-macro.json",
+          "media_type": "application/json",
+          "bytes": 5548,
+          "sha256": "4492c350f38881715c9fe19fc0de8cafd14ff1abef244e2a007c480148b192ff"
+        },
+        {
+          "path": "/data/v1/economy/world-bank-macro.csv",
+          "media_type": "text/csv",
+          "bytes": 1380,
+          "sha256": "f236e1b0276664412317be26cf72c0f7c39ae98a5f5888eed37807e96a23d175"
+        }
+      ],
+      "category": "economy",
+      "catalog_group": "additional",
+      "generated_at": "2026-09-19T10:48:11.091Z",
+      "last_observation": "2025-12-31",
+      "temporal_resolution": "date"
+    },
+    {
+      "id": "nbu_exchange_rates",
+      "title": "NBU daily exchange rates",
+      "description": "Official daily UAH reference rates for USD, EUR, and RUB, normalized per one currency unit.",
+      "coverage_start": "2022-01-01",
+      "coverage_end": "2026-09-19",
+      "record_count": 1723,
+      "schema": "/data/v1/schema/nbu-exchange-rate-record.schema.json",
+      "sources": [
+        {
+          "name": "National Bank of Ukraine Open Data API",
+          "url": "https://bank.gov.ua/en/open-data/api-dev",
+          "role": "Official daily UAH reference exchange rates"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/economy/nbu-exchange-rates.json",
+          "media_type": "application/json",
+          "bytes": 202178,
+          "sha256": "9e957d6185613e7db3b8f13b259aea56bad88bc02270b889c11dc650d0a18192"
+        },
+        {
+          "path": "/data/v1/economy/nbu-exchange-rates.csv",
+          "media_type": "text/csv",
+          "bytes": 56098,
+          "sha256": "5b6556d56fab8ec379f7a6403185e8b83a06d3beffd50b6eeb1fb8a703ff0354"
+        }
+      ],
+      "category": "economy",
+      "catalog_group": "additional",
+      "generated_at": "2026-09-19T10:48:11.091Z",
+      "last_observation": "2026-09-19",
+      "temporal_resolution": "date"
+    },
+    {
+      "id": "fire_annual_estimates",
+      "title": "Annual GWIS NRT fire estimates",
+      "description": "GWIS NRT fire events and burnt area for Ukraine and Russia; the current year is YTD. The historical MODIS/GlobFire product is published separately.",
+      "coverage_start": "2012-12-31",
+      "coverage_end": "2026-09-02",
+      "record_count": 30,
+      "schema": "/data/v1/schema/fire-annual-record.schema.json",
+      "sources": [
+        {
+          "name": "European Commission JRC Global Wildfire Information System",
+          "url": "https://gwis.jrc.ec.europa.eu/",
+          "role": "GWIS NRT fire-event and burnt-area estimates for Ukraine and Russia; historical products are published separately"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/fires/annual-estimates.json",
+          "media_type": "application/json",
+          "bytes": 10277,
+          "sha256": "271d122f68b4452dac0b1b83d9e501db38578229f56229a85d94cb9e68ecb823"
+        },
+        {
+          "path": "/data/v1/fires/annual-estimates.csv",
+          "media_type": "text/csv",
+          "bytes": 3055,
+          "sha256": "f898175278af6bed4b182598fc42900a1d67c8c6f70b114a91334c23a7d683d6"
+        }
+      ],
+      "category": "fires",
+      "catalog_group": "additional",
+      "generated_at": "2026-09-19T10:48:11.091Z",
+      "last_observation": "2026-09-02",
+      "temporal_resolution": "date"
+    },
+    {
+      "id": "fire_weekly_estimates",
+      "title": "Weekly GWIS NRT fire estimates",
+      "description": "Current-year GWIS NRT weekly fire-event and burnt-area estimates with same-week climatological averages, not a historical monthly series.",
+      "coverage_start": "2026-01-07",
+      "coverage_end": "2026-09-02",
+      "record_count": 70,
+      "schema": "/data/v1/schema/fire-weekly-record.schema.json",
+      "sources": [
+        {
+          "name": "European Commission JRC Global Wildfire Information System",
+          "url": "https://gwis.jrc.ec.europa.eu/",
+          "role": "GWIS NRT fire-event and burnt-area estimates for Ukraine and Russia; historical products are published separately"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/fires/weekly-estimates.json",
+          "media_type": "application/json",
+          "bytes": 27604,
+          "sha256": "7d6b2d97bb470d7202be7374dfe6f28ffbe08ea86bbf22ad399639331cbbc542"
+        },
+        {
+          "path": "/data/v1/fires/weekly-estimates.csv",
+          "media_type": "text/csv",
+          "bytes": 7212,
+          "sha256": "21a0a8e3cbbf4b3947ad7b23e19970c97127e48e7d35f5ae4a7aab03713f2727"
+        }
+      ],
+      "category": "fires",
+      "catalog_group": "additional",
+      "generated_at": "2026-09-19T10:48:11.091Z",
+      "last_observation": "2026-09-02",
+      "temporal_resolution": "date"
+    },
+    {
+      "id": "fire_historical_annual",
+      "title": "Historical annual national fire observations",
+      "description": "Historical MODIS/GlobFire annual national observations with explicit product and per-country provenance, separate from GWIS NRT estimates.",
+      "coverage_start": "2012-12-31",
+      "coverage_end": "2024-12-31",
+      "record_count": 26,
+      "schema": "/data/v1/schema/fire-historical-record.schema.json",
+      "sources": [
+        {
+          "name": "MODIS MCD64A1 / GlobFire",
+          "url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=UKR&year=2024&yearFrom=2012&yearTo=2024&env=PROD",
+          "role": "UKR historical annual and monthly national fire observations, through 2024-12"
+        },
+        {
+          "name": "MODIS MCD64A1 / GlobFire",
+          "url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=RUS&year=2024&yearFrom=2012&yearTo=2024&env=PROD",
+          "role": "RUS historical annual and monthly national fire observations, through 2024-12"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/fires/historical-annual.json",
+          "media_type": "application/json",
+          "bytes": 15562,
+          "sha256": "fb20680b7638f2f2b1e13fc22fe363c2c396a182624f66971c803017335ef63a"
+        },
+        {
+          "path": "/data/v1/fires/historical-annual.csv",
+          "media_type": "text/csv",
+          "bytes": 5866,
+          "sha256": "6c4495e60fc2dc08412bea17acd6017aafd660870163eee6bde612bc29629d2a"
+        }
+      ],
+      "category": "fires",
+      "catalog_group": "additional",
+      "generated_at": "2026-09-19T10:48:11.091Z",
+      "last_observation": "2024-12-31",
+      "temporal_resolution": "date"
+    },
+    {
+      "id": "fire_historical_monthly",
+      "title": "Historical monthly national fire observations",
+      "description": "Historical MODIS/GlobFire monthly national observations as published, not reconstructed from NRT weekly responses or mixed with NRT estimates.",
+      "coverage_start": "2012-01-31",
+      "coverage_end": "2024-12-31",
+      "record_count": 312,
+      "schema": "/data/v1/schema/fire-historical-record.schema.json",
+      "sources": [
+        {
+          "name": "MODIS MCD64A1 / GlobFire",
+          "url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=UKR&year=2024&yearFrom=2012&yearTo=2024&env=PROD",
+          "role": "UKR historical annual and monthly national fire observations, through 2024-12"
+        },
+        {
+          "name": "MODIS MCD64A1 / GlobFire",
+          "url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=RUS&year=2024&yearFrom=2012&yearTo=2024&env=PROD",
+          "role": "RUS historical annual and monthly national fire observations, through 2024-12"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/fires/historical-monthly.json",
+          "media_type": "application/json",
+          "bytes": 147585,
+          "sha256": "a2c8a4d701295ca2eac1d31ef34c714d4f844ef5a059f546d2d858ad0cd83f13"
+        },
+        {
+          "path": "/data/v1/fires/historical-monthly.csv",
+          "media_type": "text/csv",
+          "bytes": 68493,
+          "sha256": "2c1a703195120711a2cf59b79afae7a849a5cec42f6ffc7eb3cd2e0b6a26d4e9"
+        }
+      ],
+      "category": "fires",
+      "catalog_group": "additional",
+      "generated_at": "2026-09-19T10:48:11.091Z",
+      "last_observation": "2024-12-31",
+      "temporal_resolution": "date"
+    },
+    {
+      "id": "territorial_fire_detections",
+      "title": "Daily territorial fire detections",
+      "description": "NASA FIRMS VIIRS thermal detections in Ukraine classified by the nearest available occupied or government-controlled territory snapshot.",
+      "coverage_start": "2022-02-24",
+      "coverage_end": "2026-09-02",
+      "record_count": 294894,
+      "schema": "/data/v1/schema/territorial-fire-record.schema.json",
+      "sources": [
+        {
+          "name": "NASA FIRMS VIIRS NOAA-20 active-fire detections",
+          "url": "https://firms.modaps.eosdis.nasa.gov/active_fire/",
+          "role": "Standard-processed historical and near-real-time satellite thermal detections"
+        },
+        {
+          "name": "NASA FIRMS Area API",
+          "url": "https://firms.modaps.eosdis.nasa.gov/api/area/",
+          "role": "Historical date-range access used to build the monthly detection archive"
+        },
+        {
+          "name": "DeepStateMap public history",
+          "url": "https://deepstatemap.live/",
+          "role": "Latest available control snapshot on or before each detection date"
+        },
+        {
+          "name": "Ukraine Common Operational Dataset administrative boundaries",
+          "url": "https://data.humdata.org/dataset/cod-ab-ukr",
+          "role": "2022 ADM0 land boundary used to retain detections inside internationally recognized Ukraine"
+        }
+      ],
+      "files": [
+        {
+          "path": "/data/v1/fires/territorial/index.json",
+          "media_type": "application/json",
+          "bytes": 446464,
+          "sha256": "c4bb5f38d2e0a2dee159c06d1cda740a2521ec974438082abc1675660c256bf4"
+        },
+        {
+          "path": "/data/v1/fires/territorial/daily-summary.csv",
+          "media_type": "text/csv",
+          "bytes": 128226,
+          "sha256": "33e26179d4e0a2ee712a2b098c5b64e7dd19ccaa889bbbdb0e901260c2935744"
+        }
+      ],
+      "category": "fires",
+      "catalog_group": "additional",
+      "generated_at": "2026-09-02T12:21:27.053Z",
+      "last_observation": "2026-09-02",
+      "temporal_resolution": "date"
+    }
+  ],
+  "schemas": [
+    {
+      "id": "manifest",
+      "path": "/data/v1/schema/manifest.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 4040,
+      "sha256": "6fec5b5ac450c07f3d854dd30bdba547f5eccab846cd38aaf1c2b7abfe5ab2ac"
+    },
+    {
+      "id": "territory_record",
+      "path": "/data/v1/schema/territory-record.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 737,
+      "sha256": "e6f1bbbb32aa18a7239592009624e834466e537278c61bcd5e2b96d055b2c8b3"
+    },
+    {
+      "id": "territory_periodic_record",
+      "path": "/data/v1/schema/territory-periodic-record.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 1119,
+      "sha256": "5b52394333a6247731dbebcaf206829856fea33e1a8a06f8d76ec88d0737c2b1"
+    },
+    {
+      "id": "territory_region_control",
+      "path": "/data/v1/schema/territory-region-control.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 5567,
+      "sha256": "c9b66178a87732f3bfe553dcea1d7506b5189053eba2d39c0edd3993a7928a43"
+    },
+    {
+      "id": "territorial_human_cost_grid",
+      "path": "/data/v1/schema/territorial-human-cost-grid.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 8843,
+      "sha256": "9f6b691a9646e7c585713f77169e867211ab3088b39d16283d42e9bea3be1d54"
+    },
+    {
+      "id": "losses_record",
+      "path": "/data/v1/schema/losses-record.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 1626,
+      "sha256": "48c67726b8cad73692bad109c00dd78d559c71c41a0456203022dc0587f16bc2"
+    },
+    {
+      "id": "losses_summary_record",
+      "path": "/data/v1/schema/losses-summary-record.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 951,
+      "sha256": "189e3dafa0ac6cc3bf48af47c6ec7af606f791f708f4ae484dfa945a7d8a20d6"
+    },
+    {
+      "id": "replacement_cost_record",
+      "path": "/data/v1/schema/replacement-cost-record.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 756,
+      "sha256": "bf3729b77d0f5b62590e308dcba7fba98c805d95b63461509ffba02748c33502"
+    },
+    {
+      "id": "frontline_index",
+      "path": "/data/v1/schema/frontline-index.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 2203,
+      "sha256": "aa6135137814b69db312e29b9c64ba8859b0817d432db282b28f89790b688d2e"
+    },
+    {
+      "id": "fiscal_budget_record",
+      "path": "/data/v1/schema/fiscal-budget-record.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 1813,
+      "sha256": "435f3f51ffabdfabb59e094c0b17e8864aa3ef44ab43991734803ae08aed82d6"
+    },
+    {
+      "id": "world_bank_macro_record",
+      "path": "/data/v1/schema/world-bank-macro-record.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 1282,
+      "sha256": "5845b23605028d7e08ff989642e56faa0b115aa5c5fb99f78f9576f10d4b4f37"
+    },
+    {
+      "id": "nbu_exchange_rate_record",
+      "path": "/data/v1/schema/nbu-exchange-rate-record.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 613,
+      "sha256": "1dd96b90c80a16160cd9bd13fcf4031c76e198983d0f26e69230a5c7037b71b7"
+    },
+    {
+      "id": "fire_annual_record",
+      "path": "/data/v1/schema/fire-annual-record.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 1106,
+      "sha256": "50ec52cd384ec04aa254d7b3913767a7572e370900ed127d70765a83620bdc9c"
+    },
+    {
+      "id": "fire_weekly_record",
+      "path": "/data/v1/schema/fire-weekly-record.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 1305,
+      "sha256": "37a9718864434b42ddfe785713b9dc73fbd215f9a54332912ff03b7fe24055a1"
+    },
+    {
+      "id": "fire_historical_record",
+      "path": "/data/v1/schema/fire-historical-record.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 1657,
+      "sha256": "c91f9bc5dcd0b3048ede2afe6c438e02ade44067f7553d263b6163fcaa0b1417"
+    },
+    {
+      "id": "territorial_fire_record",
+      "path": "/data/v1/schema/territorial-fire-record.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 1279,
+      "sha256": "d6aebda2764ca6eefab96fa76e0923211f7d2214c53904140a94362e18267b07"
+    },
+    {
+      "id": "territory_provenance_record",
+      "path": "/data/v1/schema/territory-provenance-record.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 1066,
+      "sha256": "f943d44adb6786b047b2bb277ecd419f29a5709431431e2d8a426dfc0728f1e8"
+    },
+    {
+      "id": "social_annual_record",
+      "path": "/data/v1/schema/social-annual-record.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 2396,
+      "sha256": "52c240121663f4e86bb9a034669091bddf1202810f04a63cd0e8097149745e84"
+    },
+    {
+      "id": "territory_monthly_combined_record",
+      "path": "/data/v1/schema/territory-monthly-combined-record.schema.json",
+      "media_type": "application/schema+json",
+      "bytes": 2223,
+      "sha256": "3174728e3f1f07b8c2d6fc94e082970d071f790f3f88bc35420193d393660083"
+    }
+  ]
+}

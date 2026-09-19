@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://russianlosses.mario-jemic.workers.dev/data/v1/schema/world-bank-macro-record.schema.json",
+  "title": "World Bank annual macro record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["date", "country_iso3", "country", "year", "gdp_current_usd", "exports_goods_services_usd", "industry_value_added_usd", "manufacturing_value_added_usd", "labor_force_total", "unemployment_pct", "population_total"],
+  "properties": {
+    "date": { "type": "string", "format": "date" },
+    "country_iso3": { "enum": ["RUS", "UKR"] },
+    "country": { "type": "string", "minLength": 1 },
+    "year": { "type": "integer", "minimum": 2021, "maximum": 2100 },
+    "gdp_current_usd": { "type": ["number", "null"], "minimum": 0 },
+    "exports_goods_services_usd": { "type": ["number", "null"], "minimum": 0 },
+    "industry_value_added_usd": { "type": ["number", "null"], "minimum": 0 },
+    "manufacturing_value_added_usd": { "type": ["number", "null"], "minimum": 0 },
+    "labor_force_total": { "type": ["number", "null"], "minimum": 0 },
+    "unemployment_pct": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+    "population_total": { "type": ["number", "null"], "minimum": 0 }
+  }
+}

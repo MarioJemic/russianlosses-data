@@ -1,0 +1,353 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "fire_annual_estimates",
+  "generated_at": "2026-09-19T10:48:11.091Z",
+  "coverage_start": "2012-12-31",
+  "coverage_end": "2026-09-02",
+  "record_count": 30,
+  "units": {
+    "fires": "estimated_fire_events",
+    "burnt_area_ha": "hectares"
+  },
+  "sources": [
+    {
+      "name": "European Commission JRC Global Wildfire Information System",
+      "url": "https://gwis.jrc.ec.europa.eu/",
+      "role": "GWIS NRT fire-event and burnt-area estimates for Ukraine and Russia; historical products are published separately"
+    }
+  ],
+  "methodology": "GWIS NRT satellite estimates describe fire events and burnt area, not fire causes. This series is kept separate from the historical MODIS/GlobFire product and is not backfilled with that product. Completed years are full-year estimates; the current year is explicitly marked as year-to-date.",
+  "license_notice": "GWIS content is reused under CC BY 4.0 with attribution to the European Union Joint Research Centre. Normalization by Russian Losses Dashboard is indicated in dataset metadata.",
+  "data": [
+    {
+      "date": "2012-12-31",
+      "country_iso3": "RUS",
+      "country": "Russia",
+      "year": 2012,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 39781,
+      "burnt_area_ha": 25227435,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2012-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2012,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 2785,
+      "burnt_area_ha": 602364,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2013-12-31",
+      "country_iso3": "RUS",
+      "country": "Russia",
+      "year": 2013,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 22013,
+      "burnt_area_ha": 10342642,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2013-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2013,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 2352,
+      "burnt_area_ha": 497387,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2014-12-31",
+      "country_iso3": "RUS",
+      "country": "Russia",
+      "year": 2014,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 43981,
+      "burnt_area_ha": 19727077,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2014-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2014,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 9480,
+      "burnt_area_ha": 2219990,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2015-12-31",
+      "country_iso3": "RUS",
+      "country": "Russia",
+      "year": 2015,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 31197,
+      "burnt_area_ha": 14158364,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2015-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2015,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 8706,
+      "burnt_area_ha": 2073143,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2016-12-31",
+      "country_iso3": "RUS",
+      "country": "Russia",
+      "year": 2016,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 24429,
+      "burnt_area_ha": 15387744,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2016-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2016,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 4935,
+      "burnt_area_ha": 1111447,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2017-12-31",
+      "country_iso3": "RUS",
+      "country": "Russia",
+      "year": 2017,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 26594,
+      "burnt_area_ha": 11419835,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2017-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2017,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 6584,
+      "burnt_area_ha": 1604342,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2018-12-31",
+      "country_iso3": "RUS",
+      "country": "Russia",
+      "year": 2018,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 27155,
+      "burnt_area_ha": 14277853,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2018-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2018,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 3982,
+      "burnt_area_ha": 751188,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2019-12-31",
+      "country_iso3": "RUS",
+      "country": "Russia",
+      "year": 2019,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 29683,
+      "burnt_area_ha": 16182644,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2019-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2019,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 4690,
+      "burnt_area_ha": 1070983,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2020-12-31",
+      "country_iso3": "RUS",
+      "country": "Russia",
+      "year": 2020,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 31571,
+      "burnt_area_ha": 16405115,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2020-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2020,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 4245,
+      "burnt_area_ha": 1103375,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2021-12-31",
+      "country_iso3": "RUS",
+      "country": "Russia",
+      "year": 2021,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 23996,
+      "burnt_area_ha": 17344449,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2021-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2021,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 1631,
+      "burnt_area_ha": 342302,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2022-12-31",
+      "country_iso3": "RUS",
+      "country": "Russia",
+      "year": 2022,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 22525,
+      "burnt_area_ha": 10548579,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2022-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2022,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 2948,
+      "burnt_area_ha": 706902,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2023-12-31",
+      "country_iso3": "RUS",
+      "country": "Russia",
+      "year": 2023,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 17822,
+      "burnt_area_ha": 10325937,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2023-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2023,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 1822,
+      "burnt_area_ha": 443762,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2024-12-31",
+      "country_iso3": "RUS",
+      "country": "Russia",
+      "year": 2024,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 14687,
+      "burnt_area_ha": 12329566,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2024-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2024,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 2675,
+      "burnt_area_ha": 811107,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2025-12-31",
+      "country_iso3": "RUS",
+      "country": "Russia",
+      "year": 2025,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 11511,
+      "burnt_area_ha": 6981663,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2025-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2025,
+      "period_type": "full_year",
+      "observation_status": "annual_estimate",
+      "fires": 1722,
+      "burnt_area_ha": 448378,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2026-09-02",
+      "country_iso3": "RUS",
+      "country": "Russia",
+      "year": 2026,
+      "period_type": "year_to_date",
+      "observation_status": "year_to_date_estimate",
+      "fires": 11035,
+      "burnt_area_ha": 7346059,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    },
+    {
+      "date": "2026-09-02",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2026,
+      "period_type": "year_to_date",
+      "observation_status": "year_to_date_estimate",
+      "fires": 1824,
+      "burnt_area_ha": 438296,
+      "source_url": "https://gwis.jrc.ec.europa.eu/"
+    }
+  ]
+}

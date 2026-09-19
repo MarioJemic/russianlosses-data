@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://russianlosses.pages.dev/data/v1/schema/social-annual-record.schema.json",
+  "title": "Annual Social Stability observation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["year", "country_iso3", "indicator", "value", "unit", "time_basis", "observation_status", "missing_reason", "rank", "lower_90", "upper_90", "birth_rate", "death_rate", "source_url", "source_updated_at", "source_response_sha256", "input_generated_at"],
+  "properties": {
+    "year": { "type": "integer", "minimum": 2000 },
+    "country_iso3": { "enum": ["RUS", "UKR"] },
+    "indicator": { "enum": ["corruption", "gini", "life-expectancy", "natural-change", "press-freedom", "youth-unemployment", "rule-of-law"] },
+    "value": { "type": ["number", "null"] },
+    "unit": { "enum": ["score", "years", "per1k", "percent"] },
+    "time_basis": { "enum": ["reference_year", "edition_year"] },
+    "observation_status": { "enum": ["published", "estimate", "derived_estimate", "missing"] },
+    "missing_reason": { "enum": [null, "not_available_in_input"] },
+    "rank": { "type": ["integer", "null"], "minimum": 1 },
+    "lower_90": { "type": ["number", "null"] },
+    "upper_90": { "type": ["number", "null"] },
+    "birth_rate": { "type": ["number", "null"], "minimum": 0 },
+    "death_rate": { "type": ["number", "null"], "minimum": 0 },
+    "source_url": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "source_updated_at": { "type": ["string", "null"], "format": "date" },
+    "source_response_sha256": { "type": ["string", "null"], "pattern": "^[a-f0-9]{64}$" },
+    "input_generated_at": { "type": "string", "format": "date-time" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "value": { "type": "null" } } },
+      "then": { "properties": { "observation_status": { "const": "missing" }, "missing_reason": { "const": "not_available_in_input" } } },
+      "else": { "properties": { "observation_status": { "enum": ["published", "estimate", "derived_estimate"] }, "missing_reason": { "type": "null" } } }
+    },
+    {
+      "if": { "properties": { "indicator": { "const": "press-freedom" } } },
+      "then": { "properties": { "time_basis": { "const": "edition_year" }, "year": { "minimum": 2022 } } },
+      "else": { "properties": { "time_basis": { "const": "reference_year" } } }
+    }
+  ]
+}

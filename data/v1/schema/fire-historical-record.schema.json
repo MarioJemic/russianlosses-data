@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://russianlosses.pages.dev/data/v1/schema/fire-historical-record.schema.json",
+  "title": "Historical national fire observation",
+  "description": "One annual or monthly observation from the explicitly identified historical product, separate from GWIS NRT estimates.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["date", "country_iso3", "country", "year", "month", "period_type", "observation_status", "fires", "burnt_area_ha", "product", "source_url"],
+  "properties": {
+    "date": { "type": "string", "format": "date", "description": "Calendar reporting-period end, not a daily observation timestamp." },
+    "country_iso3": { "type": "string", "pattern": "^[A-Z]{3}$" },
+    "country": { "type": "string", "minLength": 1 },
+    "year": { "type": "integer", "minimum": 2000, "maximum": 2100 },
+    "month": { "type": ["integer", "null"], "minimum": 1, "maximum": 12 },
+    "period_type": { "enum": ["year", "month"] },
+    "observation_status": { "enum": ["historical_annual", "historical_monthly"] },
+    "fires": { "type": "number", "minimum": 0 },
+    "burnt_area_ha": { "type": "number", "minimum": 0 },
+    "product": { "type": "string", "minLength": 1 },
+    "source_url": { "type": "string", "format": "uri" }
+  },
+  "allOf": [{
+    "if": { "properties": { "period_type": { "const": "year" } } },
+    "then": { "properties": { "month": { "type": "null" }, "observation_status": { "const": "historical_annual" } } },
+    "else": { "properties": { "month": { "type": "integer" }, "observation_status": { "const": "historical_monthly" } } }
+  }]
+}

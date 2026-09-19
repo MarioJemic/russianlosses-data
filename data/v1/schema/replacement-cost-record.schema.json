@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://russianlosses.mario-jemic.workers.dev/data/v1/schema/replacement-cost-record.schema.json",
+  "title": "Modeled replacement-cost record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["date", "scenario", "category", "reported_count", "unit_cost_usd", "modeled_cost_usd"],
+  "properties": {
+    "date": { "type": "string", "format": "date" },
+    "scenario": { "enum": ["conservative", "baseline", "high"] },
+    "category": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+    "reported_count": { "type": "integer", "minimum": 0 },
+    "unit_cost_usd": { "type": "number", "minimum": 0 },
+    "modeled_cost_usd": { "type": "number", "minimum": 0 }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "social_press_freedom",
+  "indicator": "press-freedom",
+  "title": "Press Freedom",
+  "generated_at": "2026-09-19T21:04:53.085Z",
+  "temporal_resolution": "year",
+  "time_basis": "edition_year",
+  "coverage_start": "2022-01-01",
+  "coverage_end": "2026-12-31",
+  "last_observation": "2026",
+  "last_observation_by_country": {
+    "RUS": 2026,
+    "UKR": 2026
+  },
+  "record_count": 10,
+  "units": {
+    "value": "score",
+    "rank": "rank_position",
+    "lower_90": "score",
+    "upper_90": "score",
+    "birth_rate": "per_1000_people",
+    "death_rate": "per_1000_people"
+  },
+  "sources": [
+    {
+      "name": "RSF 2022",
+      "url": "https://rsf.org/en/index?year=2022",
+      "role": "RSF World Press Freedom Index, 0-100; higher means greater press freedom. Edition year, generally assessing the preceding calendar year with exceptional updates. Uses only the methodology introduced in 2022; earlier scores are not joined to this series."
+    },
+    {
+      "name": "RSF 2023",
+      "url": "https://rsf.org/en/index?year=2023",
+      "role": "RSF World Press Freedom Index, 0-100; higher means greater press freedom. Edition year, generally assessing the preceding calendar year with exceptional updates. Uses only the methodology introduced in 2022; earlier scores are not joined to this series."
+    },
+    {
+      "name": "RSF 2024",
+      "url": "https://rsf.org/en/index?year=2024",
+      "role": "RSF World Press Freedom Index, 0-100; higher means greater press freedom. Edition year, generally assessing the preceding calendar year with exceptional updates. Uses only the methodology introduced in 2022; earlier scores are not joined to this series."
+    },
+    {
+      "name": "RSF 2025",
+      "url": "https://rsf.org/en/index?year=2025",
+      "role": "RSF World Press Freedom Index, 0-100; higher means greater press freedom. Edition year, generally assessing the preceding calendar year with exceptional updates. Uses only the methodology introduced in 2022; earlier scores are not joined to this series."
+    },
+    {
+      "name": "RSF 2026",
+      "url": "https://rsf.org/en/index?year=2026",
+      "role": "RSF World Press Freedom Index, 0-100; higher means greater press freedom. Edition year, generally assessing the preceding calendar year with exceptional updates. Uses only the methodology introduced in 2022; earlier scores are not joined to this series."
+    }
+  ],
+  "source_metadata": [
+    {
+      "label": "RSF 2022",
+      "url": "https://rsf.org/en/index?year=2022",
+      "dataUrl": "https://rsf.org/sites/default/files/import_classement/2022.csv",
+      "updatedAt": null,
+      "sha256": "9c8200ea1027e67f3365ec44e484e96aed07b3f603c377c6f87b9ae362aa35ef"
+    },
+    {
+      "label": "RSF 2023",
+      "url": "https://rsf.org/en/index?year=2023",
+      "dataUrl": "https://rsf.org/sites/default/files/import_classement/2023.csv",
+      "updatedAt": null,
+      "sha256": "674a51778641a92d9b5da038a6168de07f931680bfd15da8c298380f2cacb6d5"
+    },
+    {
+      "label": "RSF 2024",
+      "url": "https://rsf.org/en/index?year=2024",
+      "dataUrl": "https://rsf.org/sites/default/files/import_classement/2024.csv",
+      "updatedAt": null,
+      "sha256": "17d20eb94199b2bccf575291cad6b43dace79583e382e21d5c81e8955992922a"
+    },
+    {
+      "label": "RSF 2025",
+      "url": "https://rsf.org/en/index?year=2025",
+      "dataUrl": "https://rsf.org/sites/default/files/import_classement/2025.csv",
+      "updatedAt": null,
+      "sha256": "22c147218f321dff690f8fef0b639c8d508782e2bfa0ad8fbffdc13743cf47cd"
+    },
+    {
+      "label": "RSF 2026",
+      "url": "https://rsf.org/en/index?year=2026",
+      "dataUrl": "https://rsf.org/sites/default/files/import_classement/2026.csv",
+      "updatedAt": null,
+      "sha256": "65ec7bd9b9740e0f51e9b4eea585030b2226c1a96938ec06a4cbbdbd2639aae2"
+    }
+  ],
+  "methodology": "RSF World Press Freedom Index, 0-100; higher means greater press freedom. Edition year, generally assessing the preceding calendar year with exceptional updates. Uses only the methodology introduced in 2022; earlier scores are not joined to this series. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
+  "license_notice": "No blanket license is granted. Upstream sources retain their rights and terms; preserve attribution and review each source before reuse.",
+  "data": [
+    {
+      "year": 2022,
+      "country_iso3": "RUS",
+      "indicator": "press-freedom",
+      "value": 38.82,
+      "unit": "score",
+      "time_basis": "edition_year",
+      "observation_status": "published",
+      "missing_reason": null,
+      "rank": 155,
+      "lower_90": null,
+      "upper_90": null,
+      "birth_rate": null,
+      "death_rate": null,
+      "source_url": "https://rsf.org/sites/default/files/import_classement/2022.csv",
+      "source_updated_at": null,
+      "source_response_sha256": "9c8200ea1027e67f3365ec44e484e96aed07b3f603c377c6f87b9ae362aa35ef",
+      "input_generated_at": "2026-09-19T19:46:19.828Z"
+    },
+    {
+      "year": 2022,
+      "country_iso3": "UKR",
+      "indicator": "press-freedom",
+      "value": 55.76,
+      "unit": "score",
+      "time_basis": "edition_year",
+      "observation_status": "published",
+      "missing_reason": null,
+      "rank": 106,
+      "lower_90": null,
+      "upper_90": null,
+      "birth_rate": null,
+      "death_rate": null,
+      "source_url": "https://rsf.org/sites/default/files/import_classement/2022.csv",
+      "source_updated_at": null,
+      "source_response_sha256": "9c8200ea1027e67f3365ec44e484e96aed07b3f603c377c6f87b9ae362aa35ef",
+      "input_generated_at": "2026-09-19T19:46:19.828Z"
+    },
+    {
+      "year": 2023,
+      "country_iso3": "RUS",
+      "indicator": "press-freedom",
+      "value": 34.77,
+      "unit": "score",
+      "time_basis": "edition_year",
+      "observation_status": "published",
+      "missing_reason": null,
+      "rank": 164,
+      "lower_90": null,
+      "upper_90": null,
+      "birth_rate": null,
+      "death_rate": null,
+      "source_url": "https://rsf.org/sites/default/files/import_classement/2023.csv",
+      "source_updated_at": null,
+      "source_response_sha256": "674a51778641a92d9b5da038a6168de07f931680bfd15da8c298380f2cacb6d5",
+      "input_generated_at": "2026-09-19T19:46:19.828Z"
+    },
+    {
+      "year": 2023,
+      "country_iso3": "UKR",
+      "indicator": "press-freedom",
+      "value": 61.19,
+      "unit": "score",
+      "time_basis": "edition_year",
+      "observation_status": "published",
+      "missing_reason": null,
+      "rank": 79,
+      "lower_90": null,
+      "upper_90": null,
+      "birth_rate": null,
+      "death_rate": null,
+      "source_url": "https://rsf.org/sites/default/files/import_classement/2023.csv",
+      "source_updated_at": null,
+      "source_response_sha256": "674a51778641a92d9b5da038a6168de07f931680bfd15da8c298380f2cacb6d5",
+      "input_generated_at": "2026-09-19T19:46:19.828Z"
+    },
+    {
+      "year": 2024,
+      "country_iso3": "RUS",
+      "indicator": "press-freedom",
+      "value": 29.86,
+      "unit": "score",
+      "time_basis": "edition_year",
+      "observation_status": "published",
+      "missing_reason": null,
+      "rank": 162,
+      "lower_90": null,
+      "upper_90": null,
+      "birth_rate": null,
+      "death_rate": null,
+      "source_url": "https://rsf.org/sites/default/files/import_classement/2024.csv",
+      "source_updated_at": null,
+      "source_response_sha256": "17d20eb94199b2bccf575291cad6b43dace79583e382e21d5c81e8955992922a",
+      "input_generated_at": "2026-09-19T19:46:19.828Z"
+    },
+    {
+      "year": 2024,
+      "country_iso3": "UKR",
+      "indicator": "press-freedom",
+      "value": 65,
+      "unit": "score",
+      "time_basis": "edition_year",
+      "observation_status": "published",
+      "missing_reason": null,
+      "rank": 61,
+      "lower_90": null,
+      "upper_90": null,
+      "birth_rate": null,
+      "death_rate": null,
+      "source_url": "https://rsf.org/sites/default/files/import_classement/2024.csv",
+      "source_updated_at": null,
+      "source_response_sha256": "17d20eb94199b2bccf575291cad6b43dace79583e382e21d5c81e8955992922a",
+      "input_generated_at": "2026-09-19T19:46:19.828Z"
+    },
+    {
+      "year": 2025,
+      "country_iso3": "RUS",
+      "indicator": "press-freedom",
+      "value": 24.57,
+      "unit": "score",
+      "time_basis": "edition_year",
+      "observation_status": "published",
+      "missing_reason": null,
+      "rank": 171,
+      "lower_90": null,
+      "upper_90": null,
+      "birth_rate": null,
+      "death_rate": null,
+      "source_url": "https://rsf.org/sites/default/files/import_classement/2025.csv",
+      "source_updated_at": null,
+      "source_response_sha256": "22c147218f321dff690f8fef0b639c8d508782e2bfa0ad8fbffdc13743cf47cd",
+      "input_generated_at": "2026-09-19T19:46:19.828Z"
+    },
+    {
+      "year": 2025,
+      "country_iso3": "UKR",
+      "indicator": "press-freedom",
+      "value": 63.93,
+      "unit": "score",
+      "time_basis": "edition_year",
+      "observation_status": "published",
+      "missing_reason": null,
+      "rank": 62,
+      "lower_90": null,
+      "upper_90": null,
+      "birth_rate": null,
+      "death_rate": null,
+      "source_url": "https://rsf.org/sites/default/files/import_classement/2025.csv",
+      "source_updated_at": null,
+      "source_response_sha256": "22c147218f321dff690f8fef0b639c8d508782e2bfa0ad8fbffdc13743cf47cd",
+      "input_generated_at": "2026-09-19T19:46:19.828Z"
+    },
+    {
+      "year": 2026,
+      "country_iso3": "RUS",
+      "indicator": "press-freedom",
+      "value": 23.15,
+      "unit": "score",
+      "time_basis": "edition_year",
+      "observation_status": "published",
+      "missing_reason": null,
+      "rank": 172,
+      "lower_90": null,
+      "upper_90": null,
+      "birth_rate": null,
+      "death_rate": null,
+      "source_url": "https://rsf.org/sites/default/files/import_classement/2026.csv",
+      "source_updated_at": null,
+      "source_response_sha256": "65ec7bd9b9740e0f51e9b4eea585030b2226c1a96938ec06a4cbbdbd2639aae2",
+      "input_generated_at": "2026-09-19T19:46:19.828Z"
+    },
+    {
+      "year": 2026,
+      "country_iso3": "UKR",
+      "indicator": "press-freedom",
+      "value": 66.1,
+      "unit": "score",
+      "time_basis": "edition_year",
+      "observation_status": "published",
+      "missing_reason": null,
+      "rank": 55,
+      "lower_90": null,
+      "upper_90": null,
+      "birth_rate": null,
+      "death_rate": null,
+      "source_url": "https://rsf.org/sites/default/files/import_classement/2026.csv",
+      "source_updated_at": null,
+      "source_response_sha256": "65ec7bd9b9740e0f51e9b4eea585030b2226c1a96938ec06a4cbbdbd2639aae2",
+      "input_generated_at": "2026-09-19T19:46:19.828Z"
+    }
+  ],
+  "input_snapshots": [
+    {
+      "path": "/social-indicators.json",
+      "serialization": "JSON.stringify(parsed_input)",
+      "sha256": "96d58fd0951b1a74da1b077d0ca837ec2f6fea8e43dad0653c486814a6f0115d"
+    }
+  ]
+}

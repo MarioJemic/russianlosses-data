@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://russianlosses.mario-jemic.workers.dev/data/v1/schema/fire-annual-record.schema.json",
+  "title": "Annual satellite fire estimate record",
+  "description": "One GWIS annual or current-year YTD fire estimate for a country.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "date",
+    "country_iso3",
+    "country",
+    "year",
+    "period_type",
+    "observation_status",
+    "fires",
+    "burnt_area_ha",
+    "source_url"
+  ],
+  "properties": {
+    "date": { "type": "string", "format": "date" },
+    "country_iso3": { "type": "string", "pattern": "^[A-Z]{3}$" },
+    "country": { "type": "string", "minLength": 1 },
+    "year": { "type": "integer", "minimum": 2000, "maximum": 2100 },
+    "period_type": { "enum": ["full_year", "year_to_date"] },
+    "observation_status": { "enum": ["annual_estimate", "year_to_date_estimate"] },
+    "fires": { "type": "number", "minimum": 0 },
+    "burnt_area_ha": { "type": "number", "minimum": 0 },
+    "source_url": { "type": "string", "format": "uri" }
+  }
+}

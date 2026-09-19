@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://russianlosses.mario-jemic.workers.dev/data/v1/schema/territorial-fire-record.schema.json",
+  "title": "Territorial satellite-fire detection",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "date", "time_utc", "latitude", "longitude", "satellite", "instrument", "confidence", "frp_mw", "brightness_kelvin", "day_night", "control_status", "territory_snapshot_date"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "date": { "type": "string", "format": "date" },
+    "time_utc": { "type": "string", "pattern": "^\\d{2}:\\d{2}$" },
+    "latitude": { "type": "number", "minimum": -90, "maximum": 90 },
+    "longitude": { "type": "number", "minimum": -180, "maximum": 180 },
+    "satellite": { "type": "string", "minLength": 1 },
+    "instrument": { "type": "string", "minLength": 1 },
+    "confidence": { "enum": ["nominal", "high"] },
+    "frp_mw": { "type": "number", "minimum": 0 },
+    "brightness_kelvin": { "type": ["number", "null"], "minimum": 0 },
+    "day_night": { "enum": ["day", "night"] },
+    "control_status": { "enum": ["occupied", "government_controlled"] },
+    "territory_snapshot_date": { "type": "string", "format": "date" }
+  }
+}

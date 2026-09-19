@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "world_bank_macro",
+  "generated_at": "2026-09-19T10:48:11.091Z",
+  "coverage_start": "2021-12-31",
+  "coverage_end": "2025-12-31",
+  "record_count": 10,
+  "units": {
+    "gdp_current_usd": "current_us_dollars",
+    "exports_goods_services_usd": "current_us_dollars",
+    "industry_value_added_usd": "current_us_dollars",
+    "manufacturing_value_added_usd": "current_us_dollars",
+    "labor_force_total": "people",
+    "unemployment_pct": "percent_of_total_labor_force",
+    "population_total": "people"
+  },
+  "sources": [
+    {
+      "name": "World Bank Indicators API",
+      "url": "https://data.worldbank.org/",
+      "role": "Officially reported annual GDP, exports, industry, manufacturing, labor, unemployment, and population indicators"
+    }
+  ],
+  "methodology": "Annual World Bank indicator observations for Russia and Ukraine are joined by country and year. Null fields mean that the source has not published that indicator for that country-year; values are not interpolated.",
+  "license_notice": "World Bank data is reused subject to the World Bank Dataset Terms of Use. Preserve source attribution and review any third-party dataset restrictions.",
+  "data": [
+    {
+      "date": "2021-12-31",
+      "country_iso3": "RUS",
+      "country": "Russian Federation",
+      "year": 2021,
+      "gdp_current_usd": 1829186719575.1,
+      "exports_goods_services_usd": 548800273711.107,
+      "industry_value_added_usd": 581425275224.936,
+      "manufacturing_value_added_usd": 240221026282.24,
+      "labor_force_total": 73799608,
+      "unemployment_pct": 4.749,
+      "population_total": 144746762
+    },
+    {
+      "date": "2021-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2021,
+      "gdp_current_usd": 199765859570.935,
+      "exports_goods_services_usd": 81281413098.7658,
+      "industry_value_added_usd": 46253216233.3113,
+      "manufacturing_value_added_usd": 20542516948.7758,
+      "labor_force_total": 20538715,
+      "unemployment_pct": 9.834,
+      "population_total": 44298640
+    },
+    {
+      "date": "2022-12-31",
+      "country_iso3": "RUS",
+      "country": "Russian Federation",
+      "year": 2022,
+      "gdp_current_usd": 2292495097681.47,
+      "exports_goods_services_usd": 635241831700.755,
+      "industry_value_added_usd": 738140367959.278,
+      "manufacturing_value_added_usd": 301433746706.862,
+      "labor_force_total": 73531906,
+      "unemployment_pct": 3.867,
+      "population_total": 144236933
+    },
+    {
+      "date": "2022-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2022,
+      "gdp_current_usd": 161989520721.19,
+      "exports_goods_services_usd": 57417372455.43,
+      "industry_value_added_usd": 29175659790.6976,
+      "manufacturing_value_added_usd": 12316995865.0439,
+      "labor_force_total": null,
+      "unemployment_pct": null,
+      "population_total": 41048766
+    },
+    {
+      "date": "2023-12-31",
+      "country_iso3": "RUS",
+      "country": "Russian Federation",
+      "year": 2023,
+      "gdp_current_usd": 2046284838151.09,
+      "exports_goods_services_usd": 465937815839.194,
+      "industry_value_added_usd": 630207052471.023,
+      "manufacturing_value_added_usd": 265156290849.678,
+      "labor_force_total": 73713863,
+      "unemployment_pct": 3.076,
+      "population_total": 143826130
+    },
+    {
+      "date": "2023-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2023,
+      "gdp_current_usd": 181221517868.744,
+      "exports_goods_services_usd": 51286538169.6103,
+      "industry_value_added_usd": 34589315938.8817,
+      "manufacturing_value_added_usd": 15064359718.8458,
+      "labor_force_total": null,
+      "unemployment_pct": null,
+      "population_total": 37732836
+    },
+    {
+      "date": "2024-12-31",
+      "country_iso3": "RUS",
+      "country": "Russian Federation",
+      "year": 2024,
+      "gdp_current_usd": 2186462268813.08,
+      "exports_goods_services_usd": 477881194057.271,
+      "industry_value_added_usd": 686301491370.365,
+      "manufacturing_value_added_usd": 290016124335.697,
+      "labor_force_total": 73475298,
+      "unemployment_pct": 2.43,
+      "population_total": 143669648
+    },
+    {
+      "date": "2024-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2024,
+      "gdp_current_usd": 190833835445.1,
+      "exports_goods_services_usd": 56624210504.8448,
+      "industry_value_added_usd": 36352808894.1239,
+      "manufacturing_value_added_usd": 16069128966.4848,
+      "labor_force_total": null,
+      "unemployment_pct": null,
+      "population_total": 37860221
+    },
+    {
+      "date": "2025-12-31",
+      "country_iso3": "RUS",
+      "country": "Russian Federation",
+      "year": 2025,
+      "gdp_current_usd": 2561310169358.74,
+      "exports_goods_services_usd": 466237273304.333,
+      "industry_value_added_usd": 760029034776.638,
+      "manufacturing_value_added_usd": 349767677482.14,
+      "labor_force_total": 72771294,
+      "unemployment_pct": 2.133,
+      "population_total": 143513328
+    },
+    {
+      "date": "2025-12-31",
+      "country_iso3": "UKR",
+      "country": "Ukraine",
+      "year": 2025,
+      "gdp_current_usd": 214233312784.397,
+      "exports_goods_services_usd": 54272867488.1444,
+      "industry_value_added_usd": 38284899410.1576,
+      "manufacturing_value_added_usd": 17821420946.9622,
+      "labor_force_total": null,
+      "unemployment_pct": null,
+      "population_total": 38980376
+    }
+  ]
+}
