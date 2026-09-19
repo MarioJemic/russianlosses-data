@@ -1,5 +1,7 @@
 # Russian Losses: Public Data
 
+**[View the interactive dashboard, charts and maps](https://russianlosses.pages.dev/)**
+
 Data-only mirror of the [Russian Losses Dashboard public API](https://russianlosses.pages.dev/data/).
 The application source, credentials, analytics and private Git history are not included.
 

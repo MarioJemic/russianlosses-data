@@ -5,7 +5,7 @@
   "publisher": {
     "name": "Russian Losses Dashboard",
     "website": "https://russianlosses.pages.dev/",
-    "repository": "https://github.com/MarioJemic/russianlosses"
+    "repository": "https://github.com/MarioJemic/russianlosses-data"
   },
   "license_notice": "No blanket license is granted for this collection. Each upstream source retains its own rights and terms. Review the source-specific terms and preserve attribution before reuse.",
   "attribution": "Keep the upstream source attribution attached to derived datasets and review each source before redistribution or commercial reuse.",
