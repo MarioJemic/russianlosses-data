@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "territory_daily",
-  "generated_at": "2026-09-19T10:48:11.091Z",
+  "generated_at": "2026-09-20T09:00:05.021Z",
   "coverage_start": "2021-12-31",
   "coverage_end": "2026-09-02",
   "record_count": 1654,
