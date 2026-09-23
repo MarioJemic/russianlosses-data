@@ -54,4 +54,4 @@ month,start_date,end_date,target_end_date,net_change_km2,source,preferred_source
 2026-06,2026-05-31,2026-06-30,2026-06-30,262.91,nzz,deepstate,true,DS has missing endpoints or shorter coverage; the entire interval uses NZZ.,complete,,https://github.com/conflict-investigations/nzz-maps,2026-09-12T14:03:50.172Z
 2026-07,2026-06-30,2026-07-31,2026-07-31,320.53,nzz,deepstate,true,DS has missing endpoints or shorter coverage; the entire interval uses NZZ.,complete,,https://github.com/conflict-investigations/nzz-maps,2026-09-12T14:03:50.172Z
 2026-08,2026-07-31,2026-08-31,2026-08-31,-45.2,nzz,deepstate,true,DS has missing endpoints or shorter coverage; the entire interval uses NZZ.,complete,,https://github.com/conflict-investigations/nzz-maps,2026-09-12T14:03:50.172Z
-2026-09,2026-08-31,2026-09-18,2026-09-18,97.6,deepstate,deepstate,false,,partial,,https://deepstatemap.live/,2026-09-20T09:00:05.021Z
+2026-09,2026-08-31,2026-09-22,2026-09-22,72.6,deepstate,deepstate,false,,partial,,https://deepstatemap.live/,2026-09-23T07:26:49.115Z

@@ -1,7 +1,7 @@
 {
   "api_version": "v1",
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-20T09:00:05.021Z",
+  "generated_at": "2026-09-23T07:26:49.115Z",
   "publisher": {
     "name": "Russian Losses Dashboard",
     "website": "https://russianlosses.pages.dev/",
@@ -15,38 +15,36 @@
       "title": "Daily reported Russian losses",
       "description": "Daily reported or claimed personnel and equipment loss increments.",
       "coverage_start": "2022-02-24",
-      "coverage_end": "2026-09-18",
-      "record_count": 1668,
+      "coverage_end": "2026-09-22",
+      "record_count": 1672,
       "schema": "/data/v1/schema/losses-record.schema.json",
       "sources": [
         {
           "name": "Russian Casualties in Ukraine API",
           "url": "https://russian-casualties.in.ua/api/v1/data/csv/daily",
           "role": "Daily reported Russian loss increments",
-          "refresh_status": "saved_fallback",
-          "refresh_failure": "HTTP 403",
-          "refresh_attempted_at": "2026-09-20T09:00:05.021Z",
-          "saved_dataset_generated_at": "2026-09-19T10:48:11.091Z"
+          "refresh_status": "upstream",
+          "retrieved_at": "2026-09-23T07:26:49.115Z"
         }
       ],
       "files": [
         {
           "path": "/data/v1/losses/daily.json",
           "media_type": "application/json",
-          "bytes": 708273,
-          "sha256": "2e805dee978f4607bf87d16e3df7d387c3fa34c1422ea5353b6f22243b10cfb0"
+          "bytes": 709867,
+          "sha256": "1e905b4d66bbb731841bb010355469200afac9a271d45755f8cc8dac9d88c341"
         },
         {
           "path": "/data/v1/losses/daily.csv",
           "media_type": "text/csv",
-          "bytes": 79588,
-          "sha256": "52ced547d036fdd39aa4e3051777f0daeb4915d2f341066732bc8cd9c8b0094c"
+          "bytes": 79793,
+          "sha256": "01fd61175968e1b7e2fea9414022eead0b073ad89fe2ee83aa9f6f9f0bcac08d"
         }
       ],
       "category": "losses",
       "catalog_group": "primary",
-      "generated_at": "2026-09-20T09:00:05.021Z",
-      "last_observation": "2026-09-18",
+      "generated_at": "2026-09-23T07:26:49.115Z",
+      "last_observation": "2026-09-22",
       "temporal_resolution": "date"
     },
     {
@@ -54,38 +52,36 @@
       "title": "Cumulative reported Russian losses",
       "description": "Running totals calculated from every published daily loss field.",
       "coverage_start": "2022-02-24",
-      "coverage_end": "2026-09-18",
-      "record_count": 1668,
+      "coverage_end": "2026-09-22",
+      "record_count": 1672,
       "schema": "/data/v1/schema/losses-record.schema.json",
       "sources": [
         {
           "name": "Russian Casualties in Ukraine API",
           "url": "https://russian-casualties.in.ua/api/v1/data/csv/daily",
           "role": "Daily reported Russian loss increments",
-          "refresh_status": "saved_fallback",
-          "refresh_failure": "HTTP 403",
-          "refresh_attempted_at": "2026-09-20T09:00:05.021Z",
-          "saved_dataset_generated_at": "2026-09-19T10:48:11.091Z"
+          "refresh_status": "upstream",
+          "retrieved_at": "2026-09-23T07:26:49.115Z"
         }
       ],
       "files": [
         {
           "path": "/data/v1/losses/cumulative.json",
           "media_type": "application/json",
-          "bytes": 760438,
-          "sha256": "e959b3dbe2c6409bcce402a6f2955b893ba64d4d9c1d3099ead4910b29678646"
+          "bytes": 762183,
+          "sha256": "ef3b696b7c6f02dfccc8af02518b7adf85a16efaba6662b8077bf05b37abe084"
         },
         {
           "path": "/data/v1/losses/cumulative.csv",
           "media_type": "text/csv",
-          "bytes": 131617,
-          "sha256": "bd6a1f4c5ce12c1032eec180904f04b88bffd9ec39ba7b586c141e996d986159"
+          "bytes": 131973,
+          "sha256": "969f8abb9a7e40988b0954cf2faa0ef775564aaae8b009a3802a2bd531df2cdc"
         }
       ],
       "category": "losses",
       "catalog_group": "primary",
-      "generated_at": "2026-09-20T09:00:05.021Z",
-      "last_observation": "2026-09-18",
+      "generated_at": "2026-09-23T07:26:49.115Z",
+      "last_observation": "2026-09-22",
       "temporal_resolution": "date"
     },
     {
@@ -93,7 +89,7 @@
       "title": "Latest reported loss summary",
       "description": "Latest daily, 7-day, 30-day, cumulative, and daily-average values for each reported loss metric.",
       "coverage_start": "2022-02-24",
-      "coverage_end": "2026-09-18",
+      "coverage_end": "2026-09-22",
       "record_count": 15,
       "schema": "/data/v1/schema/losses-summary-record.schema.json",
       "sources": [
@@ -101,38 +97,36 @@
           "name": "Russian Casualties in Ukraine API",
           "url": "https://russian-casualties.in.ua/api/v1/data/csv/daily",
           "role": "Daily reported Russian loss increments",
-          "refresh_status": "saved_fallback",
-          "refresh_failure": "HTTP 403",
-          "refresh_attempted_at": "2026-09-20T09:00:05.021Z",
-          "saved_dataset_generated_at": "2026-09-19T10:48:11.091Z"
+          "refresh_status": "upstream",
+          "retrieved_at": "2026-09-23T07:26:49.115Z"
         }
       ],
       "files": [
         {
           "path": "/data/v1/losses/summary.json",
           "media_type": "application/json",
-          "bytes": 5321,
-          "sha256": "022b7c476a41140d264650e953cf89e93e08dc5eb7aab7a46ea800848853cad0"
+          "bytes": 5201,
+          "sha256": "515923e734f782611e0bbeb0a15fdddf220e51ac9cfa86a792dfd3fc96aea2a4"
         },
         {
           "path": "/data/v1/losses/summary.csv",
           "media_type": "text/csv",
-          "bytes": 1007,
-          "sha256": "e7e82cc6afa046f273e9accf1ee79a94213d19fb72b22a7a49a02fd5a432266b"
+          "bytes": 1002,
+          "sha256": "ba8f425680c12f8a7563d57164fb41ad7684a24344230a3144d2dde33bf4d82b"
         }
       ],
       "category": "losses",
       "catalog_group": "primary",
-      "generated_at": "2026-09-20T09:00:05.021Z",
-      "last_observation": "2026-09-18",
+      "generated_at": "2026-09-23T07:26:49.115Z",
+      "last_observation": "2026-09-22",
       "temporal_resolution": "date"
     },
     {
       "id": "replacement_cost_model",
       "title": "Modeled replacement cost",
       "description": "Low, base, and high unit-cost assumptions applied to the latest cumulative reported losses.",
-      "coverage_start": "2026-09-18",
-      "coverage_end": "2026-09-18",
+      "coverage_start": "2026-09-22",
+      "coverage_end": "2026-09-22",
       "record_count": 39,
       "schema": "/data/v1/schema/replacement-cost-record.schema.json",
       "sources": [
@@ -140,30 +134,28 @@
           "name": "Russian Casualties in Ukraine API",
           "url": "https://russian-casualties.in.ua/api/v1/data/csv/daily",
           "role": "Daily reported Russian loss increments",
-          "refresh_status": "saved_fallback",
-          "refresh_failure": "HTTP 403",
-          "refresh_attempted_at": "2026-09-20T09:00:05.021Z",
-          "saved_dataset_generated_at": "2026-09-19T10:48:11.091Z"
+          "refresh_status": "upstream",
+          "retrieved_at": "2026-09-23T07:26:49.115Z"
         }
       ],
       "files": [
         {
           "path": "/data/v1/models/replacement-cost.json",
           "media_type": "application/json",
-          "bytes": 9231,
-          "sha256": "881bd9ac94343fb0ed5e5b9d0292edb9390802119b3e1640af52a329f3df40b1"
+          "bytes": 9116,
+          "sha256": "fbf171615c8a12b5a467bc1f6a41843ebc4f6db0395176e3c86cbdbc47eb9bb9"
         },
         {
           "path": "/data/v1/models/replacement-cost.csv",
           "media_type": "text/csv",
           "bytes": 2308,
-          "sha256": "4f2fd6a6b193706b5a4229b38a21607a90d0753c4e99868e46933d5e36ffefb8"
+          "sha256": "5436d1452dd1a35855ab3e98a148b1fb628d93d3ec99f499ae256e6828c3cdeb"
         }
       ],
       "category": "losses",
       "catalog_group": "primary",
-      "generated_at": "2026-09-20T09:00:05.021Z",
-      "last_observation": "2026-09-18",
+      "generated_at": "2026-09-23T07:26:49.115Z",
+      "last_observation": "2026-09-22",
       "temporal_resolution": "date"
     },
     {
@@ -186,7 +178,7 @@
           "path": "/data/v1/territory/daily.json",
           "media_type": "application/json",
           "bytes": 574747,
-          "sha256": "072e97962f2b01aab3e5745d7e1b42a9083d074902bdc8bc42ec6c666aa8128e"
+          "sha256": "40e5e5a693c841e767f3f1750e72e2c4ec2bcf6363e673d8c5a7de921631bae1"
         },
         {
           "path": "/data/v1/territory/daily.csv",
@@ -209,7 +201,7 @@
       ],
       "category": "territory",
       "catalog_group": "primary",
-      "generated_at": "2026-09-20T09:00:05.021Z",
+      "generated_at": "2026-09-23T07:26:49.115Z",
       "last_observation": "2026-09-02",
       "temporal_resolution": "date"
     },
@@ -233,7 +225,7 @@
           "path": "/data/v1/territory/periodic.json",
           "media_type": "application/json",
           "bytes": 50991,
-          "sha256": "65642e5b70f5e64c0c8b13a0ef1e9882c6a10510b66da689bfde3f5dd643770d"
+          "sha256": "47cb11227f729959eeb411b349bb6f51b9293b92aa04283e1c0160eeb79598b9"
         },
         {
           "path": "/data/v1/territory/periodic.csv",
@@ -244,16 +236,16 @@
       ],
       "category": "territory",
       "catalog_group": "primary",
-      "generated_at": "2026-09-20T09:00:05.021Z",
+      "generated_at": "2026-09-23T07:26:49.115Z",
       "last_observation": "2026-09-02",
       "temporal_resolution": "mixed"
     },
     {
       "id": "territory_region_control",
       "title": "Territory control by Ukrainian region",
-      "description": "Current ADM1 region control estimates in regions.json; the accompanying regions-history.json contains 75 actual snapshots from 2022-02-23 through 2026-09-18, including the pre-invasion baseline. Dataset coverage and record_count describe the 27 latest region rows.",
-      "coverage_start": "2026-09-18",
-      "coverage_end": "2026-09-18",
+      "description": "Current ADM1 region control estimates in regions.json; the accompanying regions-history.json contains 301 actual snapshots from 2022-02-23 through 2026-09-22, including the pre-invasion baseline. Dataset coverage and record_count describe the 27 latest region rows.",
+      "coverage_start": "2026-09-22",
+      "coverage_end": "2026-09-22",
       "record_count": 27,
       "schema": "/data/v1/schema/territory-region-control.schema.json",
       "sources": [
@@ -278,7 +270,7 @@
           "path": "/data/v1/territory/regions.json",
           "media_type": "application/json",
           "bytes": 12806,
-          "sha256": "e4251b0c23e6b71596f32141859629c157563950eac61a9c1aef7e2aad8f06c8"
+          "sha256": "3aeab92227a8d002704a1ec5a7ae35764da083c50da648ff6399c771d3060a80"
         },
         {
           "path": "/data/v1/territory/regions.geojson",
@@ -289,14 +281,14 @@
         {
           "path": "/data/v1/territory/regions-history.json",
           "media_type": "application/json",
-          "bytes": 873250,
-          "sha256": "8d6421aadee376e4045202eb0b32033bf85694583b04df48dac2bf609bea188b"
+          "bytes": 3493107,
+          "sha256": "f33174700d3d5b55b5fe7750f91d438f7afe66afb530aae18dfb13cdea532574"
         }
       ],
       "category": "territory",
       "catalog_group": "primary",
-      "generated_at": "2026-09-20T09:00:05.021Z",
-      "last_observation": "2026-09-18",
+      "generated_at": "2026-09-23T07:26:49.115Z",
+      "last_observation": "2026-09-22",
       "temporal_resolution": "date"
     },
     {
@@ -304,8 +296,8 @@
       "title": "Modeled human cost of territorial change",
       "description": "Ten-kilometre grid-cell control histories with monthly reported personnel losses divided by gross changed area and allocated to observed transitions.",
       "coverage_start": "2022-02-23",
-      "coverage_end": "2026-09-18",
-      "record_count": 1907,
+      "coverage_end": "2026-09-22",
+      "record_count": 1908,
       "schema": "/data/v1/schema/territorial-human-cost-grid.schema.json",
       "sources": [
         {
@@ -328,20 +320,20 @@
         {
           "path": "/data/v1/territory/human-cost-grid.json",
           "media_type": "application/json",
-          "bytes": 2712937,
-          "sha256": "54f1ae9c920e9c1763b570f01c0507cfb61ae4afe41fe7511ed0f796f4dff380"
+          "bytes": 2754766,
+          "sha256": "9ca2218566d92b8742460094ea81d6092e3e914f5181546aaaf199f1cc942138"
         },
         {
           "path": "/data/v1/territory/human-cost-monthly.csv",
           "media_type": "text/csv",
-          "bytes": 4746,
-          "sha256": "c5a9d7abf5ae7a37c0735929c466f93a4ceb4bcd6d4f90f68cc9a9fa99224141"
+          "bytes": 4823,
+          "sha256": "49d625e1f40d7d7dc4aeea95329695d46a04ebf9fb67695296da033adc2c2f09"
         }
       ],
       "category": "territory",
       "catalog_group": "primary",
-      "generated_at": "2026-09-20T09:00:05.021Z",
-      "last_observation": "2026-09-18",
+      "generated_at": "2026-09-23T07:26:49.115Z",
+      "last_observation": "2026-09-22",
       "temporal_resolution": "date"
     },
     {
@@ -349,8 +341,8 @@
       "title": "Frontline snapshot catalog",
       "description": "Pre-invasion baseline, dated geographic snapshots, and a stable latest GeoJSON alias.",
       "coverage_start": "2022-02-23",
-      "coverage_end": "2026-09-18",
-      "record_count": 75,
+      "coverage_end": "2026-09-22",
+      "record_count": 301,
       "schema": "/data/v1/schema/frontline-index.schema.json",
       "sources": [
         {
@@ -363,14 +355,14 @@
         {
           "path": "/data/v1/frontline/index.json",
           "media_type": "application/json",
-          "bytes": 11907,
-          "sha256": "c2b45a4280b3e95d7664af075e3c3bb36e36f3dd711a1199940a6b1ce8c67bfe"
+          "bytes": 44904,
+          "sha256": "d59e78d66dce65efaa0791878ad0411213ee8ea345e49cf934bb36917a570187"
         },
         {
           "path": "/data/v1/frontline/latest.geojson",
           "media_type": "application/geo+json",
-          "bytes": 87611,
-          "sha256": "3e02eab33462a80425b13ae7916ae5d939c63757a0b8eaec98f43f4a8ea154f1"
+          "bytes": 87771,
+          "sha256": "993af78970f5fd3e0ba492b7908e0ddbfe9fb25fd2ffb46d4d21f041c4b76a0e"
         },
         {
           "path": "/data/v1/frontline/baseline.geojson",
@@ -403,10 +395,40 @@
           "sha256": "f1eba2668b8249526bbcb9a23ce33a9b3da81bda15c6e35a98a368fd888ad8dc"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20220410.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 77625,
+          "sha256": "576a707ce6ea190a97b61132af1360e8d813f3ae270487faba3e90701cb91d57"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20220415.geojson",
           "media_type": "application/geo+json",
           "bytes": 97352,
           "sha256": "bb26820b75cd39c61e44958cc1b5820482f4c670f043a2697af3f3c793ac18d3"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220417.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 80730,
+          "sha256": "f2e881ca6fb863c14df607e23fb8e211fbea04896730d806193a7c963a0b0e3e"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220424.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 66343,
+          "sha256": "8df4b8997d9c43c892a31860ce091a53a1a2aeef44f1a8677d1c4f0a6dd8ce3b"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220501.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 69879,
+          "sha256": "e066c653f9d09101463b8beb9dd114f0f9f9ad9765bb3f05f3481d0a5dc7d196"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220508.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 70568,
+          "sha256": "fc98d4cc476bdd853460757a074224197b4ad8ea87d605f369d5041aab612a78"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20220513.geojson",
@@ -415,10 +437,40 @@
           "sha256": "f009ac70ee1c3ab376d251d54ddcc1db92f3dcf2fa7fc1640cc47df2485d9e39"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20220515.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 70980,
+          "sha256": "552ed9e0b91ffeaa92fa5c3309415b5e54f1af9d76c5fa747a3834f4e533e271"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220522.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 74530,
+          "sha256": "9cf432e7ad4f8e9569f0bf1a204934fee7c1b9eb0ed94d85da526c1ffa1572df"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220529.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 90596,
+          "sha256": "8bb3ce523ab1d787711d97662f5f0927a7e9fe9c73748ce6d66c8226b8a0995c"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20220601.geojson",
           "media_type": "application/geo+json",
           "bytes": 131002,
           "sha256": "3043ae41f3cd91dfb10a0060e4043daf43cbeec68b02e84167fae71d1ba291d2"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220605.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 90919,
+          "sha256": "58a5ebf5b3239132ebf12209e17c844d6c540d98baeedadf1e13c465b65386d8"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220612.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 94609,
+          "sha256": "4c1a7a6d08eda6c754c0b3eb7291f73ae1586f30959eeb346ac52e610be42c16"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20220615.geojson",
@@ -427,10 +479,76 @@
           "sha256": "dce1ac6699cc3ddea0b3555bb8eef6f360a8d9f1798823f4dab3ca818983ad89"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20220619.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 96229,
+          "sha256": "033a9b66d74af0061f5e0f925ce19c34a8538a21dd7e2f6567af1bfba8d3c16a"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220626.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 96066,
+          "sha256": "0c7ea9464f67f6efa40e53001bd427e7e5188208ec270b7e2c79eb5984bd78ac"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220703.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 102896,
+          "sha256": "fee2a855026e89bc0ed4e0decec4562e35443fca9d9ed73d40ee1b78e7d8bc18"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220710.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 111737,
+          "sha256": "4e4bb5fbd245bd1ddb902f1ce46d6ff8de8f5209e153cb744cdd7e072c4ac025"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20220715.geojson",
           "media_type": "application/geo+json",
           "bytes": 152148,
           "sha256": "ae2a1192e3f9c9739133c82c2bbac879879d78ddf4daeaef232c0b9bcfe58e06"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220716.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 113415,
+          "sha256": "e176997a4b14366098b2ad77e2fe1eeb75afd9c0e74b2f4f94db94a99ee51858"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220723.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 114244,
+          "sha256": "1f4696f22f3a847f295e33754776d7b8d4ece57f46bc09e956d77f279192a462"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220730.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 114075,
+          "sha256": "40ab08dd7513317aa740e649aeaaee09c4fff528fe0ad1ff646ea7c2d240b236"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220806.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 113450,
+          "sha256": "0352247f46409857adf6fe5d6c7154fda0a681cf169ccc9f68193ce8760dc784"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220813.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 113883,
+          "sha256": "16a5aa956510a45897999f95b71d83a2cec7b687b339b77f75d57cc14f1b49dc"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220820.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 114196,
+          "sha256": "661c55c6044f1625bbc12f8a0abce5a825bbf2d8740ab025713b2fec2b361383"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220827.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 114365,
+          "sha256": "3002d07ca3a674dfdeef73113b13481976c662fc30b4c2b77fd206f5de993c8c"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20220829.geojson",
@@ -439,10 +557,34 @@
           "sha256": "28ce63d1159755b5de85b7b8332564103cbfcc5b2bdd5e312a4194a78707df08"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20220903.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 114055,
+          "sha256": "e892464a5e7d10395c8daea16c9044bfbb5889808f12adf2d3b5e8fff9cb88af"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220910.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 105668,
+          "sha256": "41c7d1a2f815f8dd0cef489fc5eddbfca9d310048ce27dfe8ebe67591b4470ce"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20220911.geojson",
           "media_type": "application/geo+json",
           "bytes": 145751,
           "sha256": "8bfaf6eac477f42f62acd7ca4e9914cb0cd05ca4279ea94d22e067c132ed6b03"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220917.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 96918,
+          "sha256": "80b48a057d3a56089ff2ff0252e41491a3d1920d8c3c31c6887f9314809bc88d"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20220924.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 91668,
+          "sha256": "8ec99c7b878caa5bb5eabf92f481104e9f5a0cec1f6f780308073850070c8649"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20221001.geojson",
@@ -451,10 +593,34 @@
           "sha256": "2f3adb943baee9e5ca4d491c8f7bb993b5ae4bf5a0f196fd0a7b5fcc8141ca95"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20221008.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 77419,
+          "sha256": "aec98a04046054372822438d4be866df201b5ec0a0e07bd9ffb99195d6cd613a"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20221015.geojson",
           "media_type": "application/geo+json",
           "bytes": 123857,
           "sha256": "dc6df4bd9512dff32b04ceb6f3d3c7583a64e5c01f4e361062351b93dc85c43d"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20221022.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78097,
+          "sha256": "5db9a3715cba1f655e4ce401f0f8fac7707f2b762b9abed93a02ec67dd8b7fcb"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20221029.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 79001,
+          "sha256": "3bd9b276f1a49ffda6a873892a2795bcae4317b03e217a02b8aed188bde89bfb"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20221105.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78852,
+          "sha256": "a7fdf6d800440af86618ebe5ed1c1805d2772cf303eefb15d6d1175109b2b1f6"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20221111.geojson",
@@ -463,10 +629,58 @@
           "sha256": "b1a56ac0ca98e49646a0703c773d5862ddbf5deaa956c1a166d5193d8fd50717"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20221112.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 72251,
+          "sha256": "93d398cf476ff411f21b679fc34316abb1337fa0656b51ceeb4b326b40535b10"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20221119.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 72398,
+          "sha256": "750031ac032a6acfcd59e48452c9b07dfb9b2f50e4fe73d593f309922e514f45"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20221126.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 74219,
+          "sha256": "66a9ca3bdee9c748c5ce154f252b9a2b71b6562043afed93bba98191d1e02120"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20221203.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 75310,
+          "sha256": "18da9a615793ffb0759a2869a35f7c0c6a9e9189babe7558018f9b622b7bf80c"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20221210.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 75518,
+          "sha256": "255e112347a4c8842426f4f7e76f9ac37035d460fcb80747d94839522e708712"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20221215.geojson",
           "media_type": "application/geo+json",
           "bytes": 194754,
           "sha256": "3f5df7f1bebf99c70a0e37261b2dc7659ae8d885cfdd33e85678a4c7888483bf"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20221217.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 76767,
+          "sha256": "67ba08ceac6b977f9a4513996ee36675e5c99e590b4ce6a4c7dd6f08d9c79b93"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20221224.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 77379,
+          "sha256": "eb7b1049d019850a12159cddb7885720e9c8eaf507cd4d2667e695b0cfcb414f"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20221231.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78043,
+          "sha256": "3331f268eb9551c4e2f7353dce8cabe90407a4ca12df63293c0bb371ab151d06"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20230101.geojson",
@@ -475,10 +689,58 @@
           "sha256": "4dfb119e3f8f77dbc57995cbdc76a10b13c2a297e283fd1565b281a5f93fecfc"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20230107.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78779,
+          "sha256": "c70bd969e843a92f379fd47a6e4200e62b386f28489339848a5f67301c69e488"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230113.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 79561,
+          "sha256": "e2f8aca0373b1e22a71a8bfc95d9804d6cb52020c45848b2745282b757ca436a"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230120.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 80228,
+          "sha256": "8fbd5de61b73982fd70ab67e4cb37b5411dd4c86767620b63fbba523ccb20d30"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230127.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 81359,
+          "sha256": "e09731b3a85e9a04d3bc849a704ff26566c9829e8dc807881fdbf264bf0f0f1c"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230203.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 81913,
+          "sha256": "aa1d7fcd710589807a03c903f2295867d04cde01638a1c0fc67e978c66f70385"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230210.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 82524,
+          "sha256": "33590b100eea7cbdc4d8795c021a2e7efe4f8e3425611c3c944be5f58d4c5d90"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20230215.geojson",
           "media_type": "application/geo+json",
           "bytes": 199622,
           "sha256": "e71a1c677e2285252634a667bdb690fb37d202a112226cf65cbf0575f317d522"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230216.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 81428,
+          "sha256": "96a13aac2d10660275451a25d3de9274b8882ce2e5f27069a18c74521e8a3fd9"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230223.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 81980,
+          "sha256": "3c52b73a7be4f0703787a15637e848c33aa55291fbacad47cfcddb8bd7babf76"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20230301.geojson",
@@ -487,16 +749,478 @@
           "sha256": "d9abf36dc036d9439c3b9cb53caa951f29965db69197ebeeeacf602324b8fd94"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20230302.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 81890,
+          "sha256": "e0ca9a100172a94bdecfb25c02fbc8a3ae605fc3376b4582c750d88923d71614"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230308.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 81886,
+          "sha256": "b1758cb85e31bb01db610bd6176a1c3bd6a1818342c0ea94c7225649014611d6"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230314.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 82454,
+          "sha256": "1dc6b1494206ab76070da77c7c6f8f7ec2ca03dfa0eac5064746222a4ade79d3"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230321.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 82504,
+          "sha256": "1843950b56b98ceb98d3d2cb8d43c49db51aa797b3823dd2cf96449ced9defbd"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230328.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 83172,
+          "sha256": "5b1951bb55eb0b8a2c40a0e7c9a3b2362849c3a1d6568f60dee2afbe181d5feb"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230404.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 83573,
+          "sha256": "0299e992ed4f01fcbe89d608fcdd1ce26e077bb6d978cad3c4d91bc01b4b2fa7"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230411.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 83364,
+          "sha256": "31b990b7ce8637ae3db3f5afc3f42d6dd10036cbd8b8933b57b1d42d4a0464a7"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230418.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 83510,
+          "sha256": "9c6f455bfb90153ba53a1fc4abaad59a7c6cef87f3528b44c63652a051cadd25"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230424.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 76816,
+          "sha256": "cf85bb48a9dced8fe930b781c130a87c5f8fff96f99c016f0c03f9f620b251eb"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230501.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 77066,
+          "sha256": "4e8088bfad0ea76dca8276b27a3fc8f79aaec3bade36e389bb79ab68617e1313"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230507.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78248,
+          "sha256": "e5ad7b00bdf37984e71dab5a25edc630c4ea4c8f1dba7b1c17f5952d483498a6"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230514.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78052,
+          "sha256": "e8dc3a74e68475ccd47c5221345db780a71711fcb41820d4beb062ce6b3b0fde"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230521.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78019,
+          "sha256": "a36a6405164c6a920583df8abe2c16f53148d949269de7bd63550fdaac67a7f3"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230528.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78258,
+          "sha256": "ed54a71c9622711eb1278fd9d3a5a2176bdea44021c6ca59049853ef6a865006"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230604.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78444,
+          "sha256": "1fcab9443b5269bf28cfb32745b2850032f7954956ee090572363c2ce20bcbcc"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230611.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 76552,
+          "sha256": "d9c3b0c29208c91629979d1340b0495b86b35421006aef51206c893137e7ab8c"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230618.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 76426,
+          "sha256": "e5205577cfca59d0a0d4d925504ea9044e4e602c7e65922d116772a330482c3a"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230625.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 76393,
+          "sha256": "a2b47be487c88f50fd84df93bdecbf2aff3cce47ee1c006cba614fb255def027"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230702.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 76095,
+          "sha256": "d2bd07befdd5bc2b5080cbc49a1fdf65d5e47e98c417220977842532d2ddef8c"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230709.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 75824,
+          "sha256": "88acafd3aa465313389ac9592b3f7f3a6aee7988adf456d0c21adbf8fef30e2e"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230716.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 76272,
+          "sha256": "111f510d5ebb90bd7a7b8ad2cddd7c86fd2211d5af0d6058b146b244da42a7b9"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230723.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 76673,
+          "sha256": "097779fd3d8ad0ff4c75a27a7bb853774bc34e49f98b4cb4c6b65b16a25bb9aa"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230730.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 76618,
+          "sha256": "82a00a9746fd084b3bf28b4a98d6de7cd8b9631675c554d9029d88faebc3f71c"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230806.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 77601,
+          "sha256": "94cda83841a6c915c4ee86a893a3db377b05406c25c0599c1f470ed50eefc92c"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230813.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 77855,
+          "sha256": "999690b5d985c930b77d01d3f834f1bc19be07e6e3af3be0b312f62a60fffcd4"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230820.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78696,
+          "sha256": "a1e249ae64229ac6eae70a4d62e2d0379e13f8b0deae4c32e3efdac6c8f7bde9"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230827.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78732,
+          "sha256": "b4929d9103c113f263941905925081b6c365a660b0dd7b4df2709b08dbe0a2a5"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230903.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78933,
+          "sha256": "32a89ff28448a6d658bffecfa02467cb2fcd55ff10299860a6b0fe47b75f626b"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230910.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 79142,
+          "sha256": "d20d6b9c52f71e16f75b0378b56ab15342142bd7e15bff3a20461044052cf43e"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230917.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 79328,
+          "sha256": "d17cb8dd3e3e89c03459a1b8c31158c6ff36757ef7482d6be005379aaf52f853"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20230924.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 79041,
+          "sha256": "c743f99ff54ae71cf3a954cf73bd04d073a19e761b745d0bffa9f71335d893ba"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20231001.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 79048,
+          "sha256": "f72ca563b599dba4df49c75dbe057bf52e1bf22d48614492183bb193f7e344fd"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20231008.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 79409,
+          "sha256": "32110491d2064d247d3bf121b8f168f576163918421b02e6abb2741239211642"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20231014.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 79658,
+          "sha256": "21e96022a3464866f9dcc65fa99898be4f0fc087bdf3c85522ad377c40ca242f"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20231021.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 80045,
+          "sha256": "6e630b2e619a0576ad9be8d475078905fc365f49fbd8bf4f5515e5c6f80114b3"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20231028.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 79981,
+          "sha256": "48cfb3aaa790aa84641649ef82588a15dd574c4edf1a74bc690cacc54f55c424"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20231104.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78507,
+          "sha256": "a0092e9ad869c370f4d2e4da3005cb799c4eada12e297c384d8722918d48e6b3"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20231111.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78408,
+          "sha256": "d22451d3636d56bb1db4c4288ca1243b608c727ef7229a7f50a46ecd461ec84f"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20231117.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78361,
+          "sha256": "326c3521eab79785ffd729b44ea62a539ca4cf1c55243c5f62fe039517bdd37b"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20231123.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78504,
+          "sha256": "e6b2c13f894ef2ca26f28282a49fbcdc4bd63e97ae4adad13bcc9b88ced071fc"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20231130.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78443,
+          "sha256": "39e34a36d5dc7e7de7e12313fd4c15f087353e093e79fdb08d7af483c821d481"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20231207.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 78944,
+          "sha256": "aae2f097e00a3f156c267ac25f7b98e5cfb516ab646c80ae40dc8f87da164c6e"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20231214.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 79001,
+          "sha256": "f64d1770937e7c6fe5d389670c616666b4bce5818dd8c7b1e8ea4a4734cdb100"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20231221.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 79422,
+          "sha256": "a9637cb43f5937bbf8349f1bd8a4c821dff58c648fcfd273d2f1bc91bc27c6b5"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20231228.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 79581,
+          "sha256": "42a27e16ea9048c20552da4629626754c7c65361f5c0d2e1869641104435f9e3"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240104.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 79761,
+          "sha256": "4195b9e88e460e0746b39f4122af7b44e1341ee811b443d01ce713f31ee6eadd"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240111.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 79905,
+          "sha256": "ae97bc7ad684647ce9564cf7b3819966d8a0d4306e70de5946df48e54182dce6"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240118.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 80219,
+          "sha256": "6735d00827ddc20a56983d4b0fcca8b11e1fa5334aead3b876ae1a937966501e"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240125.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 80536,
+          "sha256": "01cda30e95d102d22667b7e9ddcb5e6cc2587e06a2b8c65aa3a9833994d99e07"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240201.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 80796,
+          "sha256": "5ff82809fa5e93b75738b279eee8568a9b8a0a0b600f9461ec123fddf2811a6a"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240208.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 81052,
+          "sha256": "8a3ba76a2a7fcad6f2c9fa7431166ebfab486917364663199fde020a10181b7b"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240215.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 81259,
+          "sha256": "a1730dc49c72e0787a9220ec65e76bc74f200d4dff9c97eb3c046229defb4881"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240222.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 80839,
+          "sha256": "2b4c427542d2e1aad6461752d828a0f40ed38f3cfd356175ed50945532b82f16"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240229.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 80899,
+          "sha256": "1f5feff2d7c9fddadd6f8a1cfe229f8350d1725a48339f7fa2d5edb6b7a5b871"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240307.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 81160,
+          "sha256": "5880af3b5beae2ae0e9f52918758ef6c3fbdac850243b4ff08ba8a40e068bdd4"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240314.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 81443,
+          "sha256": "b0cb831b3341bb559391f0afc8e1544f7d252f72246d20b07e5e853ea74cc169"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240321.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 81375,
+          "sha256": "6c21c1be79e6f24cd571b57bdaeaeaef69f6b4e5a30742cff6f94d483851535f"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240328.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 81304,
+          "sha256": "1f1a61cce08e9661bea0ca462499fe4d4b211da673e929fbb24bf102dd269fe6"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240404.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 81552,
+          "sha256": "e9bf4827d6551201c253998df6619593e28df4da51029f2dd0f069359ddee765"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240411.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 81654,
+          "sha256": "955fe03eb505a17bd5755a2466eba10a0c8c21a54e1bb2dc848c37c1ecb5e3ea"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240418.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 82317,
+          "sha256": "7518208cf4326e4f371c0446cba1b42bd569c94e416843bce861c494e1825d6b"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240425.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 82889,
+          "sha256": "4b445920413b7d77fc7a6fbd6ec04a6267764528009551b51b9700baa8bdafb1"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240502.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 84687,
+          "sha256": "13f408299267450cfc4e552e78c64ca7359fbce70ddc7a56ec63ce5b9d7bd03d"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240509.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 85097,
+          "sha256": "0c944be6f17a3b83a3475105a35eb6ff7071345034b193a3a40416c6d2c439ef"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240516.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87209,
+          "sha256": "4cdef4e434093a55ebee746400b508fc5c506bfbcc7edd9ceb8d79daf83be0e8"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240523.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88736,
+          "sha256": "181616a23db584b564d9adf46f90f4ed66097acdd040ae025db686631b7cfe26"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240529.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 89046,
+          "sha256": "3ebbe78e1d675a483d9b686705c34c1d8c4b6016f71e615c1543d70ff778e4d4"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240605.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 89067,
+          "sha256": "bccba0d3b941c36b8cbf7cd8b8320eeac7ee1decbed80efbec9e03c9b10ab155"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240612.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 89453,
+          "sha256": "b20732938e09398917f5135dc8fd1ff434bbd05e561cb974a8aa867a6e314a8e"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240619.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 89387,
+          "sha256": "4ec03e71976ab0eece2886b6349ba53b3d223ffb18dda97ad105f12924a4f7c9"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240626.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 89259,
+          "sha256": "66db68bc73a221ca345eec9d7ced2fe04ea55921d22a77a37953ec8e317cf249"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240703.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 90617,
+          "sha256": "724b542ff4ecf7f88b2141c4977a376a8cc99eb09f32bfe13287ba80eea4bfc0"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20240708.geojson",
           "media_type": "application/geo+json",
           "bytes": 78867,
           "sha256": "73acabcb2bf774d647974f2818b80573d36bec170b23afd2f10618d598db4f3a"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20240710.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 91217,
+          "sha256": "fdeb54ddbfa3a8b02b29d6c4691ad0a8e4dd66a0b0988474ad99b27dc4277632"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240717.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 90955,
+          "sha256": "9b58b006c7ccb62aaac9df215f192737860f5da17d6630fb105406dbf232cb7a"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240724.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 91488,
+          "sha256": "63d0b4fe47fa429768b83cdf6b7b74d6bc7f7dc6d985e6273a8e2f1770adb212"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240731.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 91232,
+          "sha256": "abb391a2452e034663e24278d908e15bed0cee04432cba0eeb47c0e81d763f12"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20240801.geojson",
           "media_type": "application/geo+json",
           "bytes": 67278,
           "sha256": "ada1311ac73c99120b5b8105c5d3b5ed5f8ed088dda77e04d9da5959df123d57"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240807.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 90964,
+          "sha256": "4788372082977b9cbb5f7c55d2165bb38781f279d2f3246c48d3340f6b905474"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20240808.geojson",
@@ -517,6 +1241,18 @@
           "sha256": "d2a2c8fa22e90cfb6446b5e85d4b802ce8ede93138f697e74b4103a2a1ea4598"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20240821.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 99940,
+          "sha256": "b3036df1bd3c55ddd29af5cc9c649105983dd8ae4112cf9f64f64397d6e832de"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240828.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 99850,
+          "sha256": "e326b923926ab98cdc8240a570bc8c5771b7e6e96fad097154168ba6337226ba"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20240829.geojson",
           "media_type": "application/geo+json",
           "bytes": 99926,
@@ -529,10 +1265,58 @@
           "sha256": "ccb502a31703fc105ea972a13ed897a5f337fc88bbcd0da939bc2f12bb578784"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20240904.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 101635,
+          "sha256": "0c3cfc981348c376c58277881cd436d16a0a55bb41d21b01ad89a861d75d07f2"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240911.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 101247,
+          "sha256": "a94591da854b18c0d11aca3516b3ecc2d8ed759771e493251785f7ea327e7726"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240918.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 102304,
+          "sha256": "abaa1eba98c7558529d23a8f709b0825ff5382b15a2f3cc5e6bf7198b330c414"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20240925.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 101330,
+          "sha256": "d2d265251f9a7c3133f0bf76ab27ef1254212f42f2d88cb4393039cc30412eef"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20241001.geojson",
           "media_type": "application/geo+json",
           "bytes": 101797,
           "sha256": "a6e41f0e4ad3c1de9c6524b070c9f859080dd6310462118a8cb8027a51c8b82a"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20241008.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 99918,
+          "sha256": "374f9b9e7d559b2e988cba6e0a259bfe39a5bd45283f8dc2f452cd856e301774"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20241015.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 98877,
+          "sha256": "7cc2eafe217cb9591ac7d1f7f52b6f5124d76c9bd161bb4b91ba787b126ea6f7"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20241022.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 98781,
+          "sha256": "4b6381db7f4cbde7191cd29ebecf10a4f79859ce8f381cfe644f5efd08758438"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20241029.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 98591,
+          "sha256": "4ba15817695e18cef96dcdfb00e4d65aff167cc35c9dd128b91f1fc45bf35203"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20241101.geojson",
@@ -541,10 +1325,64 @@
           "sha256": "e615c38fa5e2774dcd6ce91faa62c8ee527cde3a54246c824cb19f1c737adcb3"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20241105.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 96571,
+          "sha256": "c97a76618454a79eb007a6e8329d40c1e3e9e9eb7e80d08a8a5b67b7c6d92b1a"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20241112.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 97423,
+          "sha256": "9ad7cad4af2793a828fcc6591f20ade352be4e4bcefa19df587c100b593e0553"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20241119.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 98299,
+          "sha256": "011b6d6ca2c0de919a8cc6f586e637155b7074de7a1b184324c62b416fbfec7d"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20241126.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 97113,
+          "sha256": "828ca00539deda9118a192e96026eca9a9b9ffe3777a2f3faf0a397ada22893e"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20241201.geojson",
           "media_type": "application/geo+json",
           "bytes": 96691,
           "sha256": "3c720d137b99bc68085822674749ead48f2d2d3d6c2302102b94ddba2988dda5"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20241203.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95954,
+          "sha256": "bde3e3e460c64b9f4f22836a5e48b2c709eaac750ba75ebe3d7d1be7c1942920"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20241209.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95908,
+          "sha256": "456b48aceb2ce863586db1c28b819a132af866aacf35b0722216537898070843"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20241216.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 93102,
+          "sha256": "8a12e4eb18f8f0ae33a94549a5b122c88463ba1ea93f97d12fe65b5840d0fac7"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20241223.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 92731,
+          "sha256": "8be1e6d52b9febf7dc2f0147853f234d82fce883add49059d73f449513b7cacb"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20241230.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 93376,
+          "sha256": "37b215119e7e83df566a614443eb667946fb3fd0e2bee05e3f1f00000a45a6b7"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20250102.geojson",
@@ -553,10 +1391,58 @@
           "sha256": "37305bf0d10b0bfc2f0d16606c3af3ead12955836aac241e2e67d3aef0711aa9"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20250106.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 93944,
+          "sha256": "3a7a1c4f40f76aa4012fb843f3ed7718e755c5cfca76a116e9e3d92d848365b0"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250113.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 94397,
+          "sha256": "6fef9a809d78a0645259f48de936d64d528682b58cde3c825cda5f4cfd9d40bc"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250120.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95448,
+          "sha256": "35fcb8ddd5a1b1da1339e53ce9f92b950ee93fe26d2e6d72550837cf33dafc53"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250127.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 96020,
+          "sha256": "f246ac349066120546295fc1c97ac6fcacd99783cb12f800a28f8279a0bc6418"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20250201.geojson",
           "media_type": "application/geo+json",
           "bytes": 95475,
           "sha256": "64578c51b3b61867a3b098af0dbbb056446da36b72fd2c1c40bc804523a2a115"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250203.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95689,
+          "sha256": "d277049e0c07d8612edbf42d66968c148bd605c5bb7b0ee72c033a8013c92cc1"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250210.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 97309,
+          "sha256": "0775c6ac9c81a40160df4721e6d7d11eaf498316f2793b7307615e1f513ef7c1"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250217.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 98486,
+          "sha256": "555eeddf7e2145eec59e0268234a38fcaa8d6cc78fd3a4cc6e974fe6c64fb021"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250224.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 97110,
+          "sha256": "b311ef4102ac72ecbbe6e302a1c9593583db49a50513fa456979333cca465f0f"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20250301.geojson",
@@ -565,10 +1451,64 @@
           "sha256": "81a11bd28eacfed571108d39e866b7138baa4f8abdde1683709bb66267fb4ae3"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20250302.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 97319,
+          "sha256": "7df40e65bff61ca86b4c32591072fcdea2e8c87ffb8404be9c9f4cd80dcba2ea"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250309.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 97284,
+          "sha256": "559b089e35b66adc503f1f5f162d1550e6186da05c4256407f2761baed6c1c03"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250316.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 94181,
+          "sha256": "8301db38e8b17fbde0a9ea0b841c440ffe847c347bebefd5a62f6df0ae2a3b4f"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250323.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 94272,
+          "sha256": "26e2fea466cf14dbb8c82f0d90ebe7b9422c70c9375d832726a41e00b2fe8302"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250330.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95247,
+          "sha256": "c1e1ffd2d61c71f24970cb7e89d4660b1e59ec946513a5b95491f726a4e574dd"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20250402.geojson",
           "media_type": "application/geo+json",
           "bytes": 94710,
           "sha256": "e6af324322422b623bd2b66654aa2676c5b0a7c6f08dac614e1011ff62e363cf"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250406.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 94774,
+          "sha256": "4a037f8940d224b65e2718e74b22ac655f094e7df1753011bc26389f90d06f0a"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250413.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 93192,
+          "sha256": "2df808c7e635aa361e201050518932552a0a24f625bbafcd0d8e44b205c6d70d"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250420.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 92631,
+          "sha256": "ce34749e4b6fa4dca5963dfac170dfc612dc736976a31214772b3a8d0039f682"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250427.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 92467,
+          "sha256": "b7b24a0ab8562d1dc556069213fb822ab14df4af1e62f35dea5f87bff1a041f9"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20250501.geojson",
@@ -577,10 +1517,58 @@
           "sha256": "87300728f41992731b365a3b23e5347b85c9b7b86c53740b7a36d8b6767f5850"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20250504.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 92505,
+          "sha256": "c545fad1a450ff8bb3c7c7b6ca2089aa502c5b603ad1c4b123d9970679f95123"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250511.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 93443,
+          "sha256": "80f34fd7073f06f41091de3c809666707c3a1bba8d39f90e1fe0e150959abd86"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250518.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 93135,
+          "sha256": "18b38706ebe1ad8a234e0c8f44b21724ba0ea02b2e6aea28086489deb2e23c9a"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250525.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 94741,
+          "sha256": "4d643baecc9271389bcad98512edb4ab091104b12ea2d36b9b0c110635ce50f8"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20250601.geojson",
           "media_type": "application/geo+json",
           "bytes": 94142,
           "sha256": "9e9090a043a9ea9160114bad319410094c596cf03752da3980748108b8658861"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250608.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 93976,
+          "sha256": "fe79cf8f1d2062b750fae48c4055ce5b242f4caef8bd9869817988cadb825627"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250615.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 94739,
+          "sha256": "e8a5b62887426fe19c37b51d7e85c170122b40a44f449afe1870330f26865da2"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250622.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95061,
+          "sha256": "e4e291ca1195b1f354500185e2d23a6fb2363a0a3b9cae7bcd9483b92c563168"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250629.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 94882,
+          "sha256": "0fc749ca261238e16553643a48e5248fe3bad54ccb4bcbbbd6bd3b2a83c98831"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20250701.geojson",
@@ -589,10 +1577,64 @@
           "sha256": "9330d76b32daf80a45cc756f7ae92c1390f6029a52f7865c0d2156b97f107938"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20250706.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 94129,
+          "sha256": "59e44d39e80cb3652a2ca1db949dcc854232a2e13c24e3b17b6bd78efb1f169e"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250713.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95074,
+          "sha256": "2572d3bfd5e1dcc9a0f70164707ba6f331968323e6e8c3f71e9404f7b0ba7a91"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250720.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95143,
+          "sha256": "043f87932c3c0ca84b43e4eb24a3937b0ec87546aaba1bfed0e52cb4e78878a3"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250727.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95412,
+          "sha256": "e9b8b8ed1d7f7e36ad4787c83d15a53d3be90037bd8d616925f61d5a3148be9a"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20250801.geojson",
           "media_type": "application/geo+json",
           "bytes": 95233,
           "sha256": "48742f2af2697dfdd5ab15928427b90cff068ed25dd3ae4657ded67a094b682a"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250803.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95138,
+          "sha256": "d98868c2ff7e048aaa5248e05f34c831dce00a7b379cceed482f61eee561b165"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250810.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 94715,
+          "sha256": "60368f60f9a8988b3f42033414df31bbd1a11e04f712e166d61343b92760c024"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250817.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95297,
+          "sha256": "98d67220384f6f75f94bb01587dcacf6ab48d4746c1e1b6dcffb435b0d7e07a3"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250824.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95491,
+          "sha256": "d2e8b245da4383ed266d64c8120564746d653af2fb80e3e48a48efed84a7cea2"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250831.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95990,
+          "sha256": "5c10a6cfeedcb46144fe2b32e7836772c4b5ea218c32bab352f71384d8eb3527"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20250901.geojson",
@@ -601,10 +1643,58 @@
           "sha256": "948d069966b67ba5b14838bcbfeab9ead3dbbcd37f99b85ed173341c44ff06b5"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20250907.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 96879,
+          "sha256": "b1999df5049da7d30de48094157de546f3d809dff3ef320bc771e324653c85c7"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250914.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 94500,
+          "sha256": "1a49507e4d414ed32e0c9a94fe27accea75df83ad46c13e59e698ca7050fafbe"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250921.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95559,
+          "sha256": "01562f465325b724325d1fc215e6ec93d91abeee3c4cf958524268fc0fa92f46"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20250928.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 96585,
+          "sha256": "27cb0f516aadd92ed6b49016fcfff1e95e8b28156eb0d0c824952146843e583a"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20251001.geojson",
           "media_type": "application/geo+json",
           "bytes": 96384,
           "sha256": "bf874d72d8dbd6693aff3468e6b3612fe996302f73805bc03c09c6f2b1d08899"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20251005.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 95889,
+          "sha256": "ccb47c7372ff571c2a8479dbcd19d7bf6086e01bc9e711130682643da585e74d"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20251012.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 96929,
+          "sha256": "addcccae9986ee4537f487f71c7618e18d008bb8703139804e75fc333c8c6e07"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20251019.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 96853,
+          "sha256": "8c068f9712e422c8477a2bf6dcd21be228bb33c0e82504ca06660b3e80fde888"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20251026.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 96862,
+          "sha256": "045fc9c38dcb1bfad82c954886a6607f694ac9fd41a5c60d04c5b803015b665d"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20251101.geojson",
@@ -613,10 +1703,40 @@
           "sha256": "97c70911564166267c57f1f397ddf43428ac50598a221ffbb7da9083cd790f93"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20251102.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 92048,
+          "sha256": "fa368e89555381c8af4cc1ba0856012d95a61d6b063655d66d97df7ca28c9833"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20251109.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 92093,
+          "sha256": "32d5a92e472d429eecc9c39a37c9f6f26e46e3b0b0a78c5a3dd23cf2e84aced5"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20251116.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 90989,
+          "sha256": "bf8b74c5572104ac98e8c5b2ffd402f7f52eeef9826d1b9c2e7324d848e4201f"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20251123.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 90819,
+          "sha256": "cbd4788a9130e0f38201e10025fbb0771ca0a5318d2798d694712430b9d9aeb4"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20251128.geojson",
           "media_type": "application/geo+json",
           "bytes": 89412,
           "sha256": "c3c245a2ccf901c1003b48db7d4aae23ea4efd00fb18ef0b645375b10a29f47f"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20251130.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 89541,
+          "sha256": "97a026eaf2113227b2bc50fe46be104763fb6c4155ea243d2b37f88d6cb57862"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20251201.geojson",
@@ -625,10 +1745,58 @@
           "sha256": "02c5019c8ba8da80adfd7c4bae51f7f6ffdd7105ff5a2d0cc8a3041414a2b400"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20251207.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 89270,
+          "sha256": "4e463b5a9317883fce80833eb01b5be0a836256da566fd3874120c885b46661d"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20251214.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87863,
+          "sha256": "6b46af67bff5bbc480ea331cd0701540fd95828b22f95620c16b31fff30ce853"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20251221.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 86593,
+          "sha256": "f44580f00147d2537b425a1f6730ca3872fffda641692cba0614391d2fc07dcf"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20251228.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 85953,
+          "sha256": "e34f6a803a7e2da0ee0fb152891328817a957e1d8140c5c45ce3b9510028902e"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20260101.geojson",
           "media_type": "application/geo+json",
           "bytes": 86278,
           "sha256": "d616a21d9819f58c64b3446b15b2a1f930b424cb1815b8db1f6a2be111303f21"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260104.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 86681,
+          "sha256": "ba18681beb33c0ad59c965efed42c8690b9cce3418af47389aea1dff653b18ad"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260111.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87388,
+          "sha256": "ef85ea2358b102259881cbb0e7878c9239caebe9ef9cd587c3c878bfb7443432"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260118.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 86566,
+          "sha256": "e4a0af7196f8f7c5d5294d7c0204d94a77df8aaccec08e82d618677bde3bd62c"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260125.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 86579,
+          "sha256": "32eff1e7503f4d49242b9992f197df869dacacdf3817b8f1231bcecf3e91b7e2"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20260201.geojson",
@@ -637,10 +1805,46 @@
           "sha256": "d19acd5639b12386f36df9f4718cefe8a933c62296b31a03e05c48f3cd1ef446"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20260208.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87171,
+          "sha256": "5213856aec4d814579dde5e645d9d60a9b4f9bb3dca1fc89404fda8444a13312"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260215.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 86785,
+          "sha256": "b72f7d51bead1aa103f71cbdf27fb8502f3601396012629f68075439d1ea1b55"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260222.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 86545,
+          "sha256": "c5a763c5d5fc980affbdb38e06f9a77c7aba25a853c3858e521c03ea733984a1"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20260301.geojson",
           "media_type": "application/geo+json",
           "bytes": 86673,
           "sha256": "5004057d792deb9332cee7cc3e951cf5230199717bbcc708d8d37d942ffcfcb1"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260308.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87511,
+          "sha256": "00c5d0e0c42d1a6d127625cb56cbb01a16908f0cd4e261d281cd0398012125cf"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260315.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88123,
+          "sha256": "b59e2e74b07e0f264793748fb1a3a0aaf06ed42ff79de61a0e81ced5d87c6bb6"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260322.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88099,
+          "sha256": "50f696971cd9ff6cc5cc106de6112ba3c8928be96373a7e7d334c7e6180f070c"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20260323.geojson",
@@ -655,10 +1859,46 @@
           "sha256": "f445dac56ec98312a199edbc1e0f974d0e3140518e7fe4a4242ea0504faf5ef1"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20260329.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87962,
+          "sha256": "03b498488b0653a9400baccbd53a81598f774f71368c787cc9b37f80541aacc3"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20260401.geojson",
           "media_type": "application/geo+json",
           "bytes": 87619,
           "sha256": "915322b161e1b34aa8be3ab4d857f1c47db2b15ca59b8b9ab9b99e924afe763b"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260405.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87292,
+          "sha256": "6a63472e6a08a92daaa2df308d368c32a9b4c1aef1c521a468141eb25dde1dac"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260412.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87383,
+          "sha256": "65b480d28c54dad8b343c3226451c80119ada757a0a153b140562df7925ff5aa"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260419.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 89086,
+          "sha256": "3b025f5b92e84a93dfbc59f852ec9b0eed3774846306008d6a6d1998a0f41c2b"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260426.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 89167,
+          "sha256": "0c04c6eec98815ac3b49ae05e43213abf2e94c9da2697d1c12051417225bc31d"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260503.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 89339,
+          "sha256": "4e1d2c3205e762c9f3781ea9ec3bd5970945651852118147122a262ef6fa6540"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20260508.geojson",
@@ -667,10 +1907,28 @@
           "sha256": "185c2d4494e6bc782c66bf9dd1225a1ab5b8e83f5e0c14125dabeff088ada4a7"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20260510.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 89349,
+          "sha256": "fb7d427ea381c22e3edb474c8e0ddec358fd65eef86069885acbc7204985ea04"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260517.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 90053,
+          "sha256": "4cb9b32fb28ac4d41479f9bc5d5fe2ddf9fd1d33a725c02d6a0009deae560f1e"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20260523.geojson",
           "media_type": "application/geo+json",
           "bytes": 89879,
           "sha256": "ee1a2bf5e518fbe8b88eb913caa88fe8f91bfc41b7238b0c85f7981154ef0dad"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260524.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 89802,
+          "sha256": "2657c3e74efbc4b25f0bda291c2a6842991345a82e14351df8a8821b0bd09281"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20260531.geojson",
@@ -691,6 +1949,12 @@
           "sha256": "dec207e73e67f7aca11d931ec80034053e40adefa62a761f30d2f24f7c58a6b8"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20260607.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88901,
+          "sha256": "995cf50621fc77451c89510915491126711846e9e99279a96056a09bcac0b75e"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20260609.geojson",
           "media_type": "application/geo+json",
           "bytes": 88874,
@@ -701,6 +1965,18 @@
           "media_type": "application/geo+json",
           "bytes": 88781,
           "sha256": "0dbb390b79b82cebac26671d149f17fb1d4053b719fdd176d8884e9fcf76a945"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260614.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88804,
+          "sha256": "6ba671292fb2e7cca46ba0599716c839aac17ebbdc743280ce837749bca26a06"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260621.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88905,
+          "sha256": "7f139ca830b70a13d897c26162e0b5d917c9e44a11e27e221bee5b53ab231fd1"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20260624.geojson",
@@ -715,6 +1991,24 @@
           "sha256": "7a88bd1a00de4a838bc0f3b1f4b5a0a87a6f19621c7afbd682603d506290886c"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20260628.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88646,
+          "sha256": "674e1af39cd6d21eac3561d7c9c1b13b5d0d838aa928982d70747c40165a6a5b"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260704.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88650,
+          "sha256": "39566433e6beeb930f2f3fccc88c0b8d1d15f3181812f388df2caa8a49859b45"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260711.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88422,
+          "sha256": "4d7b0ceb77a8dbdd0b7d0cb4dbc05da3163c2d5df69a430827cb5872526bce25"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20260713.geojson",
           "media_type": "application/geo+json",
           "bytes": 88470,
@@ -727,10 +2021,28 @@
           "sha256": "77e7543c48b6b978d7656bf068c08e16d874271426e9ee772875ada1f3525c86"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20260718.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88208,
+          "sha256": "3bcc35495cc9207dd037cc8d209b858a5582b2d6040ed34afa2716b0d281efd0"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20260725.geojson",
           "media_type": "application/geo+json",
           "bytes": 88305,
           "sha256": "f10d0255dd085809379af859ca5bf601074e0498abb76591255fbf4f2d2507c0"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260801.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88557,
+          "sha256": "7c83d6e866110e76c550ede6e90b2df7da7b4554108d673e59ab6293f848c6ad"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260808.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88730,
+          "sha256": "09f673240c55f061c04bdeb44275b2aa49ba10245e22330dbbacab239b6b242d"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20260812.geojson",
@@ -745,10 +2057,22 @@
           "sha256": "ea37a3616c744cb0b6a17bcfc0e5e83eb36aa572f6a75ec73ec28d314dec4f23"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20260815.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88793,
+          "sha256": "3d2fa3e859ea584ed8db2e6d8d0963703065c754d1a381f7aa66811461819d40"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20260819.geojson",
           "media_type": "application/geo+json",
           "bytes": 88701,
           "sha256": "8f4be347e032f209dc5c0703306391eeca6934a8ccceded0d1f8544e21b887f4"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260822.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88607,
+          "sha256": "94aca5d897faefe3a5fa53a366fc81a242d26cf3cc5178afd5c757c99892da1e"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20260823.geojson",
@@ -769,6 +2093,12 @@
           "sha256": "d1f1f32131d0245752bf1258b953b13b6048b1d3e4dda2073ba9d56a71b1b667"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20260829.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88125,
+          "sha256": "5e0fac6076879f8d0cc8e76997d1dfb98817b334a01f8807e038f7f4fb38368d"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20260831.geojson",
           "media_type": "application/geo+json",
           "bytes": 88014,
@@ -781,6 +2111,12 @@
           "sha256": "87264f6392c7cd636b3c8b42472532ef016ef33b25f5afb5974b5aa0e352fbaa"
         },
         {
+          "path": "/data/v1/frontline/history/deepstatemap_20260905.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 88062,
+          "sha256": "7efa89bc32ac67666bfecbf79ec3791e4ac2b30d4050a2d120dd05891de1c369"
+        },
+        {
           "path": "/data/v1/frontline/history/deepstatemap_20260910.geojson",
           "media_type": "application/geo+json",
           "bytes": 88053,
@@ -791,6 +2127,12 @@
           "media_type": "application/geo+json",
           "bytes": 87933,
           "sha256": "50b3b3898ec134305699860d12c3bcc4275ead1fac3cc91bb8e2e33da76a46f4"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260912.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87956,
+          "sha256": "4e9ff4ac16e418ef70eef44d82a3ac1c982a26969ee499bb11690a1c7f745677"
         },
         {
           "path": "/data/v1/frontline/history/deepstatemap_20260913.geojson",
@@ -821,12 +2163,18 @@
           "media_type": "application/geo+json",
           "bytes": 87611,
           "sha256": "3e02eab33462a80425b13ae7916ae5d939c63757a0b8eaec98f43f4a8ea154f1"
+        },
+        {
+          "path": "/data/v1/frontline/history/deepstatemap_20260922.geojson",
+          "media_type": "application/geo+json",
+          "bytes": 87771,
+          "sha256": "993af78970f5fd3e0ba492b7908e0ddbfe9fb25fd2ffb46d4d21f041c4b76a0e"
         }
       ],
       "category": "territory",
       "catalog_group": "primary",
-      "generated_at": "2026-09-20T09:00:05.021Z",
-      "last_observation": "2026-09-18",
+      "generated_at": "2026-09-23T07:26:49.115Z",
+      "last_observation": "2026-09-22",
       "temporal_resolution": "date"
     },
     {
@@ -835,11 +2183,11 @@
       "description": "Uses the dashboard Combined algorithm: exact previous calendar month-end opening (23 February for February 2022), latest usable closing from the same source, later coverage preferred, DeepState wins ties. Alternate-source replacement covers the entire interval. No subtraction of DS and NZZ absolute areas, interpolation, or bridging missing months. Partial intervals retain their actual end date; missing data is null, not zero. Mixed-source sums are estimates, not a single-source occupied-area total. Source revisions may affect changes.",
       "category": "territory",
       "catalog_group": "primary",
-      "generated_at": "2026-09-20T09:00:05.021Z",
-      "last_observation": "2026-09-18",
+      "generated_at": "2026-09-23T07:26:49.115Z",
+      "last_observation": "2026-09-22",
       "temporal_resolution": "month",
       "coverage_start": "2022-02-23",
-      "coverage_end": "2026-09-18",
+      "coverage_end": "2026-09-22",
       "record_count": 56,
       "schema": "/data/v1/schema/territory-monthly-combined-record.schema.json",
       "sources": [
@@ -859,13 +2207,13 @@
           "path": "/data/v1/territory/monthly-combined.json",
           "media_type": "application/json",
           "bytes": 34502,
-          "sha256": "934b81c9ce935f5edfd373ea31783d4b75f06f7873aabfd36370c97d5acb1ecf"
+          "sha256": "f3a5e7eeb8be385feb91ee7527fc472e9063663af43b8555ccbfbf1fb388af7d"
         },
         {
           "path": "/data/v1/territory/monthly-combined.csv",
           "media_type": "text/csv",
           "bytes": 12972,
-          "sha256": "73f5953942f53ce63c0e6f9cc3c49a1db35c59a949978499a7cdfc7a63f0aa1d"
+          "sha256": "cb999ba7867570ebe68a7944cee28cd5d9c5d3e20c42a71183bbb3a3f01e2c50"
         }
       ]
     },
@@ -875,7 +2223,7 @@
       "description": "Transparency International Corruption Perceptions Index. Rank position is lower-is-better; CPI score is 0 highly corrupt to 100 very clean. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
       "category": "social",
       "catalog_group": "primary",
-      "generated_at": "2026-09-20T09:00:05.021Z",
+      "generated_at": "2026-09-23T07:26:49.115Z",
       "last_observation": "2025",
       "temporal_resolution": "year",
       "time_basis": "reference_year",
@@ -895,7 +2243,7 @@
           "path": "/data/v1/social/corruption.json",
           "media_type": "application/json",
           "bytes": 18111,
-          "sha256": "abba678fc44f0fd17f1285e4b5f2e85b759d5e3dd204e48f563356c75a4fe7da"
+          "sha256": "2ed44277a1badee40e5278fcece555bb2409445b450d7c2a4fe5710e4654a683"
         },
         {
           "path": "/data/v1/social/corruption.csv",
@@ -911,7 +2259,7 @@
       "description": "World Bank Gini index, 0-100. Lower values indicate a more equal income distribution. Missing observations remain null; national survey years and coverage differ. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
       "category": "social",
       "catalog_group": "primary",
-      "generated_at": "2026-09-20T09:00:05.021Z",
+      "generated_at": "2026-09-23T07:26:49.115Z",
       "last_observation": "2023",
       "temporal_resolution": "year",
       "time_basis": "reference_year",
@@ -931,7 +2279,7 @@
           "path": "/data/v1/social/gini.json",
           "media_type": "application/json",
           "bytes": 17680,
-          "sha256": "0bfdfa3cef56dbd6331340327c34989a7f3bed3f2d567a2cdb8b0133ca4aba67"
+          "sha256": "ec9a320dfee874faf34b382d2aedb553dc0acfc246ed45bfb61225780b37c38b"
         },
         {
           "path": "/data/v1/social/gini.csv",
@@ -947,7 +2295,7 @@
       "description": "Life expectancy at birth, both sexes. Published WDI estimates from UN population estimates and national statistical sources; not a count of wartime deaths. Source revisions and wartime population coverage affect comparability. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
       "category": "social",
       "catalog_group": "primary",
-      "generated_at": "2026-09-20T09:00:05.021Z",
+      "generated_at": "2026-09-23T07:26:49.115Z",
       "last_observation": "2024",
       "temporal_resolution": "year",
       "time_basis": "reference_year",
@@ -967,7 +2315,7 @@
           "path": "/data/v1/social/life-expectancy.json",
           "media_type": "application/json",
           "bytes": 40563,
-          "sha256": "e5d3151a1051b4d6609e336b7337849b78d4d8dc4e1e3ad06a7660a8aa946975"
+          "sha256": "63b7c6ac82547764481c9871ef7ac7497255073130ffa72f5b09394c42761425"
         },
         {
           "path": "/data/v1/social/life-expectancy.csv",
@@ -983,7 +2331,7 @@
       "description": "Birth rate minus death rate per 1,000 people, matched by country and year. Derived from published WDI demographic estimates; excludes migration and is not total population change. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
       "category": "social",
       "catalog_group": "primary",
-      "generated_at": "2026-09-20T09:00:05.021Z",
+      "generated_at": "2026-09-23T07:26:49.115Z",
       "last_observation": "2024",
       "temporal_resolution": "year",
       "time_basis": "reference_year",
@@ -1008,7 +2356,7 @@
           "path": "/data/v1/social/natural-change.json",
           "media_type": "application/json",
           "bytes": 41741,
-          "sha256": "67cd4825f3da4573970ed51e7f8d51b7f66fa86b971fe23230b06f120ac8bf3e"
+          "sha256": "9e8d8be2a943389b1f50ec205057116eccce06bb0dbc060addd5f0b1c0cef455"
         },
         {
           "path": "/data/v1/social/natural-change.csv",
@@ -1024,7 +2372,7 @@
       "description": "RSF World Press Freedom Index, 0-100; higher means greater press freedom. Edition year, generally assessing the preceding calendar year with exceptional updates. Uses only the methodology introduced in 2022; earlier scores are not joined to this series. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
       "category": "social",
       "catalog_group": "primary",
-      "generated_at": "2026-09-20T09:00:05.021Z",
+      "generated_at": "2026-09-23T07:26:49.115Z",
       "last_observation": "2026",
       "temporal_resolution": "year",
       "time_basis": "edition_year",
@@ -1064,7 +2412,7 @@
           "path": "/data/v1/social/press-freedom.json",
           "media_type": "application/json",
           "bytes": 11164,
-          "sha256": "d542088e05a865b7ef9930a3936b4b70e117a47b98b957abdc75dbfb47a0c528"
+          "sha256": "4c384485f43d5d1e2cd03976c387a38cb8e34b589e69b073234469af1fe0df8c"
         },
         {
           "path": "/data/v1/social/press-freedom.csv",
@@ -1080,7 +2428,7 @@
       "description": "ILO modeled estimates via World Bank WDI. Share of the labor force aged 15-24 without work, available and seeking employment, not the share of all young people. Lower unemployment alone does not establish greater social stability. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
       "category": "social",
       "catalog_group": "primary",
-      "generated_at": "2026-09-20T09:00:05.021Z",
+      "generated_at": "2026-09-23T07:26:49.115Z",
       "last_observation": "2025",
       "temporal_resolution": "year",
       "time_basis": "reference_year",
@@ -1100,7 +2448,7 @@
           "path": "/data/v1/social/youth-unemployment.json",
           "media_type": "application/json",
           "bytes": 42177,
-          "sha256": "624b742f8836d47e60b31c7887de336d10bbe42c1d1861c0bc08b571270f146e"
+          "sha256": "b4b57334948e71bb2a1240de45b0c4c686e017cd0e2f291caea724abfd796f70"
         },
         {
           "path": "/data/v1/social/youth-unemployment.csv",
@@ -1116,7 +2464,7 @@
       "description": "World Bank WGI perception-based governance score, 0-100; higher means stronger rule of law. The 2025 revision recalculates the historical series consistently. Shaded bands show the published 90% confidence intervals, not separate observations. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
       "category": "social",
       "catalog_group": "primary",
-      "generated_at": "2026-09-20T09:00:05.021Z",
+      "generated_at": "2026-09-23T07:26:49.115Z",
       "last_observation": "2024",
       "temporal_resolution": "year",
       "time_basis": "reference_year",
@@ -1136,7 +2484,7 @@
           "path": "/data/v1/social/rule-of-law.json",
           "media_type": "application/json",
           "bytes": 40354,
-          "sha256": "14c1fc63fa47ddec49d8de1043eac464a63319b2a36d8ef4504a5c9279bc7bb6"
+          "sha256": "c025691ba476843e14e35fdd922afa1e6073ce4decf58ec0e2474ead5113492b"
         },
         {
           "path": "/data/v1/social/rule-of-law.csv",
@@ -1191,7 +2539,7 @@
           "path": "/data/v1/economy/russia-federal-budget.json",
           "media_type": "application/json",
           "bytes": 8044,
-          "sha256": "36a5ecc58b40fbe445cde945dcd689becaae01dcd4aff6c9a4e3cb711d768317"
+          "sha256": "a5811f36c8415e1eda85cbecd63f41b85382c162a6b24bb8b81744f9843b1f44"
         },
         {
           "path": "/data/v1/economy/russia-federal-budget.csv",
@@ -1202,7 +2550,7 @@
       ],
       "category": "economy",
       "catalog_group": "additional",
-      "generated_at": "2026-09-20T09:00:05.021Z",
+      "generated_at": "2026-09-23T07:26:49.115Z",
       "last_observation": "2026-07-31",
       "temporal_resolution": "date"
     },
@@ -1226,7 +2574,7 @@
           "path": "/data/v1/economy/world-bank-macro.json",
           "media_type": "application/json",
           "bytes": 5548,
-          "sha256": "385bdd265bd95117e7bc4078187bde8f8bfe1eebe8ff62771f17a2807db8f147"
+          "sha256": "b79c9bca64d5e3daa21995223ca79496af2e3402bf096698582b634392535d9d"
         },
         {
           "path": "/data/v1/economy/world-bank-macro.csv",
@@ -1237,7 +2585,7 @@
       ],
       "category": "economy",
       "catalog_group": "additional",
-      "generated_at": "2026-09-20T09:00:05.021Z",
+      "generated_at": "2026-09-23T07:26:49.115Z",
       "last_observation": "2025-12-31",
       "temporal_resolution": "date"
     },
@@ -1246,8 +2594,8 @@
       "title": "NBU daily exchange rates",
       "description": "Official daily UAH reference rates for USD, EUR, and RUB, normalized per one currency unit.",
       "coverage_start": "2022-01-01",
-      "coverage_end": "2026-09-20",
-      "record_count": 1724,
+      "coverage_end": "2026-09-23",
+      "record_count": 1727,
       "schema": "/data/v1/schema/nbu-exchange-rate-record.schema.json",
       "sources": [
         {
@@ -1260,20 +2608,20 @@
         {
           "path": "/data/v1/economy/nbu-exchange-rates.json",
           "media_type": "application/json",
-          "bytes": 202293,
-          "sha256": "65b8b01a59f9eba1d171d5819af99218fc5af8866398f9b2ea54591613d27499"
+          "bytes": 202638,
+          "sha256": "ddd1c009f9c0cecfcbf7b86547e4a2a2b6840353bbbfd55093b52757967ee22b"
         },
         {
           "path": "/data/v1/economy/nbu-exchange-rates.csv",
           "media_type": "text/csv",
-          "bytes": 56126,
-          "sha256": "dccc6ec38e465c23b95a9302b5b8071a51686bc24d2ef9369586e40dc1e7bff6"
+          "bytes": 56210,
+          "sha256": "35f5bb56a19d6744743b8d96358cbfe0d83b1cd01a48b65779a9115d2e2a5b70"
         }
       ],
       "category": "economy",
       "catalog_group": "additional",
-      "generated_at": "2026-09-20T09:00:05.021Z",
-      "last_observation": "2026-09-20",
+      "generated_at": "2026-09-23T07:26:49.115Z",
+      "last_observation": "2026-09-23",
       "temporal_resolution": "date"
     },
     {
@@ -1296,7 +2644,7 @@
           "path": "/data/v1/fires/annual-estimates.json",
           "media_type": "application/json",
           "bytes": 10277,
-          "sha256": "cfa873b2cc54ca113d788bf79d69e5d8f2b572f2dc36dcbb6c7d2ed29302c8c7"
+          "sha256": "5b3adf3952c4445dd630b00f166e47c9f0016e4120edffae0f0f7e636067fb05"
         },
         {
           "path": "/data/v1/fires/annual-estimates.csv",
@@ -1307,7 +2655,7 @@
       ],
       "category": "fires",
       "catalog_group": "additional",
-      "generated_at": "2026-09-20T09:00:05.021Z",
+      "generated_at": "2026-09-23T07:26:49.115Z",
       "last_observation": "2026-09-02",
       "temporal_resolution": "date"
     },
@@ -1331,7 +2679,7 @@
           "path": "/data/v1/fires/weekly-estimates.json",
           "media_type": "application/json",
           "bytes": 27604,
-          "sha256": "66138cc9306c3a148d15d2e280318fa85a55d5cecd9920ffba2932ec584df343"
+          "sha256": "89e1f27d92a54fb04bbf80460ba87ed8bd354764b3bedb0dad08d7877246d424"
         },
         {
           "path": "/data/v1/fires/weekly-estimates.csv",
@@ -1342,7 +2690,7 @@
       ],
       "category": "fires",
       "catalog_group": "additional",
-      "generated_at": "2026-09-20T09:00:05.021Z",
+      "generated_at": "2026-09-23T07:26:49.115Z",
       "last_observation": "2026-09-02",
       "temporal_resolution": "date"
     },
@@ -1371,7 +2719,7 @@
           "path": "/data/v1/fires/historical-annual.json",
           "media_type": "application/json",
           "bytes": 15562,
-          "sha256": "8b144b286828689c5b6e7cd4f0f47449b8e7d4a69a8d093019740e75fff60704"
+          "sha256": "4595209cb210cfa15f0c5aa07dfb3c107dd44cf09e4bf742b69515059bff7eb4"
         },
         {
           "path": "/data/v1/fires/historical-annual.csv",
@@ -1382,7 +2730,7 @@
       ],
       "category": "fires",
       "catalog_group": "additional",
-      "generated_at": "2026-09-20T09:00:05.021Z",
+      "generated_at": "2026-09-23T07:26:49.115Z",
       "last_observation": "2024-12-31",
       "temporal_resolution": "date"
     },
@@ -1411,7 +2759,7 @@
           "path": "/data/v1/fires/historical-monthly.json",
           "media_type": "application/json",
           "bytes": 147585,
-          "sha256": "5d73aeb48fd213f351eb6e23dd73a45a940b78d949c16d50e1858ebe491392c5"
+          "sha256": "07f310f5f19eb55bd4a1813367667695c4fe0d242fca229695ff5da8810e61ab"
         },
         {
           "path": "/data/v1/fires/historical-monthly.csv",
@@ -1422,7 +2770,7 @@
       ],
       "category": "fires",
       "catalog_group": "additional",
-      "generated_at": "2026-09-20T09:00:05.021Z",
+      "generated_at": "2026-09-23T07:26:49.115Z",
       "last_observation": "2024-12-31",
       "temporal_resolution": "date"
     },
@@ -1431,8 +2779,8 @@
       "title": "Daily territorial fire detections",
       "description": "NASA FIRMS VIIRS thermal detections in Ukraine classified by the nearest available occupied or government-controlled territory snapshot.",
       "coverage_start": "2022-02-24",
-      "coverage_end": "2026-09-02",
-      "record_count": 294894,
+      "coverage_end": "2026-09-21",
+      "record_count": 303964,
       "schema": "/data/v1/schema/territorial-fire-record.schema.json",
       "sources": [
         {
@@ -1460,20 +2808,20 @@
         {
           "path": "/data/v1/fires/territorial/index.json",
           "media_type": "application/json",
-          "bytes": 446464,
-          "sha256": "c4bb5f38d2e0a2dee159c06d1cda740a2521ec974438082abc1675660c256bf4"
+          "bytes": 451402,
+          "sha256": "00ac706dabbd2bfad37a5e550644631596f2d6ce0077eb28a07cd1cc7f5b49bb"
         },
         {
           "path": "/data/v1/fires/territorial/daily-summary.csv",
           "media_type": "text/csv",
-          "bytes": 128226,
-          "sha256": "33e26179d4e0a2ee712a2b098c5b64e7dd19ccaa889bbbdb0e901260c2935744"
+          "bytes": 129780,
+          "sha256": "696efce50546f10acb572b6bf62470da55f9508daf1bccf8d27b1109e57a71f2"
         }
       ],
       "category": "fires",
       "catalog_group": "additional",
-      "generated_at": "2026-09-02T12:21:27.053Z",
-      "last_observation": "2026-09-02",
+      "generated_at": "2026-09-23T07:21:21.697Z",
+      "last_observation": "2026-09-21",
       "temporal_resolution": "date"
     }
   ],

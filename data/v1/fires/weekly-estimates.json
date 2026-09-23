@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "fire_weekly_estimates",
-  "generated_at": "2026-09-20T09:00:05.021Z",
+  "generated_at": "2026-09-23T07:26:49.115Z",
   "coverage_start": "2026-01-07",
   "coverage_end": "2026-09-02",
   "record_count": 70,

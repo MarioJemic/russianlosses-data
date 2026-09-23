@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
   "dataset": "replacement_cost_model",
-  "generated_at": "2026-09-20T09:00:05.021Z",
-  "coverage_start": "2026-09-18",
-  "coverage_end": "2026-09-18",
+  "generated_at": "2026-09-23T07:26:49.115Z",
+  "coverage_start": "2026-09-22",
+  "coverage_end": "2026-09-22",
   "record_count": 39,
   "units": {
     "reported_count": "reported_count_running_total",
@@ -15,25 +15,23 @@
       "name": "Russian Casualties in Ukraine API",
       "url": "https://russian-casualties.in.ua/api/v1/data/csv/daily",
       "role": "Daily reported Russian loss increments",
-      "refresh_status": "saved_fallback",
-      "refresh_failure": "HTTP 403",
-      "refresh_attempted_at": "2026-09-20T09:00:05.021Z",
-      "saved_dataset_generated_at": "2026-09-19T10:48:11.091Z"
+      "refresh_status": "upstream",
+      "retrieved_at": "2026-09-23T07:26:49.115Z"
     }
   ],
   "methodology": "Modeled replacement cost equals the latest reported cumulative count multiplied by the dashboard unit-cost assumption for each low, base, and high scenario. It is an analytical model, not audited expenditure or procurement cost.",
   "license_notice": "No blanket license is granted for this collection. Each upstream source retains its own rights and terms. Review the source-specific terms and preserve attribution before reuse.",
   "data": [
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "conservative",
       "category": "personnel",
-      "reported_count": 1516430,
+      "reported_count": 1522440,
       "unit_cost_usd": 15000,
-      "modeled_cost_usd": 22746450000
+      "modeled_cost_usd": 22836600000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "conservative",
       "category": "boats",
       "reported_count": 35,
@@ -41,63 +39,63 @@
       "modeled_cost_usd": 42000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "conservative",
       "category": "tanks",
-      "reported_count": 12352,
+      "reported_count": 12367,
       "unit_cost_usd": 3000000,
-      "modeled_cost_usd": 37056000000
+      "modeled_cost_usd": 37101000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "conservative",
       "category": "armoured_personnel_vehicles",
-      "reported_count": 25357,
+      "reported_count": 25387,
       "unit_cost_usd": 600000,
-      "modeled_cost_usd": 15214200000
+      "modeled_cost_usd": 15232200000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "conservative",
       "category": "artillery_systems",
-      "reported_count": 50011,
+      "reported_count": 50216,
       "unit_cost_usd": 1200000,
-      "modeled_cost_usd": 60013200000
+      "modeled_cost_usd": 60259200000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "conservative",
       "category": "mlrs",
-      "reported_count": 2143,
+      "reported_count": 2152,
       "unit_cost_usd": 2500000,
-      "modeled_cost_usd": 5357500000
+      "modeled_cost_usd": 5380000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "conservative",
       "category": "vehicles",
-      "reported_count": 150922,
+      "reported_count": 152553,
       "unit_cost_usd": 90000,
-      "modeled_cost_usd": 13582980000
+      "modeled_cost_usd": 13729770000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "conservative",
       "category": "special_equipment",
-      "reported_count": 4703,
+      "reported_count": 4737,
       "unit_cost_usd": 250000,
-      "modeled_cost_usd": 1175750000
+      "modeled_cost_usd": 1184250000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "conservative",
       "category": "air_defence_systems",
-      "reported_count": 1657,
+      "reported_count": 1665,
       "unit_cost_usd": 12000000,
-      "modeled_cost_usd": 19884000000
+      "modeled_cost_usd": 19980000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "conservative",
       "category": "aircraft",
       "reported_count": 442,
@@ -105,7 +103,7 @@
       "modeled_cost_usd": 7956000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "conservative",
       "category": "helicopters",
       "reported_count": 356,
@@ -113,15 +111,15 @@
       "modeled_cost_usd": 4272000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "conservative",
       "category": "uav",
-      "reported_count": 524132,
+      "reported_count": 530560,
       "unit_cost_usd": 30000,
-      "modeled_cost_usd": 15723960000
+      "modeled_cost_usd": 15916800000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "conservative",
       "category": "cruise_missiles",
       "reported_count": 5111,
@@ -129,15 +127,15 @@
       "modeled_cost_usd": 3833250000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "baseline",
       "category": "personnel",
-      "reported_count": 1516430,
+      "reported_count": 1522440,
       "unit_cost_usd": 30000,
-      "modeled_cost_usd": 45492900000
+      "modeled_cost_usd": 45673200000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "baseline",
       "category": "boats",
       "reported_count": 35,
@@ -145,63 +143,63 @@
       "modeled_cost_usd": 140000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "baseline",
       "category": "tanks",
-      "reported_count": 12352,
+      "reported_count": 12367,
       "unit_cost_usd": 6000000,
-      "modeled_cost_usd": 74112000000
+      "modeled_cost_usd": 74202000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "baseline",
       "category": "armoured_personnel_vehicles",
-      "reported_count": 25357,
+      "reported_count": 25387,
       "unit_cost_usd": 1500000,
-      "modeled_cost_usd": 38035500000
+      "modeled_cost_usd": 38080500000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "baseline",
       "category": "artillery_systems",
-      "reported_count": 50011,
+      "reported_count": 50216,
       "unit_cost_usd": 3000000,
-      "modeled_cost_usd": 150033000000
+      "modeled_cost_usd": 150648000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "baseline",
       "category": "mlrs",
-      "reported_count": 2143,
+      "reported_count": 2152,
       "unit_cost_usd": 5000000,
-      "modeled_cost_usd": 10715000000
+      "modeled_cost_usd": 10760000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "baseline",
       "category": "vehicles",
-      "reported_count": 150922,
+      "reported_count": 152553,
       "unit_cost_usd": 150000,
-      "modeled_cost_usd": 22638300000
+      "modeled_cost_usd": 22882950000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "baseline",
       "category": "special_equipment",
-      "reported_count": 4703,
+      "reported_count": 4737,
       "unit_cost_usd": 750000,
-      "modeled_cost_usd": 3527250000
+      "modeled_cost_usd": 3552750000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "baseline",
       "category": "air_defence_systems",
-      "reported_count": 1657,
+      "reported_count": 1665,
       "unit_cost_usd": 25000000,
-      "modeled_cost_usd": 41425000000
+      "modeled_cost_usd": 41625000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "baseline",
       "category": "aircraft",
       "reported_count": 442,
@@ -209,7 +207,7 @@
       "modeled_cost_usd": 15470000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "baseline",
       "category": "helicopters",
       "reported_count": 356,
@@ -217,15 +215,15 @@
       "modeled_cost_usd": 7832000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "baseline",
       "category": "uav",
-      "reported_count": 524132,
+      "reported_count": 530560,
       "unit_cost_usd": 100000,
-      "modeled_cost_usd": 52413200000
+      "modeled_cost_usd": 53056000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "baseline",
       "category": "cruise_missiles",
       "reported_count": 5111,
@@ -233,15 +231,15 @@
       "modeled_cost_usd": 7666500000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "high",
       "category": "personnel",
-      "reported_count": 1516430,
+      "reported_count": 1522440,
       "unit_cost_usd": 50000,
-      "modeled_cost_usd": 75821500000
+      "modeled_cost_usd": 76122000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "high",
       "category": "boats",
       "reported_count": 35,
@@ -249,63 +247,63 @@
       "modeled_cost_usd": 525000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "high",
       "category": "tanks",
-      "reported_count": 12352,
+      "reported_count": 12367,
       "unit_cost_usd": 10000000,
-      "modeled_cost_usd": 123520000000
+      "modeled_cost_usd": 123670000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "high",
       "category": "armoured_personnel_vehicles",
-      "reported_count": 25357,
+      "reported_count": 25387,
       "unit_cost_usd": 3000000,
-      "modeled_cost_usd": 76071000000
+      "modeled_cost_usd": 76161000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "high",
       "category": "artillery_systems",
-      "reported_count": 50011,
+      "reported_count": 50216,
       "unit_cost_usd": 7000000,
-      "modeled_cost_usd": 350077000000
+      "modeled_cost_usd": 351512000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "high",
       "category": "mlrs",
-      "reported_count": 2143,
+      "reported_count": 2152,
       "unit_cost_usd": 12000000,
-      "modeled_cost_usd": 25716000000
+      "modeled_cost_usd": 25824000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "high",
       "category": "vehicles",
-      "reported_count": 150922,
+      "reported_count": 152553,
       "unit_cost_usd": 350000,
-      "modeled_cost_usd": 52822700000
+      "modeled_cost_usd": 53393550000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "high",
       "category": "special_equipment",
-      "reported_count": 4703,
+      "reported_count": 4737,
       "unit_cost_usd": 2000000,
-      "modeled_cost_usd": 9406000000
+      "modeled_cost_usd": 9474000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "high",
       "category": "air_defence_systems",
-      "reported_count": 1657,
+      "reported_count": 1665,
       "unit_cost_usd": 70000000,
-      "modeled_cost_usd": 115990000000
+      "modeled_cost_usd": 116550000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "high",
       "category": "aircraft",
       "reported_count": 442,
@@ -313,7 +311,7 @@
       "modeled_cost_usd": 35360000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "high",
       "category": "helicopters",
       "reported_count": 356,
@@ -321,15 +319,15 @@
       "modeled_cost_usd": 16020000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "high",
       "category": "uav",
-      "reported_count": 524132,
+      "reported_count": 530560,
       "unit_cost_usd": 350000,
-      "modeled_cost_usd": 183446200000
+      "modeled_cost_usd": 185696000000
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-22",
       "scenario": "high",
       "category": "cruise_missiles",
       "reported_count": 5111,
