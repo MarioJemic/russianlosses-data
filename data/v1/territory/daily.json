@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "territory_daily",
-  "generated_at": "2026-09-23T07:26:49.115Z",
+  "generated_at": "2026-09-23T22:48:06.953Z",
   "coverage_start": "2021-12-31",
   "coverage_end": "2026-09-02",
   "record_count": 1654,
@@ -9947,13 +9947,13 @@
   ],
   "provenance": {
     "schema_version": "1.0.0",
-    "normalization_generated_at": "2026-09-12T14:03:50.172Z",
+    "normalization_generated_at": "2026-09-23T22:47:30.202Z",
     "source_snapshot": {
       "url": "https://raw.githubusercontent.com/conflict-investigations/nzz-maps/master/territory.csv",
       "archive_url": "/data/v1/territory/source.csv",
       "sha256": "a5bd218300af03351593e9b18444329a94fb2a2af400dd4527d9cb606f1950bb",
       "bytes": 50246,
-      "retrieved_at": "2026-09-12T14:03:50.171Z"
+      "retrieved_at": "2026-09-23T22:47:30.201Z"
     },
     "policy": {
       "version": "1.0.0",

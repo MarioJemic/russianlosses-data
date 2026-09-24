@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-23T07:26:49.115Z",
+  "generated_at": "2026-09-23T22:48:06.953Z",
   "map_geometry_url": "/data/v1/territory/regions.geojson",
   "units": {
     "area_km2": "square_kilometres_from_administrative_geometry",
@@ -30,8 +30,8 @@
   "limitation": "Regional values are map-derived geometric estimates, not surveyed cadastral areas. Archive gaps are real and do not locate the exact day of a control change. The prewar footprint is retained in every frame. Regional values can differ from the independently modeled national occupied-area series because boundaries, dates, and methodology differ; the NZZ observation date may precede the map date.",
   "license_notice": "Administrative boundaries are CC BY 3.0 IGO. Other upstream sources retain their own rights and terms; preserve source attribution and observation dates.",
   "dataset": "territory_region_control",
-  "coverage_start": "2026-09-22",
-  "coverage_end": "2026-09-22",
+  "coverage_start": "2026-09-23",
+  "coverage_end": "2026-09-23",
   "record_count": 27,
   "summary": {
     "official_ukraine_area_km2": 603550,

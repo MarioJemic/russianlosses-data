@@ -2,11 +2,11 @@
   "schema_version": "1.0.0",
   "dataset": "territory_monthly_combined",
   "title": "Combined monthly territory changes",
-  "generated_at": "2026-09-23T07:26:49.115Z",
+  "generated_at": "2026-09-23T22:48:06.953Z",
   "temporal_resolution": "month",
   "coverage_start": "2022-02-23",
-  "coverage_end": "2026-09-22",
-  "last_observation": "2026-09-22",
+  "coverage_end": "2026-09-23",
+  "last_observation": "2026-09-23",
   "record_count": 56,
   "units": {
     "net_change_km2": "square_kilometres"
@@ -27,14 +27,14 @@
     "nzz": {
       "name": "Conflict Investigations NZZ Maps",
       "url": "https://github.com/conflict-investigations/nzz-maps",
-      "generated_at": "2026-09-12T14:03:50.172Z",
+      "generated_at": "2026-09-23T22:47:30.202Z",
       "coverage_end": "2026-09-02"
     },
     "deepstate": {
       "name": "DeepStateMap",
       "url": "https://deepstatemap.live/",
-      "generated_at": "2026-09-23T07:26:49.115Z",
-      "coverage_end": "2026-09-22"
+      "generated_at": "2026-09-23T22:48:06.953Z",
+      "coverage_end": "2026-09-23"
     }
   },
   "baseline": {
@@ -59,7 +59,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2022-03",
@@ -74,7 +74,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2022-04",
@@ -89,7 +89,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2022-05",
@@ -104,7 +104,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2022-06",
@@ -119,7 +119,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2022-07",
@@ -134,7 +134,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2022-08",
@@ -149,7 +149,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2022-09",
@@ -164,7 +164,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2022-10",
@@ -179,7 +179,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2022-11",
@@ -194,7 +194,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2022-12",
@@ -209,7 +209,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2023-01",
@@ -224,7 +224,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2023-02",
@@ -239,7 +239,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2023-03",
@@ -254,7 +254,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2023-04",
@@ -269,7 +269,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2023-05",
@@ -284,7 +284,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2023-06",
@@ -299,7 +299,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2023-07",
@@ -314,7 +314,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2023-08",
@@ -329,7 +329,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2023-09",
@@ -344,7 +344,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2023-10",
@@ -359,7 +359,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2023-11",
@@ -374,7 +374,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2023-12",
@@ -389,7 +389,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2024-01",
@@ -404,7 +404,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2024-02",
@@ -419,7 +419,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2024-03",
@@ -434,7 +434,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2024-04",
@@ -449,7 +449,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2024-05",
@@ -464,7 +464,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2024-06",
@@ -479,7 +479,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2024-07",
@@ -494,7 +494,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2024-08",
@@ -509,7 +509,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2024-09",
@@ -524,7 +524,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2024-10",
@@ -539,7 +539,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2024-11",
@@ -554,7 +554,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2024-12",
@@ -569,7 +569,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2025-01",
@@ -584,7 +584,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2025-02",
@@ -599,7 +599,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2025-03",
@@ -614,7 +614,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2025-04",
@@ -629,7 +629,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2025-05",
@@ -644,7 +644,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2025-06",
@@ -659,7 +659,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2025-07",
@@ -674,7 +674,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2025-08",
@@ -689,7 +689,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2025-09",
@@ -704,7 +704,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2025-10",
@@ -719,7 +719,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2025-11",
@@ -734,7 +734,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2025-12",
@@ -749,7 +749,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2026-01",
@@ -764,7 +764,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2026-02",
@@ -779,7 +779,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2026-03",
@@ -794,7 +794,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2026-04",
@@ -809,7 +809,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2026-05",
@@ -824,7 +824,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2026-06",
@@ -839,7 +839,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2026-07",
@@ -854,7 +854,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2026-08",
@@ -869,13 +869,13 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://github.com/conflict-investigations/nzz-maps",
-      "source_generated_at": "2026-09-12T14:03:50.172Z"
+      "source_generated_at": "2026-09-23T22:47:30.202Z"
     },
     {
       "month": "2026-09",
       "start_date": "2026-08-31",
-      "end_date": "2026-09-22",
-      "target_end_date": "2026-09-22",
+      "end_date": "2026-09-23",
+      "target_end_date": "2026-09-23",
       "net_change_km2": 72.6,
       "source": "deepstate",
       "preferred_source": "deepstate",
@@ -884,19 +884,19 @@
       "observation_status": "partial",
       "missing_reason": null,
       "source_url": "https://deepstatemap.live/",
-      "source_generated_at": "2026-09-23T07:26:49.115Z"
+      "source_generated_at": "2026-09-23T22:48:06.953Z"
     }
   ],
   "input_snapshots": [
     {
       "path": "/territory-control.json",
       "serialization": "JSON.stringify(parsed_input)",
-      "sha256": "17cd252d08568cfe69aa3e93dcc4a4df94b3de8d9b64b8820dd7074a71de816c"
+      "sha256": "312b5ec37f2b44370c9a0b92f0517b266d1e2a2c0f07e09de60340d85cd245bc"
     },
     {
       "path": "/data/v1/territory/regions-history.json",
       "serialization": "JSON.stringify(parsed_input)",
-      "sha256": "5154c27838e1e110182797623f02325de4f95219c0545d1f21f63aca47cba5b3"
+      "sha256": "1c4c28e43146bb11629c41a5e95fb3abd83625bf4b48cda6783d1ed323925c0f"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "losses_summary",
-  "generated_at": "2026-09-23T07:26:49.115Z",
+  "generated_at": "2026-09-23T22:48:06.953Z",
   "coverage_start": "2022-02-24",
   "coverage_end": "2026-09-22",
   "record_count": 15,
@@ -18,7 +18,7 @@
       "url": "https://russian-casualties.in.ua/api/v1/data/csv/daily",
       "role": "Daily reported Russian loss increments",
       "refresh_status": "upstream",
-      "retrieved_at": "2026-09-23T07:26:49.115Z"
+      "retrieved_at": "2026-09-23T22:48:06.953Z"
     }
   ],
   "methodology": "Derived from the normalized daily loss dataset. Seven- and thirty-day values sum the latest observation rows; cumulative and daily-average values cover the complete published series.",

@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "dataset": "territorial_human_cost_grid",
-  "generated_at": "2026-09-23T07:26:49.115Z",
+  "generated_at": "2026-09-23T22:48:06.953Z",
   "coverage_start": "2022-02-23",
-  "coverage_end": "2026-09-22",
+  "coverage_end": "2026-09-23",
   "record_count": 1908,
   "event_count": 2714,
   "interpolated_event_count": 1583,
-  "snapshot_count": 301,
+  "snapshot_count": 302,
   "grid": {
     "cell_size_km": 10,
     "modeled_cell_area_km2": 100,
@@ -1051,9 +1051,9 @@
     {
       "month": "2026-09",
       "period_start": "2026-09-01",
-      "period_end": "2026-09-22",
+      "period_end": "2026-09-23",
       "loss_observation_days": 22,
-      "reported_personnel_losses": 32800,
+      "reported_personnel_losses": null,
       "russian_gained_cells": 1,
       "ukrainian_liberated_cells": 1,
       "changed_cell_events": 2,
@@ -1061,9 +1061,9 @@
       "russian_gained_km2": 100,
       "ukrainian_liberated_km2": 100,
       "gross_changed_km2": 200,
-      "reported_personnel_per_changed_km2": 164,
-      "reported_personnel_per_100km2": 16400,
-      "allocated_reported_personnel": 32800,
+      "reported_personnel_per_changed_km2": null,
+      "reported_personnel_per_100km2": null,
+      "allocated_reported_personnel": null,
       "interpolated_transition_events": 1
     }
   ],
@@ -40697,10 +40697,10 @@
           "modeled_month": "2026-09",
           "confidence": "same_month",
           "changed_area_km2": 100,
-          "reported_personnel_losses": 32800,
-          "reported_personnel_per_changed_km2": 164,
-          "reported_personnel_per_100km2": 16400,
-          "modeled_personnel_allocation": 16400
+          "reported_personnel_losses": null,
+          "reported_personnel_per_changed_km2": null,
+          "reported_personnel_per_100km2": null,
+          "modeled_personnel_allocation": null
         }
       ]
     },
@@ -54015,10 +54015,10 @@
           "modeled_month": "2026-09",
           "confidence": "interpolated_interval",
           "changed_area_km2": 100,
-          "reported_personnel_losses": 32800,
-          "reported_personnel_per_changed_km2": 164,
-          "reported_personnel_per_100km2": 16400,
-          "modeled_personnel_allocation": 16400
+          "reported_personnel_losses": null,
+          "reported_personnel_per_changed_km2": null,
+          "reported_personnel_per_100km2": null,
+          "modeled_personnel_allocation": null
         }
       ]
     },
