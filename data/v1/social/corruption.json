@@ -3,7 +3,7 @@
   "dataset": "social_corruption",
   "indicator": "corruption",
   "title": "Corruption Perceptions Index",
-  "generated_at": "2026-09-23T22:48:06.953Z",
+  "generated_at": "2026-09-30T10:14:53.724Z",
   "temporal_resolution": "year",
   "time_basis": "reference_year",
   "coverage_start": "2012-01-01",
@@ -58,7 +58,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2012,
@@ -77,7 +77,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2013,
@@ -96,7 +96,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2013,
@@ -115,7 +115,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2014,
@@ -134,7 +134,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2014,
@@ -153,7 +153,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2015,
@@ -172,7 +172,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2015,
@@ -191,7 +191,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2016,
@@ -210,7 +210,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2016,
@@ -229,7 +229,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2017,
@@ -248,7 +248,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2017,
@@ -267,7 +267,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2018,
@@ -286,7 +286,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2018,
@@ -305,7 +305,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2019,
@@ -324,7 +324,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2019,
@@ -343,7 +343,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2020,
@@ -362,7 +362,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2020,
@@ -381,7 +381,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2021,
@@ -400,7 +400,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2021,
@@ -419,7 +419,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2022,
@@ -438,7 +438,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2022,
@@ -457,7 +457,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2023,
@@ -476,7 +476,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2023,
@@ -495,7 +495,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2024,
@@ -514,7 +514,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2024,
@@ -533,7 +533,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2025,
@@ -552,7 +552,7 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     },
     {
       "year": 2025,
@@ -571,14 +571,14 @@
       "source_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "source_updated_at": null,
       "source_response_sha256": null,
-      "input_generated_at": "2026-07-01T08:45:01.353Z"
+      "input_generated_at": "2026-09-27T08:36:18.879Z"
     }
   ],
   "input_snapshots": [
     {
       "path": "/corruption-comparison.json",
       "serialization": "JSON.stringify(parsed_input)",
-      "sha256": "466ae9fc9f8743b02ca7dd3befb90116d40165d2e249a8bcf9dbcb510965fc9b"
+      "sha256": "c25fe6881fc7761e1302d7f5c6c3ad068db6f37c94d58899c7a89cc8aa0a2509"
     }
   ]
 }

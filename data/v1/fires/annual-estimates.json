@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
   "dataset": "fire_annual_estimates",
-  "generated_at": "2026-09-23T22:48:06.953Z",
+  "generated_at": "2026-09-30T10:14:53.724Z",
   "coverage_start": "2012-12-31",
-  "coverage_end": "2026-09-02",
+  "coverage_end": "2026-09-23",
   "record_count": 30,
   "units": {
     "fires": "estimated_fire_events",
@@ -26,8 +26,8 @@
       "year": 2012,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 39781,
-      "burnt_area_ha": 25227435,
+      "fires": 42620,
+      "burnt_area_ha": 25227614,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -37,8 +37,8 @@
       "year": 2012,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 2785,
-      "burnt_area_ha": 602364,
+      "fires": 3286,
+      "burnt_area_ha": 602427,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -48,8 +48,8 @@
       "year": 2013,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 22013,
-      "burnt_area_ha": 10342642,
+      "fires": 23602,
+      "burnt_area_ha": 10342998,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -59,8 +59,8 @@
       "year": 2013,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 2352,
-      "burnt_area_ha": 497387,
+      "fires": 2754,
+      "burnt_area_ha": 497448,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -70,8 +70,8 @@
       "year": 2014,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 43981,
-      "burnt_area_ha": 19727077,
+      "fires": 47983,
+      "burnt_area_ha": 19727598,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -81,8 +81,8 @@
       "year": 2014,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 9480,
-      "burnt_area_ha": 2219990,
+      "fires": 11219,
+      "burnt_area_ha": 2220204,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -92,8 +92,8 @@
       "year": 2015,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 31197,
-      "burnt_area_ha": 14158364,
+      "fires": 33788,
+      "burnt_area_ha": 14158508,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -103,7 +103,7 @@
       "year": 2015,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 8706,
+      "fires": 10164,
       "burnt_area_ha": 2073143,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
@@ -114,8 +114,8 @@
       "year": 2016,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 24429,
-      "burnt_area_ha": 15387744,
+      "fires": 26105,
+      "burnt_area_ha": 15387969,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -125,7 +125,7 @@
       "year": 2016,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 4935,
+      "fires": 5657,
       "burnt_area_ha": 1111447,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
@@ -136,8 +136,8 @@
       "year": 2017,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 26594,
-      "burnt_area_ha": 11419835,
+      "fires": 28855,
+      "burnt_area_ha": 11420047,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -147,8 +147,8 @@
       "year": 2017,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 6584,
-      "burnt_area_ha": 1604342,
+      "fires": 7728,
+      "burnt_area_ha": 1604514,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -158,8 +158,8 @@
       "year": 2018,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 27155,
-      "burnt_area_ha": 14277853,
+      "fires": 29238,
+      "burnt_area_ha": 14278359,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -169,8 +169,8 @@
       "year": 2018,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 3982,
-      "burnt_area_ha": 751188,
+      "fires": 4622,
+      "burnt_area_ha": 751298,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -180,8 +180,8 @@
       "year": 2019,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 29683,
-      "burnt_area_ha": 16182644,
+      "fires": 31957,
+      "burnt_area_ha": 16182911,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -191,8 +191,8 @@
       "year": 2019,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 4690,
-      "burnt_area_ha": 1070983,
+      "fires": 5487,
+      "burnt_area_ha": 1071184,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -202,8 +202,8 @@
       "year": 2020,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 31571,
-      "burnt_area_ha": 16405115,
+      "fires": 33888,
+      "burnt_area_ha": 16405477,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -213,8 +213,8 @@
       "year": 2020,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 4245,
-      "burnt_area_ha": 1103375,
+      "fires": 5023,
+      "burnt_area_ha": 1103696,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -224,8 +224,8 @@
       "year": 2021,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 23996,
-      "burnt_area_ha": 17344449,
+      "fires": 25812,
+      "burnt_area_ha": 17344704,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -235,7 +235,7 @@
       "year": 2021,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 1631,
+      "fires": 1898,
       "burnt_area_ha": 342302,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
@@ -246,8 +246,8 @@
       "year": 2022,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 22525,
-      "burnt_area_ha": 10548579,
+      "fires": 24182,
+      "burnt_area_ha": 10548753,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -257,8 +257,8 @@
       "year": 2022,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 2948,
-      "burnt_area_ha": 706902,
+      "fires": 3461,
+      "burnt_area_ha": 706964,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -268,8 +268,8 @@
       "year": 2023,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 17822,
-      "burnt_area_ha": 10325937,
+      "fires": 19187,
+      "burnt_area_ha": 10326697,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -279,7 +279,7 @@
       "year": 2023,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 1822,
+      "fires": 2144,
       "burnt_area_ha": 443762,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
@@ -290,7 +290,7 @@
       "year": 2024,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 14687,
+      "fires": 15622,
       "burnt_area_ha": 12329566,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
@@ -301,8 +301,8 @@
       "year": 2024,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 2675,
-      "burnt_area_ha": 811107,
+      "fires": 3152,
+      "burnt_area_ha": 811161,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -312,8 +312,8 @@
       "year": 2025,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 11511,
-      "burnt_area_ha": 6981663,
+      "fires": 12335,
+      "burnt_area_ha": 6982004,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
@@ -323,30 +323,30 @@
       "year": 2025,
       "period_type": "full_year",
       "observation_status": "annual_estimate",
-      "fires": 1722,
+      "fires": 2039,
       "burnt_area_ha": 448378,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
-      "date": "2026-09-02",
+      "date": "2026-09-23",
       "country_iso3": "RUS",
       "country": "Russia",
       "year": 2026,
       "period_type": "year_to_date",
       "observation_status": "year_to_date_estimate",
-      "fires": 11035,
-      "burnt_area_ha": 7346059,
+      "fires": 12417,
+      "burnt_area_ha": 7566062,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
-      "date": "2026-09-02",
+      "date": "2026-09-23",
       "country_iso3": "UKR",
       "country": "Ukraine",
       "year": 2026,
       "period_type": "year_to_date",
       "observation_status": "year_to_date_estimate",
-      "fires": 1824,
-      "burnt_area_ha": 438296,
+      "fires": 2396,
+      "burnt_area_ha": 486925,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     }
   ]

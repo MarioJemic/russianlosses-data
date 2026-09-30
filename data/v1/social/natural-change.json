@@ -3,7 +3,7 @@
   "dataset": "social_natural_change",
   "indicator": "natural-change",
   "title": "Natural Population Change",
-  "generated_at": "2026-09-23T22:48:06.953Z",
+  "generated_at": "2026-09-30T10:14:53.724Z",
   "temporal_resolution": "year",
   "time_basis": "reference_year",
   "coverage_start": "2000-01-01",
@@ -70,7 +70,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2000,
@@ -89,7 +89,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2001,
@@ -108,7 +108,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2001,
@@ -127,7 +127,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2002,
@@ -146,7 +146,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2002,
@@ -165,7 +165,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2003,
@@ -184,7 +184,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2003,
@@ -203,7 +203,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2004,
@@ -222,7 +222,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2004,
@@ -241,7 +241,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2005,
@@ -260,7 +260,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2005,
@@ -279,7 +279,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2006,
@@ -298,7 +298,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2006,
@@ -317,7 +317,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2007,
@@ -336,7 +336,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2007,
@@ -355,7 +355,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2008,
@@ -374,7 +374,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2008,
@@ -393,7 +393,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2009,
@@ -412,7 +412,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2009,
@@ -431,7 +431,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2010,
@@ -450,7 +450,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2010,
@@ -469,7 +469,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2011,
@@ -488,7 +488,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2011,
@@ -507,7 +507,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2012,
@@ -526,7 +526,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2012,
@@ -545,7 +545,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2013,
@@ -564,7 +564,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2013,
@@ -583,7 +583,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2014,
@@ -602,7 +602,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2014,
@@ -621,7 +621,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2015,
@@ -640,7 +640,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2015,
@@ -659,7 +659,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2016,
@@ -678,7 +678,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2016,
@@ -697,7 +697,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2017,
@@ -716,7 +716,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2017,
@@ -735,7 +735,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2018,
@@ -754,7 +754,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2018,
@@ -773,7 +773,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2019,
@@ -792,7 +792,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2019,
@@ -811,7 +811,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2020,
@@ -830,7 +830,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2020,
@@ -849,7 +849,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2021,
@@ -868,7 +868,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2021,
@@ -887,7 +887,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2022,
@@ -906,7 +906,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2022,
@@ -925,7 +925,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2023,
@@ -944,7 +944,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2023,
@@ -963,7 +963,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2024,
@@ -982,7 +982,7 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     },
     {
       "year": 2024,
@@ -1001,14 +1001,14 @@
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
       "source_updated_at": "2026-07-13",
       "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-19T19:46:19.828Z"
+      "input_generated_at": "2026-09-27T08:36:24.628Z"
     }
   ],
   "input_snapshots": [
     {
       "path": "/social-indicators.json",
       "serialization": "JSON.stringify(parsed_input)",
-      "sha256": "96d58fd0951b1a74da1b077d0ca837ec2f6fea8e43dad0653c486814a6f0115d"
+      "sha256": "7068c0b5a53d9158d328da372d2fd1754bd077e79f35eb4e583ac9264f298423"
     }
   ]
 }

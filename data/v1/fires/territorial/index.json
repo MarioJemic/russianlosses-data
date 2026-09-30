@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0.0",
   "dataset": "territorial_fire_detections",
-  "generated_at": "2026-09-23T07:21:21.697Z",
+  "generated_at": "2026-09-27T08:26:13.140Z",
   "coverage_start": "2022-02-24",
-  "coverage_end": "2026-09-21",
-  "record_count": 303964,
-  "day_count": 1671,
+  "coverage_end": "2026-09-27",
+  "record_count": 303705,
+  "day_count": 1677,
   "observation_status": "standard_processing_then_near_real_time_satellite_detection",
   "units": {
     "latitude": "decimal_degrees",
@@ -44,7 +44,7 @@
     {
       "source_id": "VIIRS_NOAA20_NRT",
       "coverage_start": "2026-07-01",
-      "coverage_end": "2026-09-21"
+      "coverage_end": "2026-09-27"
     }
   ],
   "methodology": "Nominal- and high-confidence NOAA-20 VIIRS 375 m thermal detections are filtered to the OCHA Ukraine ADM0 land boundary. Standard Processing observations are used through their latest available date and Near Real-Time observations thereafter. Each point is classified against the latest available DeepState control snapshot on or before its acquisition date, plus the pre-2022 Crimea and Donbas footprint. Polygon members nested in historical GeoJSON GeometryCollection features are flattened before classification, non-Ukraine Transnistria context is excluded, and historical occupation polygons without normalized controlStatus metadata default to Russian-occupied, matching the map renderer.",
@@ -54,8 +54,8 @@
   "summary_file": {
     "path": "/data/v1/fires/territorial/daily-summary.csv",
     "media_type": "text/csv",
-    "bytes": 129780,
-    "sha256": "696efce50546f10acb572b6bf62470da55f9508daf1bccf8d27b1109e57a71f2"
+    "bytes": 130223,
+    "sha256": "9abfef97fb110740072f8f34a2aca8160c7ae94313e7809ffb0fa280dfe5cf5e"
   },
   "days": [
     {
@@ -15082,19 +15082,73 @@
     {
       "date": "2026-09-20",
       "territory_snapshot_date": "2026-09-18",
-      "detections": 338,
-      "occupied": 153,
-      "government_controlled": 185,
-      "total_frp_mw": 2306.92,
+      "detections": 101,
+      "occupied": 40,
+      "government_controlled": 61,
+      "total_frp_mw": 390.82,
       "shard": "/data/v1/fires/territorial/2026-09.json"
     },
     {
       "date": "2026-09-21",
       "territory_snapshot_date": "2026-09-18",
-      "detections": 123,
-      "occupied": 62,
-      "government_controlled": 61,
-      "total_frp_mw": 1114.11,
+      "detections": 36,
+      "occupied": 10,
+      "government_controlled": 26,
+      "total_frp_mw": 637.32,
+      "shard": "/data/v1/fires/territorial/2026-09.json"
+    },
+    {
+      "date": "2026-09-22",
+      "territory_snapshot_date": "2026-09-22",
+      "detections": 6,
+      "occupied": 1,
+      "government_controlled": 5,
+      "total_frp_mw": 143.29,
+      "shard": "/data/v1/fires/territorial/2026-09.json"
+    },
+    {
+      "date": "2026-09-23",
+      "territory_snapshot_date": "2026-09-23",
+      "detections": 21,
+      "occupied": 1,
+      "government_controlled": 20,
+      "total_frp_mw": 37.51,
+      "shard": "/data/v1/fires/territorial/2026-09.json"
+    },
+    {
+      "date": "2026-09-24",
+      "territory_snapshot_date": "2026-09-23",
+      "detections": 8,
+      "occupied": 0,
+      "government_controlled": 8,
+      "total_frp_mw": 14.15,
+      "shard": "/data/v1/fires/territorial/2026-09.json"
+    },
+    {
+      "date": "2026-09-25",
+      "territory_snapshot_date": "2026-09-25",
+      "detections": 6,
+      "occupied": 1,
+      "government_controlled": 5,
+      "total_frp_mw": 23.11,
+      "shard": "/data/v1/fires/territorial/2026-09.json"
+    },
+    {
+      "date": "2026-09-26",
+      "territory_snapshot_date": "2026-09-25",
+      "detections": 20,
+      "occupied": 8,
+      "government_controlled": 12,
+      "total_frp_mw": 56.08,
+      "shard": "/data/v1/fires/territorial/2026-09.json"
+    },
+    {
+      "date": "2026-09-27",
+      "territory_snapshot_date": "2026-09-25",
+      "detections": 4,
+      "occupied": 3,
+      "government_controlled": 1,
+      "total_frp_mw": 3.08,
       "shard": "/data/v1/fires/territorial/2026-09.json"
     }
   ],
@@ -15762,13 +15816,13 @@
     {
       "month": "2026-09",
       "coverage_start": "2026-09-01",
-      "coverage_end": "2026-09-21",
-      "record_count": 9331,
+      "coverage_end": "2026-09-27",
+      "record_count": 9072,
       "file": {
         "path": "/data/v1/fires/territorial/2026-09.json",
         "media_type": "application/json",
-        "bytes": 2790824,
-        "sha256": "fdc42a7789f34662e6e3709286ac9df6cf0edc8712505c4cfb97c18763a65c40"
+        "bytes": 2713311,
+        "sha256": "4c0ac64f90c08f87238c549e549b44a792955ae103b1b8f7f44777552797dc29"
       }
     }
   ]

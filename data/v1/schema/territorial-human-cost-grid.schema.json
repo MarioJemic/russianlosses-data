@@ -144,7 +144,7 @@
         "period_start": { "type": "string", "format": "date" },
         "period_end": { "type": "string", "format": "date" },
         "loss_observation_days": { "type": "integer", "minimum": 0, "maximum": 31 },
-        "reported_personnel_losses": { "type": "integer", "minimum": 0 },
+        "reported_personnel_losses": { "type": ["integer", "null"], "minimum": 0 },
         "russian_gained_cells": { "type": "integer", "minimum": 0 },
         "ukrainian_liberated_cells": { "type": "integer", "minimum": 0 },
         "changed_cell_events": { "type": "integer", "minimum": 0 },
