@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "dataset": "territorial_human_cost_grid",
-  "generated_at": "2026-09-30T10:14:53.724Z",
+  "generated_at": "2026-10-01T07:12:13.459Z",
   "coverage_start": "2022-02-23",
-  "coverage_end": "2026-09-29",
+  "coverage_end": "2026-09-30",
   "record_count": 1909,
   "event_count": 2715,
   "interpolated_event_count": 1583,
-  "snapshot_count": 304,
+  "snapshot_count": 305,
   "grid": {
     "cell_size_km": 10,
     "modeled_cell_area_km2": 100,
@@ -47,22 +47,23 @@
       "url": "https://russian-casualties.in.ua/api/v1/data/csv/daily",
       "role": "Daily reported Russian loss increments",
       "refresh_status": "upstream",
-      "retrieved_at": "2026-09-29T19:51:19.360Z"
+      "retrieved_at": "2026-09-30T13:39:00.721Z"
     },
     {
       "name": "Minfin reported Russian losses",
       "url": "https://index.minfin.com.ua/en/russian-invading/casualties/",
       "role": "Recent reports checked against the historical API series; only new daily increments are appended",
       "refresh_status": "secondary_upstream",
-      "primary_failure": "HTTP 403",
-      "retrieved_at": "2026-09-30T10:14:53.724Z",
+      "primary_failure": "primary_coverage_regressed: 1 previously published dates missing (first: 2026-09-26)",
+      "retrieved_at": "2026-10-01T07:12:13.459Z",
       "fetched_urls": [
+        "https://index.minfin.com.ua/en/russian-invading/casualties/2026-09/",
         "https://index.minfin.com.ua/en/russian-invading/casualties/"
       ],
-      "coverage_start": "2026-09-29",
-      "coverage_end": "2026-09-29",
-      "verified_through": "2026-09-29",
-      "report_coverage_end": "2026-09-30",
+      "coverage_start": "2026-09-30",
+      "coverage_end": "2026-09-30",
+      "verified_through": "2026-09-30",
+      "report_coverage_end": "2026-10-01",
       "date_basis": "Morning report date minus one calendar day; checked against two overlapping API days"
     },
     {
@@ -1069,9 +1070,9 @@
     {
       "month": "2026-09",
       "period_start": "2026-09-01",
-      "period_end": "2026-09-29",
-      "loss_observation_days": 29,
-      "reported_personnel_losses": 44330,
+      "period_end": "2026-09-30",
+      "loss_observation_days": 30,
+      "reported_personnel_losses": 46230,
       "russian_gained_cells": 2,
       "ukrainian_liberated_cells": 1,
       "changed_cell_events": 3,
@@ -1079,9 +1080,9 @@
       "russian_gained_km2": 200,
       "ukrainian_liberated_km2": 100,
       "gross_changed_km2": 300,
-      "reported_personnel_per_changed_km2": 147.766667,
-      "reported_personnel_per_100km2": 14776.67,
-      "allocated_reported_personnel": 44330,
+      "reported_personnel_per_changed_km2": 154.1,
+      "reported_personnel_per_100km2": 15410,
+      "allocated_reported_personnel": 46230,
       "interpolated_transition_events": 1
     }
   ],
@@ -38057,10 +38058,10 @@
           "modeled_month": "2026-09",
           "confidence": "same_month",
           "changed_area_km2": 100,
-          "reported_personnel_losses": 44330,
-          "reported_personnel_per_changed_km2": 147.766667,
-          "reported_personnel_per_100km2": 14776.67,
-          "modeled_personnel_allocation": 14776.6667
+          "reported_personnel_losses": 46230,
+          "reported_personnel_per_changed_km2": 154.1,
+          "reported_personnel_per_100km2": 15410,
+          "modeled_personnel_allocation": 15410
         }
       ]
     },
@@ -40755,10 +40756,10 @@
           "modeled_month": "2026-09",
           "confidence": "same_month",
           "changed_area_km2": 100,
-          "reported_personnel_losses": 44330,
-          "reported_personnel_per_changed_km2": 147.766667,
-          "reported_personnel_per_100km2": 14776.67,
-          "modeled_personnel_allocation": 14776.6667
+          "reported_personnel_losses": 46230,
+          "reported_personnel_per_changed_km2": 154.1,
+          "reported_personnel_per_100km2": 15410,
+          "modeled_personnel_allocation": 15410
         }
       ]
     },
@@ -54073,10 +54074,10 @@
           "modeled_month": "2026-09",
           "confidence": "interpolated_interval",
           "changed_area_km2": 100,
-          "reported_personnel_losses": 44330,
-          "reported_personnel_per_changed_km2": 147.766667,
-          "reported_personnel_per_100km2": 14776.67,
-          "modeled_personnel_allocation": 14776.6667
+          "reported_personnel_losses": 46230,
+          "reported_personnel_per_changed_km2": 154.1,
+          "reported_personnel_per_100km2": 15410,
+          "modeled_personnel_allocation": 15410
         }
       ]
     },
