@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "replacement_cost_model",
-  "generated_at": "2026-10-01T07:12:13.459Z",
+  "generated_at": "2026-10-01T16:29:11.442Z",
   "coverage_start": "2026-09-30",
   "coverage_end": "2026-09-30",
   "record_count": 39,
@@ -23,8 +23,8 @@
       "url": "https://index.minfin.com.ua/en/russian-invading/casualties/",
       "role": "Recent reports checked against the historical API series; only new daily increments are appended",
       "refresh_status": "secondary_upstream",
-      "primary_failure": "primary_coverage_regressed: 1 previously published dates missing (first: 2026-09-26)",
-      "retrieved_at": "2026-10-01T07:12:13.459Z",
+      "primary_failure": "HTTP 403",
+      "retrieved_at": "2026-10-01T16:29:11.442Z",
       "fetched_urls": [
         "https://index.minfin.com.ua/en/russian-invading/casualties/2026-09/",
         "https://index.minfin.com.ua/en/russian-invading/casualties/"
