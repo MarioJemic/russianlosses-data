@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "fire_historical_monthly",
-  "generated_at": "2026-10-02T11:08:33.743Z",
+  "generated_at": "2026-10-03T10:26:30.973Z",
   "coverage_start": "2012-01-31",
   "coverage_end": "2024-12-31",
   "record_count": 312,
