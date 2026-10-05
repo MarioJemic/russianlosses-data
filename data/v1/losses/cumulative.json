@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "dataset": "losses_cumulative",
-  "generated_at": "2026-10-03T10:26:30.973Z",
+  "generated_at": "2026-10-05T05:33:58.284Z",
   "coverage_start": "2022-02-24",
-  "coverage_end": "2026-10-02",
-  "record_count": 1682,
+  "coverage_end": "2026-10-04",
+  "record_count": 1684,
   "units": {
     "personnel": "reported_count_running_total",
     "boats": "reported_count_running_total",
@@ -36,15 +36,15 @@
       "role": "Recent reports checked against the historical API series; only new daily increments are appended",
       "refresh_status": "secondary_upstream",
       "primary_failure": "HTTP 403",
-      "retrieved_at": "2026-10-03T10:26:30.973Z",
+      "retrieved_at": "2026-10-05T05:33:58.284Z",
       "fetched_urls": [
         "https://index.minfin.com.ua/en/russian-invading/casualties/2026-09/",
         "https://index.minfin.com.ua/en/russian-invading/casualties/"
       ],
       "coverage_start": "2026-09-30",
-      "coverage_end": "2026-10-02",
-      "verified_through": "2026-10-02",
-      "report_coverage_end": "2026-10-03",
+      "coverage_end": "2026-10-04",
+      "verified_through": "2026-10-04",
+      "report_coverage_end": "2026-10-05",
       "date_basis": "Morning report date minus one calendar day; checked against two overlapping API days"
     }
   ],
@@ -30325,6 +30325,42 @@
       "helicopters": 356,
       "uav": 544498,
       "unmanned_ground_vehicles": 1530,
+      "cruise_missiles": 5126
+    },
+    {
+      "date": "2026-10-03",
+      "personnel": 1540700,
+      "boats": 35,
+      "submarines": 2,
+      "tanks": 12391,
+      "armoured_personnel_vehicles": 25483,
+      "artillery_systems": 50686,
+      "mlrs": 2179,
+      "vehicles": 157258,
+      "special_equipment": 4788,
+      "air_defence_systems": 1686,
+      "aircraft": 444,
+      "helicopters": 356,
+      "uav": 546240,
+      "unmanned_ground_vehicles": 1543,
+      "cruise_missiles": 5126
+    },
+    {
+      "date": "2026-10-04",
+      "personnel": 1542720,
+      "boats": 35,
+      "submarines": 2,
+      "tanks": 12393,
+      "armoured_personnel_vehicles": 25487,
+      "artillery_systems": 50733,
+      "mlrs": 2182,
+      "vehicles": 157985,
+      "special_equipment": 4793,
+      "air_defence_systems": 1688,
+      "aircraft": 444,
+      "helicopters": 356,
+      "uav": 548095,
+      "unmanned_ground_vehicles": 1565,
       "cruise_missiles": 5126
     }
   ]

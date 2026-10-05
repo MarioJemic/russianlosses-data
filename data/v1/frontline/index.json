@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "frontline_snapshots",
-  "generated_at": "2026-10-03T10:26:30.973Z",
+  "generated_at": "2026-10-05T05:33:58.284Z",
   "coverage_start": "2022-02-23",
   "coverage_end": "2026-09-30",
   "record_count": 305,
