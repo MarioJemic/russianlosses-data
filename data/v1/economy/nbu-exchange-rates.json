@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "dataset": "nbu_exchange_rates",
-  "generated_at": "2026-10-06T12:03:56.092Z",
+  "generated_at": "2026-10-07T11:48:58.408Z",
   "coverage_start": "2022-01-01",
-  "coverage_end": "2026-10-06",
-  "record_count": 1740,
+  "coverage_end": "2026-10-07",
+  "record_count": 1741,
   "units": {
     "usd_uah": "ukrainian_hryvnia_per_currency_unit",
     "eur_uah": "ukrainian_hryvnia_per_currency_unit",
@@ -10458,6 +10458,12 @@
       "date": "2026-10-06",
       "usd_uah": 45.0564,
       "eur_uah": 50.483,
+      "rub_uah": null
+    },
+    {
+      "date": "2026-10-07",
+      "usd_uah": 44.9453,
+      "eur_uah": 50.6394,
       "rub_uah": null
     }
   ]
