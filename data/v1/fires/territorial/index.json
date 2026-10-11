@@ -1,11 +1,18 @@
 {
   "schema_version": "1.0.0",
   "dataset": "territorial_fire_detections",
-  "generated_at": "2026-09-27T08:26:13.140Z",
+  "generated_at": "2026-10-10T14:43:09.672Z",
   "coverage_start": "2022-02-24",
-  "coverage_end": "2026-09-27",
-  "record_count": 303705,
-  "day_count": 1677,
+  "coverage_end": "2026-10-10",
+  "record_count": 304320,
+  "day_count": 1685,
+  "missing_dates": [
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-02"
+  ],
   "observation_status": "standard_processing_then_near_real_time_satellite_detection",
   "units": {
     "latitude": "decimal_degrees",
@@ -44,18 +51,18 @@
     {
       "source_id": "VIIRS_NOAA20_NRT",
       "coverage_start": "2026-07-01",
-      "coverage_end": "2026-09-27"
+      "coverage_end": "2026-10-10"
     }
   ],
   "methodology": "Nominal- and high-confidence NOAA-20 VIIRS 375 m thermal detections are filtered to the OCHA Ukraine ADM0 land boundary. Standard Processing observations are used through their latest available date and Near Real-Time observations thereafter. Each point is classified against the latest available DeepState control snapshot on or before its acquisition date, plus the pre-2022 Crimea and Donbas footprint. Polygon members nested in historical GeoJSON GeometryCollection features are flattened before classification, non-Ukraine Transnistria context is excluded, and historical occupation polygons without normalized controlStatus metadata default to Russian-occupied, matching the map renderer.",
-  "limitation": "A thermal anomaly is not proof of wildfire, combat damage, shelling, or cause. Industrial heat sources can be detected. Near-real-time observations can be revised, and a territory label can lag its acquisition date where control snapshots are sparse.",
+  "limitation": "A thermal anomaly is not proof of wildfire, combat damage, shelling, or cause. Industrial heat sources can be detected. Unfetched dates are omitted from days and listed in missing_dates, never treated as zero detections. Near-real-time observations can be revised, and a territory label can lag its acquisition date where control snapshots are sparse.",
   "license_notice": "NASA ESDIS data from NASA-led missions are generally available under CC0 unless marked otherwise; NASA/FIRMS attribution is retained. DeepStateMap source rights remain with the upstream source.",
   "data_policy": "https://www.earthdata.nasa.gov/engage/open-data-services-software/data-use-policy",
   "summary_file": {
     "path": "/data/v1/fires/territorial/daily-summary.csv",
     "media_type": "text/csv",
-    "bytes": 130223,
-    "sha256": "9abfef97fb110740072f8f34a2aca8160c7ae94313e7809ffb0fa280dfe5cf5e"
+    "bytes": 130847,
+    "sha256": "730de4e4e7f3ddc1cbfd4da3744567b677c52eebea9f7bf39bca9a6bcc78e653"
   },
   "days": [
     {
@@ -15150,6 +15157,78 @@
       "government_controlled": 1,
       "total_frp_mw": 3.08,
       "shard": "/data/v1/fires/territorial/2026-09.json"
+    },
+    {
+      "date": "2026-10-03",
+      "territory_snapshot_date": "2026-10-03",
+      "detections": 111,
+      "occupied": 26,
+      "government_controlled": 85,
+      "total_frp_mw": 486.78,
+      "shard": "/data/v1/fires/territorial/2026-10.json"
+    },
+    {
+      "date": "2026-10-04",
+      "territory_snapshot_date": "2026-10-04",
+      "detections": 119,
+      "occupied": 57,
+      "government_controlled": 62,
+      "total_frp_mw": 1082.86,
+      "shard": "/data/v1/fires/territorial/2026-10.json"
+    },
+    {
+      "date": "2026-10-05",
+      "territory_snapshot_date": "2026-10-05",
+      "detections": 57,
+      "occupied": 20,
+      "government_controlled": 37,
+      "total_frp_mw": 826.83,
+      "shard": "/data/v1/fires/territorial/2026-10.json"
+    },
+    {
+      "date": "2026-10-06",
+      "territory_snapshot_date": "2026-10-06",
+      "detections": 61,
+      "occupied": 13,
+      "government_controlled": 48,
+      "total_frp_mw": 256.98,
+      "shard": "/data/v1/fires/territorial/2026-10.json"
+    },
+    {
+      "date": "2026-10-07",
+      "territory_snapshot_date": "2026-10-07",
+      "detections": 60,
+      "occupied": 3,
+      "government_controlled": 57,
+      "total_frp_mw": 456.58,
+      "shard": "/data/v1/fires/territorial/2026-10.json"
+    },
+    {
+      "date": "2026-10-08",
+      "territory_snapshot_date": "2026-10-08",
+      "detections": 70,
+      "occupied": 7,
+      "government_controlled": 63,
+      "total_frp_mw": 475.09,
+      "shard": "/data/v1/fires/territorial/2026-10.json"
+    },
+    {
+      "date": "2026-10-09",
+      "territory_snapshot_date": "2026-10-08",
+      "detections": 68,
+      "occupied": 18,
+      "government_controlled": 50,
+      "total_frp_mw": 444.6,
+      "shard": "/data/v1/fires/territorial/2026-10.json"
+    },
+    {
+      "date": "2026-10-10",
+      "territory_snapshot_date": "2026-10-08",
+      "detections": 69,
+      "occupied": 10,
+      "government_controlled": 59,
+      "total_frp_mw": 709.47,
+      "shard": "/data/v1/fires/territorial/2026-10.json"
     }
   ],
   "months": [
@@ -15823,6 +15902,18 @@
         "media_type": "application/json",
         "bytes": 2713311,
         "sha256": "4c0ac64f90c08f87238c549e549b44a792955ae103b1b8f7f44777552797dc29"
+      }
+    },
+    {
+      "month": "2026-10",
+      "coverage_start": "2026-10-03",
+      "coverage_end": "2026-10-10",
+      "record_count": 615,
+      "file": {
+        "path": "/data/v1/fires/territorial/2026-10.json",
+        "media_type": "application/json",
+        "bytes": 187155,
+        "sha256": "f35ae0b1102ec8dae2ba2e5308a62042e8a616cb0e02c4fce82d66c92918a4e3"
       }
     }
   ]

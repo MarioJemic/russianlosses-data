@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "dataset": "frontline_snapshots",
-  "generated_at": "2026-10-09T11:56:12.367Z",
+  "generated_at": "2026-10-10T13:04:54.006Z",
   "coverage_start": "2022-02-23",
-  "coverage_end": "2026-09-30",
-  "record_count": 305,
+  "coverage_end": "2026-10-08",
+  "record_count": 313,
   "sources": [
     {
       "name": "DeepStateMap public history",
@@ -1540,10 +1540,50 @@
       "date": "2026-09-30",
       "phase": "full_scale_war",
       "url": "/data/v1/frontline/history/deepstatemap_20260930.geojson"
+    },
+    {
+      "date": "2026-10-01",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20261001.geojson"
+    },
+    {
+      "date": "2026-10-02",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20261002.geojson"
+    },
+    {
+      "date": "2026-10-03",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20261003.geojson"
+    },
+    {
+      "date": "2026-10-04",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20261004.geojson"
+    },
+    {
+      "date": "2026-10-05",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20261005.geojson"
+    },
+    {
+      "date": "2026-10-06",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20261006.geojson"
+    },
+    {
+      "date": "2026-10-07",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20261007.geojson"
+    },
+    {
+      "date": "2026-10-08",
+      "phase": "full_scale_war",
+      "url": "/data/v1/frontline/history/deepstatemap_20261008.geojson"
     }
   ],
   "latest": {
-    "date": "2026-09-30",
+    "date": "2026-10-08",
     "url": "/data/v1/frontline/latest.geojson"
   }
 }
