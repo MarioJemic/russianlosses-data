@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-10-13T12:44:55.488Z",
+  "generated_at": "2026-10-15T07:40:22.812Z",
   "map_geometry_url": "/data/v1/territory/regions.geojson",
   "units": {
     "area_km2": "square_kilometres_from_administrative_geometry",
@@ -30,8 +30,8 @@
   "limitation": "Regional values are map-derived geometric estimates, not surveyed cadastral areas. Archive gaps are real and do not locate the exact day of a control change. The prewar footprint is retained in every frame. Regional values can differ from the independently modeled national occupied-area series because boundaries, dates, and methodology differ; the NZZ observation date may precede the map date.",
   "license_notice": "Administrative boundaries are CC BY 3.0 IGO. Other upstream sources retain their own rights and terms; preserve source attribution and observation dates.",
   "dataset": "territory_region_control",
-  "coverage_start": "2026-10-08",
-  "coverage_end": "2026-10-08",
+  "coverage_start": "2026-10-14",
+  "coverage_end": "2026-10-14",
   "record_count": 27,
   "summary": {
     "official_ukraine_area_km2": 603550,
@@ -40,7 +40,7 @@
     "reported_national_free_km2": 502538.5,
     "reported_national_occupied_share_pct": 16.7,
     "geometry_area_km2": 598023.7,
-    "geometry_occupied_km2": 114251.4
+    "geometry_occupied_km2": 114202.6
   },
   "regions": [
     {
@@ -102,10 +102,10 @@
       "source_name": "Donetska",
       "source_shape_id": "82583831B94142902726322",
       "area_km2": 26421.7,
-      "occupied_km2": 21244.1,
-      "free_km2": 5177.6,
-      "occupied_share_pct": 80.4,
-      "free_share_pct": 19.6,
+      "occupied_km2": 21181.5,
+      "free_km2": 5240.2,
+      "occupied_share_pct": 80.2,
+      "free_share_pct": 19.8,
       "status": "partially_occupied"
     },
     {
@@ -141,8 +141,8 @@
       "source_name": "Zaporizka",
       "source_shape_id": "82583831B76074153455964",
       "area_km2": 27107.4,
-      "occupied_km2": 20408.8,
-      "free_km2": 6698.6,
+      "occupied_km2": 20419.8,
+      "free_km2": 6687.6,
       "occupied_share_pct": 75.3,
       "free_share_pct": 24.7,
       "status": "partially_occupied"
@@ -297,8 +297,8 @@
       "source_name": "Sumska",
       "source_shape_id": "82583831B74892353494024",
       "area_km2": 23755.4,
-      "occupied_km2": 344.5,
-      "free_km2": 23410.9,
+      "occupied_km2": 347.3,
+      "free_km2": 23408.1,
       "occupied_share_pct": 1.5,
       "free_share_pct": 98.5,
       "status": "partially_occupied"
