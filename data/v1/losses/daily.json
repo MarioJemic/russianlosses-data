@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "losses_daily",
-  "generated_at": "2026-10-15T07:40:22.812Z",
+  "generated_at": "2026-10-15T09:57:32.241Z",
   "coverage_start": "2022-02-24",
   "coverage_end": "2026-10-14",
   "record_count": 1694,
@@ -29,6 +29,22 @@
       "role": "Daily reported Russian loss increments",
       "refresh_status": "upstream",
       "retrieved_at": "2026-10-15T07:39:55.712Z"
+    },
+    {
+      "name": "Minfin reported Russian losses",
+      "url": "https://index.minfin.com.ua/en/russian-invading/casualties/",
+      "role": "Recent reports checked against the historical API series; only new daily increments are appended",
+      "refresh_status": "secondary_upstream",
+      "primary_failure": "HTTP 403",
+      "retrieved_at": "2026-10-15T09:57:32.241Z",
+      "fetched_urls": [
+        "https://index.minfin.com.ua/en/russian-invading/casualties/"
+      ],
+      "coverage_start": null,
+      "coverage_end": null,
+      "verified_through": "2026-10-14",
+      "report_coverage_end": "2026-10-15",
+      "date_basis": "Morning report date minus one calendar day; checked against two overlapping API days"
     }
   ],
   "methodology": "Normalized from the upstream daily CSV. Values are reported or claimed losses and are not independently verified by this project. Missing dates are not interpolated.",
