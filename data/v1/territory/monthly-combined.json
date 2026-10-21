@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "dataset": "territory_monthly_combined",
   "title": "Combined monthly territory changes",
-  "generated_at": "2026-10-19T10:48:38.804Z",
+  "generated_at": "2026-10-20T10:06:50.194Z",
   "temporal_resolution": "month",
   "coverage_start": "2022-02-23",
   "coverage_end": "2026-10-14",
@@ -33,7 +33,7 @@
     "deepstate": {
       "name": "DeepStateMap",
       "url": "https://deepstatemap.live/",
-      "generated_at": "2026-10-19T10:48:38.804Z",
+      "generated_at": "2026-10-20T10:06:50.194Z",
       "coverage_end": "2026-10-14"
     }
   },
@@ -884,7 +884,7 @@
       "observation_status": "complete",
       "missing_reason": null,
       "source_url": "https://deepstatemap.live/",
-      "source_generated_at": "2026-10-19T10:48:38.804Z"
+      "source_generated_at": "2026-10-20T10:06:50.194Z"
     },
     {
       "month": "2026-10",
@@ -899,7 +899,7 @@
       "observation_status": "partial",
       "missing_reason": null,
       "source_url": "https://deepstatemap.live/",
-      "source_generated_at": "2026-10-19T10:48:38.804Z"
+      "source_generated_at": "2026-10-20T10:06:50.194Z"
     }
   ],
   "input_snapshots": [
@@ -911,7 +911,7 @@
     {
       "path": "/data/v1/territory/regions-history.json",
       "serialization": "JSON.stringify(parsed_input)",
-      "sha256": "41336c5c765ad219c14bf444cea2ae7d5f1072324d24453da5eacf32f17bcb71"
+      "sha256": "64aa9c84fa81a433b70ec56b21b419dee511fffbad4072979a8405b7cc06d9c7"
     }
   ]
 }
