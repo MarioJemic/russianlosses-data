@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "dataset": "losses_daily",
-  "generated_at": "2026-10-20T10:06:50.194Z",
+  "generated_at": "2026-10-21T10:11:32.144Z",
   "coverage_start": "2022-02-24",
-  "coverage_end": "2026-10-19",
-  "record_count": 1699,
+  "coverage_end": "2026-10-20",
+  "record_count": 1700,
   "units": {
     "personnel": "reported_count_per_day",
     "boats": "reported_count_per_day",
@@ -36,14 +36,14 @@
       "role": "Recent reports checked against the historical API series; only new daily increments are appended",
       "refresh_status": "secondary_upstream",
       "primary_failure": "HTTP 403",
-      "retrieved_at": "2026-10-20T10:06:50.194Z",
+      "retrieved_at": "2026-10-21T10:11:32.144Z",
       "fetched_urls": [
         "https://index.minfin.com.ua/en/russian-invading/casualties/"
       ],
       "coverage_start": "2026-10-15",
-      "coverage_end": "2026-10-19",
-      "verified_through": "2026-10-19",
-      "report_coverage_end": "2026-10-20",
+      "coverage_end": "2026-10-20",
+      "verified_through": "2026-10-20",
+      "report_coverage_end": "2026-10-21",
       "date_basis": "Morning report date minus one calendar day; checked against two overlapping API days"
     }
   ],
@@ -30631,6 +30631,24 @@
       "uav": 1578,
       "unmanned_ground_vehicles": 12,
       "cruise_missiles": 4
+    },
+    {
+      "date": "2026-10-20",
+      "personnel": 1820,
+      "boats": 0,
+      "submarines": 0,
+      "tanks": 11,
+      "armoured_personnel_vehicles": 16,
+      "artillery_systems": 44,
+      "mlrs": 1,
+      "vehicles": 407,
+      "special_equipment": 2,
+      "air_defence_systems": 2,
+      "aircraft": 0,
+      "helicopters": 0,
+      "uav": 1820,
+      "unmanned_ground_vehicles": 4,
+      "cruise_missiles": 0
     }
   ]
 }
