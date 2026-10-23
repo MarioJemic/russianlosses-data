@@ -3,7 +3,7 @@
   "dataset": "social_natural_change",
   "indicator": "natural-change",
   "title": "Natural Population Change",
-  "generated_at": "2026-10-21T10:11:32.144Z",
+  "generated_at": "2026-10-22T19:21:11.844Z",
   "temporal_resolution": "year",
   "time_basis": "reference_year",
   "coverage_start": "2000-01-01",
@@ -39,15 +39,15 @@
       "label": "WDI birth rate",
       "url": "https://data.worldbank.org/indicator/SP.DYN.CBRT.IN?locations=RU-UA",
       "dataUrl": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "updatedAt": "2026-07-13",
-      "sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83"
+      "updatedAt": "2026-10-08",
+      "sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c"
     },
     {
       "label": "WDI death rate",
       "url": "https://data.worldbank.org/indicator/SP.DYN.CDRT.IN?locations=RU-UA",
       "dataUrl": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "updatedAt": "2026-07-13",
-      "sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83"
+      "updatedAt": "2026-10-08",
+      "sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c"
     }
   ],
   "methodology": "Birth rate minus death rate per 1,000 people, matched by country and year. Derived from published WDI demographic estimates; excludes migration and is not total population change. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
@@ -68,9 +68,9 @@
       "birth_rate": 8.7,
       "death_rate": 15.3,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2000,
@@ -87,9 +87,9 @@
       "birth_rate": 7.823,
       "death_rate": 15.171,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2001,
@@ -106,9 +106,9 @@
       "birth_rate": 9,
       "death_rate": 15.6,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2001,
@@ -125,9 +125,9 @@
       "birth_rate": 7.779,
       "death_rate": 15.41,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2002,
@@ -144,9 +144,9 @@
       "birth_rate": 9.7,
       "death_rate": 16.2,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2002,
@@ -163,9 +163,9 @@
       "birth_rate": 8.113,
       "death_rate": 15.602,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2003,
@@ -182,9 +182,9 @@
       "birth_rate": 10.2,
       "death_rate": 16.4,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2003,
@@ -201,9 +201,9 @@
       "birth_rate": 8.546,
       "death_rate": 15.817,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2004,
@@ -220,9 +220,9 @@
       "birth_rate": 10.4,
       "death_rate": 15.9,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2004,
@@ -239,9 +239,9 @@
       "birth_rate": 8.959,
       "death_rate": 16.132,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2005,
@@ -258,9 +258,9 @@
       "birth_rate": 10.2,
       "death_rate": 16.1,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2005,
@@ -277,9 +277,9 @@
       "birth_rate": 9.12,
       "death_rate": 16.22,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2006,
@@ -296,9 +296,9 @@
       "birth_rate": 10.3,
       "death_rate": 15.1,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2006,
@@ -315,9 +315,9 @@
       "birth_rate": 9.787,
       "death_rate": 16.149,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2007,
@@ -334,9 +334,9 @@
       "birth_rate": 11.3,
       "death_rate": 14.6,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2007,
@@ -353,9 +353,9 @@
       "birth_rate": 10.202,
       "death_rate": 16.208,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2008,
@@ -372,9 +372,9 @@
       "birth_rate": 12,
       "death_rate": 14.5,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2008,
@@ -391,9 +391,9 @@
       "birth_rate": 11.014,
       "death_rate": 15.907,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2009,
@@ -410,9 +410,9 @@
       "birth_rate": 12.3,
       "death_rate": 14.1,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2009,
@@ -429,9 +429,9 @@
       "birth_rate": 11.201,
       "death_rate": 15.446,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2010,
@@ -448,9 +448,9 @@
       "birth_rate": 12.5,
       "death_rate": 14.2,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2010,
@@ -467,9 +467,9 @@
       "birth_rate": 10.915,
       "death_rate": 14.798,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2011,
@@ -486,9 +486,9 @@
       "birth_rate": 12.6,
       "death_rate": 13.5,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2011,
@@ -505,9 +505,9 @@
       "birth_rate": 11.054,
       "death_rate": 14.474,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2012,
@@ -524,9 +524,9 @@
       "birth_rate": 13.3,
       "death_rate": 13.3,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2012,
@@ -543,9 +543,9 @@
       "birth_rate": 11.419,
       "death_rate": 14.242,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2013,
@@ -562,9 +562,9 @@
       "birth_rate": 13.2,
       "death_rate": 13,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2013,
@@ -581,9 +581,9 @@
       "birth_rate": 11.172,
       "death_rate": 13.983,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2014,
@@ -600,9 +600,9 @@
       "birth_rate": 13.3,
       "death_rate": 13.1,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2014,
@@ -619,9 +619,9 @@
       "birth_rate": 10.632,
       "death_rate": 13.682,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2015,
@@ -638,9 +638,9 @@
       "birth_rate": 13.3,
       "death_rate": 13,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2015,
@@ -657,9 +657,9 @@
       "birth_rate": 9.802,
       "death_rate": 13.015,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2016,
@@ -676,9 +676,9 @@
       "birth_rate": 12.9,
       "death_rate": 12.9,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2016,
@@ -695,9 +695,9 @@
       "birth_rate": 9.614,
       "death_rate": 12.589,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2017,
@@ -714,9 +714,9 @@
       "birth_rate": 11.5,
       "death_rate": 12.4,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2017,
@@ -733,9 +733,9 @@
       "birth_rate": 8.779,
       "death_rate": 12.265,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2018,
@@ -752,9 +752,9 @@
       "birth_rate": 10.9,
       "death_rate": 12.5,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2018,
@@ -771,9 +771,9 @@
       "birth_rate": 8.125,
       "death_rate": 13.157,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2019,
@@ -790,9 +790,9 @@
       "birth_rate": 10.1,
       "death_rate": 12.3,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2019,
@@ -809,9 +809,9 @@
       "birth_rate": 7.823,
       "death_rate": 13.079,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2020,
@@ -828,9 +828,9 @@
       "birth_rate": 9.8,
       "death_rate": 14.6,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2020,
@@ -847,9 +847,9 @@
       "birth_rate": 7.555,
       "death_rate": 14.438,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2021,
@@ -866,9 +866,9 @@
       "birth_rate": 9.6,
       "death_rate": 16.7,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2021,
@@ -885,9 +885,9 @@
       "birth_rate": 6.977,
       "death_rate": 17.134,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2022,
@@ -904,9 +904,9 @@
       "birth_rate": 8.9,
       "death_rate": 12.9,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2022,
@@ -923,9 +923,9 @@
       "birth_rate": 5.679,
       "death_rate": 14.188,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2023,
@@ -942,9 +942,9 @@
       "birth_rate": 8.6,
       "death_rate": 12.1,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2023,
@@ -961,9 +961,9 @@
       "birth_rate": 5.625,
       "death_rate": 13.13,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2024,
@@ -980,9 +980,9 @@
       "birth_rate": 8.4,
       "death_rate": 12.4,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     },
     {
       "year": 2024,
@@ -999,16 +999,16 @@
       "birth_rate": 5.466,
       "death_rate": 13.603,
       "source_url": "https://api.worldbank.org/v2/country/RUS;UKR/indicator/SP.DYN.LE00.IN;SP.DYN.CBRT.IN;SP.DYN.CDRT.IN;SL.UEM.1524.ZS?source=2&format=json&date=2000%3A2026&per_page=1000",
-      "source_updated_at": "2026-07-13",
-      "source_response_sha256": "18f82e41ccb41433016c9fca93f6d5afea31cd967e0d44ef54bafd0b9b2c2c83",
-      "input_generated_at": "2026-09-27T08:36:24.628Z"
+      "source_updated_at": "2026-10-08",
+      "source_response_sha256": "8764f44d72ac49256f663f7f5fc3d6e82a23b5d3cf5815c4f7c422dcaed55f9c",
+      "input_generated_at": "2026-10-22T19:08:42.990Z"
     }
   ],
   "input_snapshots": [
     {
       "path": "/social-indicators.json",
       "serialization": "JSON.stringify(parsed_input)",
-      "sha256": "7068c0b5a53d9158d328da372d2fd1754bd077e79f35eb4e583ac9264f298423"
+      "sha256": "b7644589ebd1e4048acfad134ca165e9faaedd37cf9b298dbdc88a377d51b17a"
     }
   ]
 }

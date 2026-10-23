@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
   "dataset": "fire_annual_estimates",
-  "generated_at": "2026-10-21T10:11:32.144Z",
+  "generated_at": "2026-10-22T19:21:11.844Z",
   "coverage_start": "2012-12-31",
-  "coverage_end": "2026-09-23",
+  "coverage_end": "2026-10-21",
   "record_count": 30,
   "units": {
     "fires": "estimated_fire_events",
@@ -328,25 +328,25 @@
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
-      "date": "2026-09-23",
+      "date": "2026-10-21",
       "country_iso3": "RUS",
       "country": "Russia",
       "year": 2026,
       "period_type": "year_to_date",
       "observation_status": "year_to_date_estimate",
-      "fires": 12417,
-      "burnt_area_ha": 7566062,
+      "fires": 12991,
+      "burnt_area_ha": 7683592,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     },
     {
-      "date": "2026-09-23",
+      "date": "2026-10-21",
       "country_iso3": "UKR",
       "country": "Ukraine",
       "year": 2026,
       "period_type": "year_to_date",
       "observation_status": "year_to_date_estimate",
-      "fires": 2396,
-      "burnt_area_ha": 486925,
+      "fires": 2456,
+      "burnt_area_ha": 496989,
       "source_url": "https://gwis.jrc.ec.europa.eu/"
     }
   ]

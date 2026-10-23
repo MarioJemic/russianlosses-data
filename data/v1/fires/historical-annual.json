@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "fire_historical_annual",
-  "generated_at": "2026-10-21T10:11:32.144Z",
+  "generated_at": "2026-10-22T19:21:11.844Z",
   "coverage_start": "2012-12-31",
   "coverage_end": "2024-12-31",
   "record_count": 26,
@@ -58,7 +58,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 18796,
+      "fires": 19708,
       "burnt_area_ha": 14625854.609999973,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=RUS&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -71,7 +71,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 2177,
+      "fires": 2259,
       "burnt_area_ha": 663338.2480000001,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=UKR&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -84,7 +84,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 9661,
+      "fires": 9726,
       "burnt_area_ha": 6779414.66499999,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=RUS&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -97,7 +97,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 2678,
+      "fires": 2725,
       "burnt_area_ha": 710412.898,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=UKR&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -110,7 +110,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 20984,
+      "fires": 21956,
       "burnt_area_ha": 19278881.88199998,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=RUS&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -123,7 +123,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 9821,
+      "fires": 10301,
       "burnt_area_ha": 2854123.2149999985,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=UKR&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -136,7 +136,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 14493,
+      "fires": 15403,
       "burnt_area_ha": 9468121.873999985,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=RUS&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -149,7 +149,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 9234,
+      "fires": 9525,
       "burnt_area_ha": 2643500.122,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=UKR&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -162,7 +162,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 11664,
+      "fires": 12052,
       "burnt_area_ha": 9281025.385999985,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=RUS&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -175,7 +175,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 5662,
+      "fires": 5826,
       "burnt_area_ha": 1528584.429,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=UKR&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -188,7 +188,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 11609,
+      "fires": 12155,
       "burnt_area_ha": 8092589.103999995,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=RUS&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -201,7 +201,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 7434,
+      "fires": 7752,
       "burnt_area_ha": 2452904.6789999995,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=UKR&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -214,7 +214,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 13930,
+      "fires": 13611,
       "burnt_area_ha": 11946528.009999996,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=RUS&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -227,7 +227,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 3273,
+      "fires": 3510,
       "burnt_area_ha": 1118264.3660000002,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=UKR&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -240,7 +240,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 15987,
+      "fires": 15330,
       "burnt_area_ha": 11571669.548999976,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=RUS&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -253,7 +253,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 5323,
+      "fires": 6014,
       "burnt_area_ha": 2098159.7490000012,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=UKR&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -266,7 +266,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 15225,
+      "fires": 15255,
       "burnt_area_ha": 10508958.858999977,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=RUS&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -279,7 +279,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 3594,
+      "fires": 3749,
       "burnt_area_ha": 1223769.1170000003,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=UKR&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -292,7 +292,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 10892,
+      "fires": 10547,
       "burnt_area_ha": 12612506.526999976,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=RUS&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -305,7 +305,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 2360,
+      "fires": 2465,
       "burnt_area_ha": 618023.7940000003,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=UKR&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -318,7 +318,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 11122,
+      "fires": 11710,
       "burnt_area_ha": 7759202.69799999,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=RUS&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -331,7 +331,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 2289,
+      "fires": 2411,
       "burnt_area_ha": 832424.8950000003,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=UKR&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -344,7 +344,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 8489,
+      "fires": 8804,
       "burnt_area_ha": 7957590.253999986,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=RUS&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -357,7 +357,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 2155,
+      "fires": 2198,
       "burnt_area_ha": 614846.8500000002,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=UKR&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -370,7 +370,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 10579,
+      "fires": 10874,
       "burnt_area_ha": 9773538.22599998,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=RUS&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
@@ -383,7 +383,7 @@
       "month": null,
       "period_type": "year",
       "observation_status": "historical_annual",
-      "fires": 3512,
+      "fires": 3536,
       "burnt_area_ha": 1248411.9259999997,
       "product": "MODIS MCD64A1 / GlobFire",
       "source_url": "https://cprof.effis.emergency.copernicus.eu/api/v3/banf?level=ADM0&value=UKR&year=2024&yearFrom=2012&yearTo=2024&env=PROD"
