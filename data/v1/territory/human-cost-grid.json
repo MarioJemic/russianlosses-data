@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "territorial_human_cost_grid",
-  "generated_at": "2026-10-24T09:34:35.855Z",
+  "generated_at": "2026-10-26T08:30:16.062Z",
   "coverage_start": "2022-02-23",
   "coverage_end": "2026-10-21",
   "record_count": 1910,
@@ -47,23 +47,30 @@
       "url": "https://russian-casualties.in.ua/api/v1/data/csv/daily",
       "role": "Daily reported Russian loss increments",
       "refresh_status": "upstream",
-      "retrieved_at": "2026-10-15T07:39:55.712Z"
-    },
-    {
-      "name": "Minfin reported Russian losses",
-      "url": "https://index.minfin.com.ua/en/russian-invading/casualties/",
-      "role": "Recent reports checked against the historical API series; only new daily increments are appended",
-      "refresh_status": "secondary_upstream",
-      "primary_failure": "HTTP 403",
-      "retrieved_at": "2026-10-24T09:34:35.855Z",
-      "fetched_urls": [
-        "https://index.minfin.com.ua/en/russian-invading/casualties/"
+      "retrieved_at": "2026-10-26T08:30:16.062Z",
+      "previous_snapshot_generated_at": "2026-10-25T09:51:02.325Z",
+      "historical_revisions": [
+        {
+          "date": "2026-10-21",
+          "field": "personnel",
+          "published": 2250,
+          "upstream": 1280
+        }
       ],
-      "coverage_start": "2026-10-15",
-      "coverage_end": "2026-10-23",
-      "verified_through": "2026-10-23",
-      "report_coverage_end": "2026-10-24",
-      "date_basis": "Morning report date minus one calendar day; checked against two overlapping API days"
+      "previous_sources": [
+        {
+          "name": "Russian Casualties in Ukraine API",
+          "url": "https://russian-casualties.in.ua/api/v1/data/csv/daily",
+          "retrieved_at": "2026-10-15T07:39:55.712Z"
+        },
+        {
+          "name": "Minfin reported Russian losses",
+          "url": "https://index.minfin.com.ua/en/russian-invading/casualties/",
+          "retrieved_at": "2026-10-25T09:51:02.325Z",
+          "coverage_start": "2026-10-15",
+          "coverage_end": "2026-10-24"
+        }
+      ]
     },
     {
       "name": "Ukraine Common Operational Dataset administrative boundaries",
@@ -1089,7 +1096,7 @@
       "period_start": "2026-10-01",
       "period_end": "2026-10-21",
       "loss_observation_days": 21,
-      "reported_personnel_losses": 36920,
+      "reported_personnel_losses": 35950,
       "russian_gained_cells": 1,
       "ukrainian_liberated_cells": 1,
       "changed_cell_events": 2,
@@ -1097,9 +1104,9 @@
       "russian_gained_km2": 100,
       "ukrainian_liberated_km2": 100,
       "gross_changed_km2": 200,
-      "reported_personnel_per_changed_km2": 184.6,
-      "reported_personnel_per_100km2": 18460,
-      "allocated_reported_personnel": 36920,
+      "reported_personnel_per_changed_km2": 179.75,
+      "reported_personnel_per_100km2": 17975,
+      "allocated_reported_personnel": 35950,
       "interpolated_transition_events": 0
     }
   ],
@@ -32859,10 +32866,10 @@
           "modeled_month": "2026-10",
           "confidence": "same_month",
           "changed_area_km2": 100,
-          "reported_personnel_losses": 36920,
-          "reported_personnel_per_changed_km2": 184.6,
-          "reported_personnel_per_100km2": 18460,
-          "modeled_personnel_allocation": 18460
+          "reported_personnel_losses": 35950,
+          "reported_personnel_per_changed_km2": 179.75,
+          "reported_personnel_per_100km2": 17975,
+          "modeled_personnel_allocation": 17975
         }
       ]
     },
@@ -43818,10 +43825,10 @@
           "modeled_month": "2026-10",
           "confidence": "same_month",
           "changed_area_km2": 100,
-          "reported_personnel_losses": 36920,
-          "reported_personnel_per_changed_km2": 184.6,
-          "reported_personnel_per_100km2": 18460,
-          "modeled_personnel_allocation": 18460
+          "reported_personnel_losses": 35950,
+          "reported_personnel_per_changed_km2": 179.75,
+          "reported_personnel_per_100km2": 17975,
+          "modeled_personnel_allocation": 17975
         }
       ]
     },
