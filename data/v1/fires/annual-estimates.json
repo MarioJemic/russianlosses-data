@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "fire_annual_estimates",
-  "generated_at": "2026-10-26T08:30:16.062Z",
+  "generated_at": "2026-10-26T11:09:37.725Z",
   "coverage_start": "2012-12-31",
   "coverage_end": "2026-10-21",
   "record_count": 30,
