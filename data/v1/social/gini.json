@@ -3,7 +3,7 @@
   "dataset": "social_gini",
   "indicator": "gini",
   "title": "Gini Index",
-  "generated_at": "2026-10-26T11:09:37.725Z",
+  "generated_at": "2026-10-27T10:37:33.101Z",
   "temporal_resolution": "year",
   "time_basis": "reference_year",
   "coverage_start": "2010-01-01",
