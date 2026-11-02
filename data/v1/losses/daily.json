@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "dataset": "losses_daily",
-  "generated_at": "2026-10-31T20:54:19.079Z",
+  "generated_at": "2026-11-01T11:53:27.873Z",
   "coverage_start": "2022-02-24",
-  "coverage_end": "2026-10-30",
-  "record_count": 1710,
+  "coverage_end": "2026-10-31",
+  "record_count": 1711,
   "units": {
     "personnel": "reported_count_per_day",
     "boats": "reported_count_per_day",
@@ -52,6 +52,23 @@
       ],
       "refresh_status": "upstream",
       "retrieved_at": "2026-10-31T20:54:19.079Z"
+    },
+    {
+      "name": "Minfin reported Russian losses",
+      "url": "https://index.minfin.com.ua/en/russian-invading/casualties/",
+      "role": "Recent reports checked against the historical API series; only new daily increments are appended",
+      "refresh_status": "secondary_upstream",
+      "primary_failure": "HTTP 403",
+      "retrieved_at": "2026-11-01T11:53:27.873Z",
+      "fetched_urls": [
+        "https://index.minfin.com.ua/en/russian-invading/casualties/2026-10/",
+        "https://index.minfin.com.ua/en/russian-invading/casualties/"
+      ],
+      "coverage_start": "2026-10-31",
+      "coverage_end": "2026-10-31",
+      "verified_through": "2026-10-31",
+      "report_coverage_end": "2026-11-01",
+      "date_basis": "Morning report date minus one calendar day; checked against two overlapping API days"
     }
   ],
   "methodology": "Normalized from the upstream daily CSV. Values are reported or claimed losses and are not independently verified by this project. Missing dates are not interpolated.",
@@ -30835,6 +30852,24 @@
       "helicopters": 0,
       "uav": 1663,
       "unmanned_ground_vehicles": 6,
+      "cruise_missiles": 0
+    },
+    {
+      "date": "2026-10-31",
+      "personnel": 2100,
+      "boats": 0,
+      "submarines": 0,
+      "tanks": 1,
+      "armoured_personnel_vehicles": 2,
+      "artillery_systems": 16,
+      "mlrs": 2,
+      "vehicles": 259,
+      "special_equipment": 1,
+      "air_defence_systems": 0,
+      "aircraft": 0,
+      "helicopters": 0,
+      "uav": 944,
+      "unmanned_ground_vehicles": 9,
       "cruise_missiles": 0
     }
   ]
