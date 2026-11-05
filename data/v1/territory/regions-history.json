@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-03T12:50:47.541Z",
+  "generated_at": "2026-11-04T13:01:39.063Z",
   "map_geometry_url": "/data/v1/territory/regions.geojson",
   "units": {
     "area_km2": "square_kilometres_from_administrative_geometry",
