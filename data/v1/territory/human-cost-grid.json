@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "territorial_human_cost_grid",
-  "generated_at": "2026-11-04T13:01:39.063Z",
+  "generated_at": "2026-11-05T13:15:10.993Z",
   "coverage_start": "2022-02-23",
   "coverage_end": "2026-10-30",
   "record_count": 1910,
@@ -78,15 +78,15 @@
       "role": "Recent reports checked against the historical API series; only new daily increments are appended",
       "refresh_status": "secondary_upstream",
       "primary_failure": "HTTP 403",
-      "retrieved_at": "2026-11-04T13:01:39.063Z",
+      "retrieved_at": "2026-11-05T13:15:10.993Z",
       "fetched_urls": [
         "https://index.minfin.com.ua/en/russian-invading/casualties/2026-10/",
         "https://index.minfin.com.ua/en/russian-invading/casualties/"
       ],
       "coverage_start": "2026-10-31",
-      "coverage_end": "2026-11-03",
-      "verified_through": "2026-11-03",
-      "report_coverage_end": "2026-11-04",
+      "coverage_end": "2026-11-04",
+      "verified_through": "2026-11-04",
+      "report_coverage_end": "2026-11-05",
       "date_basis": "Morning report date minus one calendar day; checked against two overlapping API days"
     },
     {
