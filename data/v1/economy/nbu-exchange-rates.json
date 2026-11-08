@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "dataset": "nbu_exchange_rates",
-  "generated_at": "2026-11-06T13:00:12.244Z",
+  "generated_at": "2026-11-07T16:48:25.480Z",
   "coverage_start": "2022-01-01",
   "coverage_end": "2026-10-25",
   "record_count": 1759,

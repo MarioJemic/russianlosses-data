@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "dataset": "losses_cumulative",
-  "generated_at": "2026-11-06T13:00:12.244Z",
+  "generated_at": "2026-11-07T16:48:25.480Z",
   "coverage_start": "2022-02-24",
-  "coverage_end": "2026-11-05",
-  "record_count": 1716,
+  "coverage_end": "2026-11-06",
+  "record_count": 1717,
   "units": {
     "personnel": "reported_count_running_total",
     "boats": "reported_count_running_total",
@@ -34,6 +34,12 @@
           "field": "personnel",
           "published": 2250,
           "upstream": 1280
+        },
+        {
+          "date": "2026-10-21",
+          "field": "personnel",
+          "published": 1280,
+          "upstream": 2250
         }
       ],
       "previous_sources": [
@@ -51,24 +57,7 @@
         }
       ],
       "refresh_status": "upstream",
-      "retrieved_at": "2026-10-31T20:54:19.079Z"
-    },
-    {
-      "name": "Minfin reported Russian losses",
-      "url": "https://index.minfin.com.ua/en/russian-invading/casualties/",
-      "role": "Recent reports checked against the historical API series; only new daily increments are appended",
-      "refresh_status": "secondary_upstream",
-      "primary_failure": "HTTP 403",
-      "retrieved_at": "2026-11-06T13:00:12.245Z",
-      "fetched_urls": [
-        "https://index.minfin.com.ua/en/russian-invading/casualties/2026-10/",
-        "https://index.minfin.com.ua/en/russian-invading/casualties/"
-      ],
-      "coverage_start": "2026-10-31",
-      "coverage_end": "2026-11-05",
-      "verified_through": "2026-11-05",
-      "report_coverage_end": "2026-11-06",
-      "date_basis": "Morning report date minus one calendar day; checked against two overlapping API days"
+      "retrieved_at": "2026-11-07T16:48:25.481Z"
     }
   ],
   "methodology": "Running sum of every normalized daily loss field from the first published record through each date. Values inherit the upstream reported or claimed status and are not independently verified by this project.",
@@ -30676,7 +30665,7 @@
     },
     {
       "date": "2026-10-21",
-      "personnel": 1571820,
+      "personnel": 1572790,
       "boats": 35,
       "submarines": 2,
       "tanks": 12439,
@@ -30694,7 +30683,7 @@
     },
     {
       "date": "2026-10-22",
-      "personnel": 1573650,
+      "personnel": 1574620,
       "boats": 35,
       "submarines": 2,
       "tanks": 12439,
@@ -30712,7 +30701,7 @@
     },
     {
       "date": "2026-10-23",
-      "personnel": 1575630,
+      "personnel": 1576600,
       "boats": 35,
       "submarines": 2,
       "tanks": 12444,
@@ -30730,7 +30719,7 @@
     },
     {
       "date": "2026-10-24",
-      "personnel": 1577480,
+      "personnel": 1578450,
       "boats": 35,
       "submarines": 2,
       "tanks": 12447,
@@ -30748,7 +30737,7 @@
     },
     {
       "date": "2026-10-25",
-      "personnel": 1579470,
+      "personnel": 1580440,
       "boats": 35,
       "submarines": 2,
       "tanks": 12448,
@@ -30766,7 +30755,7 @@
     },
     {
       "date": "2026-10-26",
-      "personnel": 1580870,
+      "personnel": 1581840,
       "boats": 35,
       "submarines": 2,
       "tanks": 12448,
@@ -30784,7 +30773,7 @@
     },
     {
       "date": "2026-10-27",
-      "personnel": 1582380,
+      "personnel": 1583350,
       "boats": 35,
       "submarines": 2,
       "tanks": 12448,
@@ -30802,7 +30791,7 @@
     },
     {
       "date": "2026-10-28",
-      "personnel": 1583940,
+      "personnel": 1584910,
       "boats": 35,
       "submarines": 2,
       "tanks": 12449,
@@ -30820,7 +30809,7 @@
     },
     {
       "date": "2026-10-29",
-      "personnel": 1585530,
+      "personnel": 1586500,
       "boats": 35,
       "submarines": 2,
       "tanks": 12450,
@@ -30838,7 +30827,7 @@
     },
     {
       "date": "2026-10-30",
-      "personnel": 1587200,
+      "personnel": 1588170,
       "boats": 35,
       "submarines": 2,
       "tanks": 12450,
@@ -30856,7 +30845,7 @@
     },
     {
       "date": "2026-10-31",
-      "personnel": 1589300,
+      "personnel": 1590270,
       "boats": 35,
       "submarines": 2,
       "tanks": 12451,
@@ -30874,7 +30863,7 @@
     },
     {
       "date": "2026-11-01",
-      "personnel": 1591800,
+      "personnel": 1592770,
       "boats": 35,
       "submarines": 2,
       "tanks": 12452,
@@ -30892,7 +30881,7 @@
     },
     {
       "date": "2026-11-02",
-      "personnel": 1593860,
+      "personnel": 1594830,
       "boats": 35,
       "submarines": 2,
       "tanks": 12452,
@@ -30910,7 +30899,7 @@
     },
     {
       "date": "2026-11-03",
-      "personnel": 1596040,
+      "personnel": 1597010,
       "boats": 35,
       "submarines": 2,
       "tanks": 12453,
@@ -30928,7 +30917,7 @@
     },
     {
       "date": "2026-11-04",
-      "personnel": 1598420,
+      "personnel": 1599390,
       "boats": 35,
       "submarines": 2,
       "tanks": 12454,
@@ -30946,7 +30935,7 @@
     },
     {
       "date": "2026-11-05",
-      "personnel": 1600860,
+      "personnel": 1601830,
       "boats": 35,
       "submarines": 2,
       "tanks": 12456,
@@ -30960,6 +30949,24 @@
       "helicopters": 356,
       "uav": 597616,
       "unmanned_ground_vehicles": 1791,
+      "cruise_missiles": 5192
+    },
+    {
+      "date": "2026-11-06",
+      "personnel": 1604110,
+      "boats": 35,
+      "submarines": 2,
+      "tanks": 12456,
+      "armoured_personnel_vehicles": 25654,
+      "artillery_systems": 52000,
+      "mlrs": 2257,
+      "vehicles": 171389,
+      "special_equipment": 4881,
+      "air_defence_systems": 1747,
+      "aircraft": 452,
+      "helicopters": 356,
+      "uav": 598840,
+      "unmanned_ground_vehicles": 1799,
       "cruise_missiles": 5192
     }
   ]
