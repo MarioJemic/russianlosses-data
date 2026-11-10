@@ -1,7 +1,7 @@
 {
   "api_version": "v1",
   "schema_version": "1.1.0",
-  "generated_at": "2026-11-08T11:58:48.275Z",
+  "generated_at": "2026-11-09T13:57:29.085Z",
   "publisher": {
     "name": "Russian Losses Dashboard",
     "website": "https://russianlosses.pages.dev/",
@@ -15,8 +15,8 @@
       "title": "Daily reported Russian losses",
       "description": "Daily reported or claimed personnel and equipment loss increments.",
       "coverage_start": "2022-02-24",
-      "coverage_end": "2026-11-07",
-      "record_count": 1718,
+      "coverage_end": "2026-11-08",
+      "record_count": 1719,
       "schema": "/data/v1/schema/losses-record.schema.json",
       "sources": [
         {
@@ -61,15 +61,14 @@
           "role": "Recent reports checked against the historical API series; only new daily increments are appended",
           "refresh_status": "secondary_upstream",
           "primary_failure": "HTTP 403",
-          "retrieved_at": "2026-11-08T11:58:48.275Z",
+          "retrieved_at": "2026-11-09T13:57:29.085Z",
           "fetched_urls": [
-            "https://index.minfin.com.ua/en/russian-invading/casualties/2026-10/",
             "https://index.minfin.com.ua/en/russian-invading/casualties/"
           ],
           "coverage_start": "2026-11-07",
-          "coverage_end": "2026-11-07",
-          "verified_through": "2026-11-07",
-          "report_coverage_end": "2026-11-08",
+          "coverage_end": "2026-11-08",
+          "verified_through": "2026-11-08",
+          "report_coverage_end": "2026-11-09",
           "date_basis": "Morning report date minus one calendar day; checked against two overlapping API days"
         }
       ],
@@ -77,20 +76,20 @@
         {
           "path": "/data/v1/losses/daily.json",
           "media_type": "application/json",
-          "bytes": 731227,
-          "sha256": "56c6f08b1a2bf04e07ff07ad563d915b92d3d1f30e48f1244366e3ab6fc30625"
+          "bytes": 731576,
+          "sha256": "be9cff54a9dc75562b7bfd324ae6cb52624b199c0b1febb9ddfbacddc289613b"
         },
         {
           "path": "/data/v1/losses/daily.csv",
           "media_type": "text/csv",
-          "bytes": 82109,
-          "sha256": "09ff0dc2d7f5a07b60361f76c8aeb62e641af54e3c3152d7f2b1fd44acf8de02"
+          "bytes": 82161,
+          "sha256": "25e9c35116ca15f5cb67eac79ee7d723fe328dd6413bb64b78c7ec18b4f1b273"
         }
       ],
       "category": "losses",
       "catalog_group": "primary",
-      "generated_at": "2026-11-08T11:58:48.275Z",
-      "last_observation": "2026-11-07",
+      "generated_at": "2026-11-09T13:57:29.085Z",
+      "last_observation": "2026-11-08",
       "temporal_resolution": "date"
     },
     {
@@ -98,8 +97,8 @@
       "title": "Cumulative reported Russian losses",
       "description": "Running totals calculated from every published daily loss field.",
       "coverage_start": "2022-02-24",
-      "coverage_end": "2026-11-07",
-      "record_count": 1718,
+      "coverage_end": "2026-11-08",
+      "record_count": 1719,
       "schema": "/data/v1/schema/losses-record.schema.json",
       "sources": [
         {
@@ -144,15 +143,14 @@
           "role": "Recent reports checked against the historical API series; only new daily increments are appended",
           "refresh_status": "secondary_upstream",
           "primary_failure": "HTTP 403",
-          "retrieved_at": "2026-11-08T11:58:48.275Z",
+          "retrieved_at": "2026-11-09T13:57:29.085Z",
           "fetched_urls": [
-            "https://index.minfin.com.ua/en/russian-invading/casualties/2026-10/",
             "https://index.minfin.com.ua/en/russian-invading/casualties/"
           ],
           "coverage_start": "2026-11-07",
-          "coverage_end": "2026-11-07",
-          "verified_through": "2026-11-07",
-          "report_coverage_end": "2026-11-08",
+          "coverage_end": "2026-11-08",
+          "verified_through": "2026-11-08",
+          "report_coverage_end": "2026-11-09",
           "date_basis": "Morning report date minus one calendar day; checked against two overlapping API days"
         }
       ],
@@ -160,20 +158,20 @@
         {
           "path": "/data/v1/losses/cumulative.json",
           "media_type": "application/json",
-          "bytes": 785321,
-          "sha256": "83cf4e31698f8bd4def6e1b4974c54081f69770e584d5fc41e8ab981ecf67a88"
+          "bytes": 785707,
+          "sha256": "8b6a8686bc78efd44c3fa4f2ad199bca976449044206e0beae3ac19fa1ead195"
         },
         {
           "path": "/data/v1/losses/cumulative.csv",
           "media_type": "text/csv",
-          "bytes": 136067,
-          "sha256": "e9a7fb1018924285616a242ceca53175812e97b07aeff8b0d9d2fbc67b162d9b"
+          "bytes": 136156,
+          "sha256": "7cac29b371b970ac48e92dc1f9a5638b6b749d8fdd56e4e45af4c52d2d514a6f"
         }
       ],
       "category": "losses",
       "catalog_group": "primary",
-      "generated_at": "2026-11-08T11:58:48.275Z",
-      "last_observation": "2026-11-07",
+      "generated_at": "2026-11-09T13:57:29.085Z",
+      "last_observation": "2026-11-08",
       "temporal_resolution": "date"
     },
     {
@@ -181,7 +179,7 @@
       "title": "Latest reported loss summary",
       "description": "Latest daily, 7-day, 30-day, cumulative, and daily-average values for each reported loss metric.",
       "coverage_start": "2022-02-24",
-      "coverage_end": "2026-11-07",
+      "coverage_end": "2026-11-08",
       "record_count": 15,
       "schema": "/data/v1/schema/losses-summary-record.schema.json",
       "sources": [
@@ -227,15 +225,14 @@
           "role": "Recent reports checked against the historical API series; only new daily increments are appended",
           "refresh_status": "secondary_upstream",
           "primary_failure": "HTTP 403",
-          "retrieved_at": "2026-11-08T11:58:48.275Z",
+          "retrieved_at": "2026-11-09T13:57:29.085Z",
           "fetched_urls": [
-            "https://index.minfin.com.ua/en/russian-invading/casualties/2026-10/",
             "https://index.minfin.com.ua/en/russian-invading/casualties/"
           ],
           "coverage_start": "2026-11-07",
-          "coverage_end": "2026-11-07",
-          "verified_through": "2026-11-07",
-          "report_coverage_end": "2026-11-08",
+          "coverage_end": "2026-11-08",
+          "verified_through": "2026-11-08",
+          "report_coverage_end": "2026-11-09",
           "date_basis": "Morning report date minus one calendar day; checked against two overlapping API days"
         }
       ],
@@ -243,28 +240,28 @@
         {
           "path": "/data/v1/losses/summary.json",
           "media_type": "application/json",
-          "bytes": 6951,
-          "sha256": "467c2625385cab85fefcde11240bfcf602f7f58c874e4a02ef2876051ec46cfe"
+          "bytes": 6875,
+          "sha256": "b43b108cc8ccb3c37dc25285d85c40c6c8acc4fcf290c704290e1ee1389b3d2c"
         },
         {
           "path": "/data/v1/losses/summary.csv",
           "media_type": "text/csv",
-          "bytes": 1004,
-          "sha256": "84b015de03fd6b2e445d33265e1efa4c605a749eb9becfb5e7c38adcb0cce774"
+          "bytes": 1007,
+          "sha256": "db00280ff333a6e40a5671d8b3b5302aa7172cfab7e3e1117f9e38e266ab3c17"
         }
       ],
       "category": "losses",
       "catalog_group": "primary",
-      "generated_at": "2026-11-08T11:58:48.275Z",
-      "last_observation": "2026-11-07",
+      "generated_at": "2026-11-09T13:57:29.085Z",
+      "last_observation": "2026-11-08",
       "temporal_resolution": "date"
     },
     {
       "id": "replacement_cost_model",
       "title": "Modeled replacement cost",
       "description": "Low, base, and high unit-cost assumptions applied to the latest cumulative reported losses.",
-      "coverage_start": "2026-11-07",
-      "coverage_end": "2026-11-07",
+      "coverage_start": "2026-11-08",
+      "coverage_end": "2026-11-08",
       "record_count": 39,
       "schema": "/data/v1/schema/replacement-cost-record.schema.json",
       "sources": [
@@ -310,15 +307,14 @@
           "role": "Recent reports checked against the historical API series; only new daily increments are appended",
           "refresh_status": "secondary_upstream",
           "primary_failure": "HTTP 403",
-          "retrieved_at": "2026-11-08T11:58:48.275Z",
+          "retrieved_at": "2026-11-09T13:57:29.085Z",
           "fetched_urls": [
-            "https://index.minfin.com.ua/en/russian-invading/casualties/2026-10/",
             "https://index.minfin.com.ua/en/russian-invading/casualties/"
           ],
           "coverage_start": "2026-11-07",
-          "coverage_end": "2026-11-07",
-          "verified_through": "2026-11-07",
-          "report_coverage_end": "2026-11-08",
+          "coverage_end": "2026-11-08",
+          "verified_through": "2026-11-08",
+          "report_coverage_end": "2026-11-09",
           "date_basis": "Morning report date minus one calendar day; checked against two overlapping API days"
         }
       ],
@@ -326,20 +322,20 @@
         {
           "path": "/data/v1/models/replacement-cost.json",
           "media_type": "application/json",
-          "bytes": 10864,
-          "sha256": "82a384a0e0be38aa919fbbb9d7ab6d574239919b9d664fae5d8352def0eced85"
+          "bytes": 10785,
+          "sha256": "830f09c3c84e933f546dcacd1fb03033d1e96f270e54eb4a5c50f23389892712"
         },
         {
           "path": "/data/v1/models/replacement-cost.csv",
           "media_type": "text/csv",
           "bytes": 2308,
-          "sha256": "f45c742a461c5c7f3d51121e06a65643fdfc2897293883b93262fce334a35301"
+          "sha256": "5446dea3e6f695a57cf1d90cdab1104cdee6cc93a55a572664a3cc5bb97e489a"
         }
       ],
       "category": "losses",
       "catalog_group": "primary",
-      "generated_at": "2026-11-08T11:58:48.275Z",
-      "last_observation": "2026-11-07",
+      "generated_at": "2026-11-09T13:57:29.085Z",
+      "last_observation": "2026-11-08",
       "temporal_resolution": "date"
     },
     {
@@ -362,7 +358,7 @@
           "path": "/data/v1/territory/daily.json",
           "media_type": "application/json",
           "bytes": 574747,
-          "sha256": "7cd4daf70b56a4cc3d186214af4ea8b3c8b6aad941a8206ec5eb0527871bbb3d"
+          "sha256": "f363871e18af203a17d4d4f6b45d6e8ab3db94d153331161a3c2e61518755771"
         },
         {
           "path": "/data/v1/territory/daily.csv",
@@ -385,7 +381,7 @@
       ],
       "category": "territory",
       "catalog_group": "primary",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2026-09-02",
       "temporal_resolution": "date"
     },
@@ -409,7 +405,7 @@
           "path": "/data/v1/territory/periodic.json",
           "media_type": "application/json",
           "bytes": 50991,
-          "sha256": "d7b33b2c0a8a516436a9d9ff4ce8c3ece5647ebf49c5189b2e98723c5274bdb0"
+          "sha256": "81dcc7af2f09c9d87e2b400a1dd01f6ee08b694a2c39ee4463d772c601480e83"
         },
         {
           "path": "/data/v1/territory/periodic.csv",
@@ -420,7 +416,7 @@
       ],
       "category": "territory",
       "catalog_group": "primary",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2026-09-02",
       "temporal_resolution": "mixed"
     },
@@ -454,7 +450,7 @@
           "path": "/data/v1/territory/regions.json",
           "media_type": "application/json",
           "bytes": 12809,
-          "sha256": "40134fd1f8d15771ddbc9757c99e581fc95d1e8ed444cb9ce1749cdcf702d43b"
+          "sha256": "ec244594f42b8009b5becc606588e739771350686950cd5782fb633d53bf48d9"
         },
         {
           "path": "/data/v1/territory/regions.geojson",
@@ -466,12 +462,12 @@
           "path": "/data/v1/territory/regions-history.json",
           "media_type": "application/json",
           "bytes": 3725467,
-          "sha256": "a62b2ff354f47799c378639c9b359935ef80575c7e59567c8a3db22e23eefd4a"
+          "sha256": "e8071cbcb4dc12cfab9c65874d196dca47a67a3c1081b62c8dbb50904e26f3c0"
         }
       ],
       "category": "territory",
       "catalog_group": "primary",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2026-11-06",
       "temporal_resolution": "date"
     },
@@ -531,15 +527,14 @@
           "role": "Recent reports checked against the historical API series; only new daily increments are appended",
           "refresh_status": "secondary_upstream",
           "primary_failure": "HTTP 403",
-          "retrieved_at": "2026-11-08T11:58:48.275Z",
+          "retrieved_at": "2026-11-09T13:57:29.085Z",
           "fetched_urls": [
-            "https://index.minfin.com.ua/en/russian-invading/casualties/2026-10/",
             "https://index.minfin.com.ua/en/russian-invading/casualties/"
           ],
           "coverage_start": "2026-11-07",
-          "coverage_end": "2026-11-07",
-          "verified_through": "2026-11-07",
-          "report_coverage_end": "2026-11-08",
+          "coverage_end": "2026-11-08",
+          "verified_through": "2026-11-08",
+          "report_coverage_end": "2026-11-09",
           "date_basis": "Morning report date minus one calendar day; checked against two overlapping API days"
         },
         {
@@ -552,8 +547,8 @@
         {
           "path": "/data/v1/territory/human-cost-grid.json",
           "media_type": "application/json",
-          "bytes": 2760695,
-          "sha256": "191cb88f59f11ca4a5b89013ab588b79d2308013edbe646e5abddfa861b6a338"
+          "bytes": 2760616,
+          "sha256": "b7f208bde3cda4b9621228551849ef0646d42ab84c5fa423db9ad27763298d15"
         },
         {
           "path": "/data/v1/territory/human-cost-monthly.csv",
@@ -564,7 +559,7 @@
       ],
       "category": "territory",
       "catalog_group": "primary",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2026-11-06",
       "temporal_resolution": "date"
     },
@@ -588,7 +583,7 @@
           "path": "/data/v1/frontline/index.json",
           "media_type": "application/json",
           "bytes": 47824,
-          "sha256": "45f93ed2a88efdcf212065510957f197b7f9987bfac93ea6fb655b462945e7d3"
+          "sha256": "a59350e4b8718dbc521494f3ecdb1ef875f285fa7310a4bb2920f8d68e2c11a3"
         },
         {
           "path": "/data/v1/frontline/latest.geojson",
@@ -2525,7 +2520,7 @@
       ],
       "category": "territory",
       "catalog_group": "primary",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2026-11-06",
       "temporal_resolution": "date"
     },
@@ -2535,7 +2530,7 @@
       "description": "Uses the dashboard Combined algorithm: exact previous calendar month-end opening (23 February for February 2022), latest usable closing from the same source, later coverage preferred, DeepState wins ties. Alternate-source replacement covers the entire interval. No subtraction of DS and NZZ absolute areas, interpolation, or bridging missing months. Partial intervals retain their actual end date; missing data is null, not zero. Mixed-source sums are estimates, not a single-source occupied-area total. Source revisions may affect changes.",
       "category": "territory",
       "catalog_group": "primary",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2026-11-06",
       "temporal_resolution": "month",
       "coverage_start": "2022-02-23",
@@ -2559,13 +2554,13 @@
           "path": "/data/v1/territory/monthly-combined.json",
           "media_type": "application/json",
           "bytes": 35460,
-          "sha256": "205837b13fb8f13ddadc56b811cc03291a2eb10b2d787061c00f0dbccf3d1d88"
+          "sha256": "e37a21648e061bb1568cceebad33174b8593440d8c6300c5b8a930771bf6a301"
         },
         {
           "path": "/data/v1/territory/monthly-combined.csv",
           "media_type": "text/csv",
           "bytes": 13242,
-          "sha256": "3a31a8f3b4f77ae6d177f263c8fee26f03f8ea61814e27c7eada2af5dd4468ea"
+          "sha256": "b68783290ec6c31a8dd1919924b9e4a2fca70bb85baff57366ea22e7e000016e"
         }
       ]
     },
@@ -2575,7 +2570,7 @@
       "description": "Transparency International Corruption Perceptions Index. Rank position is lower-is-better; CPI score is 0 highly corrupt to 100 very clean. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
       "category": "social",
       "catalog_group": "primary",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2025",
       "temporal_resolution": "year",
       "time_basis": "reference_year",
@@ -2595,7 +2590,7 @@
           "path": "/data/v1/social/corruption.json",
           "media_type": "application/json",
           "bytes": 18111,
-          "sha256": "105aa1b6a80ef268e15998e480f5b72ea2c047e4efc3770662fd4a490b70f03d"
+          "sha256": "2e5989d09b8cb854381935be7ee139dc7c15e5c94448616fc53408f7a35a5bd2"
         },
         {
           "path": "/data/v1/social/corruption.csv",
@@ -2611,7 +2606,7 @@
       "description": "World Bank Gini index, 0-100. Lower values indicate a more equal income distribution. Missing observations remain null; national survey years and coverage differ. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
       "category": "social",
       "catalog_group": "primary",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2023",
       "temporal_resolution": "year",
       "time_basis": "reference_year",
@@ -2631,7 +2626,7 @@
           "path": "/data/v1/social/gini.json",
           "media_type": "application/json",
           "bytes": 17680,
-          "sha256": "70744beb98231eca23d89ff363c21effa12a472095c7b3327c745246975a9b7a"
+          "sha256": "1d8061b9f2ef446c8d51adffee87e9fffa0dc38caaf91c3922f585ca3bc4be1a"
         },
         {
           "path": "/data/v1/social/gini.csv",
@@ -2647,7 +2642,7 @@
       "description": "Life expectancy at birth, both sexes. Published WDI estimates from UN population estimates and national statistical sources; not a count of wartime deaths. Source revisions and wartime population coverage affect comparability. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
       "category": "social",
       "catalog_group": "primary",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2024",
       "temporal_resolution": "year",
       "time_basis": "reference_year",
@@ -2667,7 +2662,7 @@
           "path": "/data/v1/social/life-expectancy.json",
           "media_type": "application/json",
           "bytes": 40563,
-          "sha256": "027ecf535b34acaccc82071a30772138cfcfb7e251b7194b99839a3d13670129"
+          "sha256": "2dd9e32db4a4cf224c02dae6411413866d1a34ea0bf302dfe9cc004ba0d6d8f0"
         },
         {
           "path": "/data/v1/social/life-expectancy.csv",
@@ -2683,7 +2678,7 @@
       "description": "Birth rate minus death rate per 1,000 people, matched by country and year. Derived from published WDI demographic estimates; excludes migration and is not total population change. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
       "category": "social",
       "catalog_group": "primary",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2024",
       "temporal_resolution": "year",
       "time_basis": "reference_year",
@@ -2708,7 +2703,7 @@
           "path": "/data/v1/social/natural-change.json",
           "media_type": "application/json",
           "bytes": 41741,
-          "sha256": "16d5abaab4818d335390d3fd165c74ae9dfaa27acc835c298d119f4be352f9db"
+          "sha256": "648356a6e232771434f5d8a2a40037eb961703de98a381543067e05e336d8f99"
         },
         {
           "path": "/data/v1/social/natural-change.csv",
@@ -2724,7 +2719,7 @@
       "description": "RSF World Press Freedom Index, 0-100; higher means greater press freedom. Edition year, generally assessing the preceding calendar year with exceptional updates. Uses only the methodology introduced in 2022; earlier scores are not joined to this series. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
       "category": "social",
       "catalog_group": "primary",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2026",
       "temporal_resolution": "year",
       "time_basis": "edition_year",
@@ -2764,7 +2759,7 @@
           "path": "/data/v1/social/press-freedom.json",
           "media_type": "application/json",
           "bytes": 11164,
-          "sha256": "2733f27e101e9a8ce8f1e82ed9ecf981b7e6a33496997a8b131d415eddfa8a84"
+          "sha256": "6a9983babd5d0551fb7dfc738f914cb62afdbf9914de86df3c9860abbbc05cd1"
         },
         {
           "path": "/data/v1/social/press-freedom.csv",
@@ -2780,7 +2775,7 @@
       "description": "ILO modeled estimates via World Bank WDI. Share of the labor force aged 15-24 without work, available and seeking employment, not the share of all young people. Lower unemployment alone does not establish greater social stability. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
       "category": "social",
       "catalog_group": "primary",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2025",
       "temporal_resolution": "year",
       "time_basis": "reference_year",
@@ -2800,7 +2795,7 @@
           "path": "/data/v1/social/youth-unemployment.json",
           "media_type": "application/json",
           "bytes": 42177,
-          "sha256": "291c46632d128c8eda07e4af2a64d4eb5ee0594eab8b3a40f864239f3536c128"
+          "sha256": "8ac580c345203744fad0351ef49f827b868c1e5b2ac19903aa6e3cf903c0f0e3"
         },
         {
           "path": "/data/v1/social/youth-unemployment.csv",
@@ -2816,7 +2811,7 @@
       "description": "World Bank WGI perception-based governance score, 0-100; higher means stronger rule of law. The 2025 revision recalculates the historical series consistently. Shaded bands show the published 90% confidence intervals, not separate observations. Coverage describes annual reference or edition years, not daily observations. Missing numeric CSV cells represent null, never zero. Unknown source release dates and response hashes remain null.",
       "category": "social",
       "catalog_group": "primary",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2025",
       "temporal_resolution": "year",
       "time_basis": "reference_year",
@@ -2836,7 +2831,7 @@
           "path": "/data/v1/social/rule-of-law.json",
           "media_type": "application/json",
           "bytes": 41881,
-          "sha256": "5e142cde0b19534cd60dab72d2ec06407bb282a8244e1adc24be88ceb738e041"
+          "sha256": "749bf5d90cba956bd3bd56666dc1cc8a1d85659f75633ddb2227479ae6642b4c"
         },
         {
           "path": "/data/v1/social/rule-of-law.csv",
@@ -2891,7 +2886,7 @@
           "path": "/data/v1/economy/russia-federal-budget.json",
           "media_type": "application/json",
           "bytes": 8044,
-          "sha256": "21dee9f8cb737849e8dc0d706adfbe548308298ba67b25fe818a7f35bb93c7aa"
+          "sha256": "571e7fa45e05e53ebefff52411b43d2442a5e4aa00dd5631ee183bf1b061fe3c"
         },
         {
           "path": "/data/v1/economy/russia-federal-budget.csv",
@@ -2902,7 +2897,7 @@
       ],
       "category": "economy",
       "catalog_group": "additional",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2026-07-31",
       "temporal_resolution": "date"
     },
@@ -2926,7 +2921,7 @@
           "path": "/data/v1/economy/world-bank-macro.json",
           "media_type": "application/json",
           "bytes": 5548,
-          "sha256": "bd4d01a8541acba3696e3938427e37057669c961802a49df45687c08f2e1c0d1"
+          "sha256": "7983f94d2bdf5f1f0a2d3a99925925e901e1761e7d8dfe648155c67b48dd9520"
         },
         {
           "path": "/data/v1/economy/world-bank-macro.csv",
@@ -2937,7 +2932,7 @@
       ],
       "category": "economy",
       "catalog_group": "additional",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2025-12-31",
       "temporal_resolution": "date"
     },
@@ -2961,7 +2956,7 @@
           "path": "/data/v1/economy/nbu-exchange-rates.json",
           "media_type": "application/json",
           "bytes": 206307,
-          "sha256": "8e4a8f144e82bc5a56785906c62259b7e9e821c08a7bd1ae4e98f1e40772d808"
+          "sha256": "f2978bc33c59ce6981708992ecf4f09a7b6ce6adabe04bdb484bbe8dbef3e76a"
         },
         {
           "path": "/data/v1/economy/nbu-exchange-rates.csv",
@@ -2972,7 +2967,7 @@
       ],
       "category": "economy",
       "catalog_group": "additional",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2026-10-25",
       "temporal_resolution": "date"
     },
@@ -2996,7 +2991,7 @@
           "path": "/data/v1/fires/annual-estimates.json",
           "media_type": "application/json",
           "bytes": 10279,
-          "sha256": "c96d0597981b7baf1a5e75006693eb0b8c11836d1d22998ae2200aa98d5f3e87"
+          "sha256": "f242800fafcce38d39ae7cd17074ddbf48d529d7dcae1ff91dd2c966e3afb20e"
         },
         {
           "path": "/data/v1/fires/annual-estimates.csv",
@@ -3007,7 +3002,7 @@
       ],
       "category": "fires",
       "catalog_group": "additional",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2026-10-21",
       "temporal_resolution": "date"
     },
@@ -3031,7 +3026,7 @@
           "path": "/data/v1/fires/weekly-estimates.json",
           "media_type": "application/json",
           "bytes": 32901,
-          "sha256": "a34741bd3770c5729cb4aea3421511cf45a32b5727fb8aabe48ddaf898888bf1"
+          "sha256": "298614b7c3a0e801ab925a2c98ce114a1c9360cd665e0b13e08d1b0ec3aa162a"
         },
         {
           "path": "/data/v1/fires/weekly-estimates.csv",
@@ -3042,7 +3037,7 @@
       ],
       "category": "fires",
       "catalog_group": "additional",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2026-10-21",
       "temporal_resolution": "date"
     },
@@ -3071,7 +3066,7 @@
           "path": "/data/v1/fires/historical-annual.json",
           "media_type": "application/json",
           "bytes": 15563,
-          "sha256": "76b309a2ae795b31adabd553335aa7c619a861cce1432e97acef074e45cf86d9"
+          "sha256": "23ecd99d0134dbef40b934c4d62891e03cdb963305d38853265f08839541a465"
         },
         {
           "path": "/data/v1/fires/historical-annual.csv",
@@ -3082,7 +3077,7 @@
       ],
       "category": "fires",
       "catalog_group": "additional",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2024-12-31",
       "temporal_resolution": "date"
     },
@@ -3111,7 +3106,7 @@
           "path": "/data/v1/fires/historical-monthly.json",
           "media_type": "application/json",
           "bytes": 147592,
-          "sha256": "3ff5a5a03b6e57663a92975edf56fb641b7b965acfd3edbbfbdf666f9520ac74"
+          "sha256": "a9e6b153874cf10ccc08c691fb1731d1c93e8b3b4ae1b9162f2654651759bf03"
         },
         {
           "path": "/data/v1/fires/historical-monthly.csv",
@@ -3122,7 +3117,7 @@
       ],
       "category": "fires",
       "catalog_group": "additional",
-      "generated_at": "2026-11-08T11:58:48.275Z",
+      "generated_at": "2026-11-09T13:57:29.085Z",
       "last_observation": "2024-12-31",
       "temporal_resolution": "date"
     },
