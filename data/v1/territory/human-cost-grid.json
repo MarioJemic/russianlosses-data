@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "dataset": "territorial_human_cost_grid",
-  "generated_at": "2026-11-13T13:09:40.985Z",
+  "generated_at": "2026-11-14T14:05:33.937Z",
   "coverage_start": "2022-02-23",
-  "coverage_end": "2026-11-06",
-  "record_count": 1910,
-  "event_count": 2717,
+  "coverage_end": "2026-11-13",
+  "record_count": 1911,
+  "event_count": 2718,
   "interpolated_event_count": 1583,
-  "snapshot_count": 321,
+  "snapshot_count": 322,
   "grid": {
     "cell_size_km": 10,
     "modeled_cell_area_km2": 100,
@@ -27,7 +27,7 @@
     ],
     "cells_inside_ukraine": 6053,
     "excluded_context_cells": 0,
-    "published_cells": 1910
+    "published_cells": 1911
   },
   "units": {
     "changed_area_km2": "modeled_square_kilometres",
@@ -76,7 +76,7 @@
         }
       ],
       "refresh_status": "upstream",
-      "retrieved_at": "2026-11-07T16:48:25.481Z"
+      "retrieved_at": "2026-11-14T12:43:08.889Z"
     },
     {
       "name": "Minfin reported Russian losses",
@@ -84,14 +84,14 @@
       "role": "Recent reports checked against the historical API series; only new daily increments are appended",
       "refresh_status": "secondary_upstream",
       "primary_failure": "HTTP 403",
-      "retrieved_at": "2026-11-13T13:09:40.985Z",
+      "retrieved_at": "2026-11-14T14:05:33.938Z",
       "fetched_urls": [
         "https://index.minfin.com.ua/en/russian-invading/casualties/"
       ],
-      "coverage_start": "2026-11-07",
-      "coverage_end": "2026-11-12",
-      "verified_through": "2026-11-12",
-      "report_coverage_end": "2026-11-13",
+      "coverage_start": null,
+      "coverage_end": null,
+      "verified_through": "2026-11-13",
+      "report_coverage_end": "2026-11-14",
       "date_basis": "Morning report date minus one calendar day; checked against two overlapping API days"
     },
     {
@@ -1134,19 +1134,19 @@
     {
       "month": "2026-11",
       "period_start": "2026-11-01",
-      "period_end": "2026-11-06",
-      "loss_observation_days": 6,
-      "reported_personnel_losses": 13840,
-      "russian_gained_cells": 0,
+      "period_end": "2026-11-13",
+      "loss_observation_days": 13,
+      "reported_personnel_losses": 30360,
+      "russian_gained_cells": 1,
       "ukrainian_liberated_cells": 0,
-      "changed_cell_events": 0,
-      "unique_changed_cells": 0,
-      "russian_gained_km2": 0,
+      "changed_cell_events": 1,
+      "unique_changed_cells": 1,
+      "russian_gained_km2": 100,
       "ukrainian_liberated_km2": 0,
-      "gross_changed_km2": 0,
-      "reported_personnel_per_changed_km2": null,
-      "reported_personnel_per_100km2": null,
-      "allocated_reported_personnel": null,
+      "gross_changed_km2": 100,
+      "reported_personnel_per_changed_km2": 303.6,
+      "reported_personnel_per_100km2": 30360,
+      "allocated_reported_personnel": 30360,
       "interpolated_transition_events": 0
     }
   ],
@@ -39376,6 +39376,46 @@
       "first_change_month": null,
       "latest_change_month": null,
       "events": []
+    },
+    {
+      "id": "g10-r1542-c1606",
+      "row": 1542,
+      "column": 1606,
+      "center": [
+        37.79252,
+        48.5645
+      ],
+      "bounds": [
+        37.72474,
+        48.51958,
+        37.86031,
+        48.60941
+      ],
+      "modeled_area_km2": 100,
+      "baseline_status": "government_controlled",
+      "latest_status": "russian_occupied",
+      "transition_count": 1,
+      "first_change_month": "2026-11",
+      "latest_change_month": "2026-11",
+      "events": [
+        {
+          "sequence": 1,
+          "direction": "russian_gain",
+          "from_status": "government_controlled",
+          "to_status": "russian_occupied",
+          "observed_from": "2026-11-06",
+          "observed_to": "2026-11-13",
+          "interval_days": 7,
+          "observed_month": "2026-11",
+          "modeled_month": "2026-11",
+          "confidence": "same_month",
+          "changed_area_km2": 100,
+          "reported_personnel_losses": 30360,
+          "reported_personnel_per_changed_km2": 303.6,
+          "reported_personnel_per_100km2": 30360,
+          "modeled_personnel_allocation": 30360
+        }
+      ]
     },
     {
       "id": "g10-r1542-c1607",
