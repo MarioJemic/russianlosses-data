@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "dataset": "losses_daily",
-  "generated_at": "2026-11-19T14:32:43.015Z",
+  "generated_at": "2026-11-22T20:43:31.161Z",
   "coverage_start": "2022-02-24",
-  "coverage_end": "2026-11-18",
-  "record_count": 1729,
+  "coverage_end": "2026-11-21",
+  "record_count": 1732,
   "units": {
     "personnel": "reported_count_per_day",
     "boats": "reported_count_per_day",
@@ -57,7 +57,7 @@
         }
       ],
       "refresh_status": "upstream",
-      "retrieved_at": "2026-11-14T12:43:08.889Z"
+      "retrieved_at": "2026-11-22T20:06:09.976Z"
     },
     {
       "name": "Minfin reported Russian losses",
@@ -65,14 +65,14 @@
       "role": "Recent reports checked against the historical API series; only new daily increments are appended",
       "refresh_status": "secondary_upstream",
       "primary_failure": "HTTP 403",
-      "retrieved_at": "2026-11-19T14:32:43.015Z",
+      "retrieved_at": "2026-11-22T20:43:31.161Z",
       "fetched_urls": [
         "https://index.minfin.com.ua/en/russian-invading/casualties/"
       ],
-      "coverage_start": "2026-11-14",
-      "coverage_end": "2026-11-18",
-      "verified_through": "2026-11-18",
-      "report_coverage_end": "2026-11-19",
+      "coverage_start": null,
+      "coverage_end": null,
+      "verified_through": "2026-11-21",
+      "report_coverage_end": "2026-11-22",
       "date_basis": "Morning report date minus one calendar day; checked against two overlapping API days"
     }
   ],
@@ -31199,6 +31199,60 @@
       "helicopters": 0,
       "uav": 515,
       "unmanned_ground_vehicles": 7,
+      "cruise_missiles": 0
+    },
+    {
+      "date": "2026-11-19",
+      "personnel": 2150,
+      "boats": 0,
+      "submarines": 0,
+      "tanks": 1,
+      "armoured_personnel_vehicles": 32,
+      "artillery_systems": 17,
+      "mlrs": 4,
+      "vehicles": 369,
+      "special_equipment": 3,
+      "air_defence_systems": 1,
+      "aircraft": 0,
+      "helicopters": 0,
+      "uav": 738,
+      "unmanned_ground_vehicles": 2,
+      "cruise_missiles": 0
+    },
+    {
+      "date": "2026-11-20",
+      "personnel": 1730,
+      "boats": 0,
+      "submarines": 0,
+      "tanks": 0,
+      "armoured_personnel_vehicles": 24,
+      "artillery_systems": 21,
+      "mlrs": 1,
+      "vehicles": 283,
+      "special_equipment": 2,
+      "air_defence_systems": 2,
+      "aircraft": 0,
+      "helicopters": 0,
+      "uav": 1065,
+      "unmanned_ground_vehicles": 7,
+      "cruise_missiles": 82
+    },
+    {
+      "date": "2026-11-21",
+      "personnel": 2310,
+      "boats": 0,
+      "submarines": 0,
+      "tanks": 2,
+      "armoured_personnel_vehicles": 39,
+      "artillery_systems": 66,
+      "mlrs": 6,
+      "vehicles": 243,
+      "special_equipment": 4,
+      "air_defence_systems": 0,
+      "aircraft": 0,
+      "helicopters": 0,
+      "uav": 1392,
+      "unmanned_ground_vehicles": 6,
       "cruise_missiles": 0
     }
   ]
