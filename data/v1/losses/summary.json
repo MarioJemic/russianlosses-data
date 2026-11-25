@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
   "dataset": "losses_summary",
-  "generated_at": "2026-11-23T16:06:46.389Z",
+  "generated_at": "2026-11-24T16:02:24.065Z",
   "coverage_start": "2022-02-24",
-  "coverage_end": "2026-11-22",
+  "coverage_end": "2026-11-23",
   "record_count": 15,
   "units": {
     "latest_daily": "reported_count",
@@ -55,14 +55,14 @@
       "role": "Recent reports checked against the historical API series; only new daily increments are appended",
       "refresh_status": "secondary_upstream",
       "primary_failure": "HTTP 403",
-      "retrieved_at": "2026-11-23T16:06:46.390Z",
+      "retrieved_at": "2026-11-24T16:02:24.066Z",
       "fetched_urls": [
         "https://index.minfin.com.ua/en/russian-invading/casualties/"
       ],
       "coverage_start": "2026-11-22",
-      "coverage_end": "2026-11-22",
-      "verified_through": "2026-11-22",
-      "report_coverage_end": "2026-11-23",
+      "coverage_end": "2026-11-23",
+      "verified_through": "2026-11-23",
+      "report_coverage_end": "2026-11-24",
       "date_basis": "Morning report date minus one calendar day; checked against two overlapping API days"
     }
   ],
@@ -70,29 +70,29 @@
   "license_notice": "No blanket license is granted for this collection. Each upstream source retains its own rights and terms. Review the source-specific terms and preserve attribution before reuse.",
   "data": [
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "metric": "personnel",
-      "latest_daily": 2471,
-      "last_7_days": 14221,
-      "last_30_days": 63041,
-      "cumulative": 1639641,
-      "daily_average": 946.13,
+      "latest_daily": 1848,
+      "last_7_days": 14449,
+      "last_30_days": 63039,
+      "cumulative": 1641489,
+      "daily_average": 946.65,
       "first_date": "2022-02-24",
-      "observation_days": 1733
+      "observation_days": 1734
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "metric": "boats",
-      "latest_daily": 0,
-      "last_7_days": 0,
-      "last_30_days": 0,
-      "cumulative": 35,
+      "latest_daily": 1,
+      "last_7_days": 1,
+      "last_30_days": 1,
+      "cumulative": 36,
       "daily_average": 0.02,
       "first_date": "2022-02-24",
-      "observation_days": 1733
+      "observation_days": 1734
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "metric": "submarines",
       "latest_daily": 0,
       "last_7_days": 0,
@@ -100,87 +100,87 @@
       "cumulative": 2,
       "daily_average": 0,
       "first_date": "2022-02-24",
-      "observation_days": 1733
+      "observation_days": 1734
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "metric": "tanks",
-      "latest_daily": 5,
-      "last_7_days": 12,
-      "last_30_days": 48,
-      "cumulative": 12492,
-      "daily_average": 7.21,
+      "latest_daily": 1,
+      "last_7_days": 11,
+      "last_30_days": 46,
+      "cumulative": 12493,
+      "daily_average": 7.2,
       "first_date": "2022-02-24",
-      "observation_days": 1733
+      "observation_days": 1734
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "metric": "armoured_personnel_vehicles",
-      "latest_daily": 18,
-      "last_7_days": 134,
-      "last_30_days": 341,
-      "cumulative": 25941,
+      "latest_daily": 11,
+      "last_7_days": 139,
+      "last_30_days": 347,
+      "cumulative": 25952,
       "daily_average": 14.97,
       "first_date": "2022-02-24",
-      "observation_days": 1733
+      "observation_days": 1734
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "metric": "artillery_systems",
-      "latest_daily": 70,
-      "last_7_days": 267,
-      "last_30_days": 1166,
-      "cumulative": 52731,
-      "daily_average": 30.43,
+      "latest_daily": 55,
+      "last_7_days": 270,
+      "last_30_days": 1172,
+      "cumulative": 52786,
+      "daily_average": 30.44,
       "first_date": "2022-02-24",
-      "observation_days": 1733
+      "observation_days": 1734
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "metric": "mlrs",
       "latest_daily": 3,
-      "last_7_days": 20,
-      "last_30_days": 66,
-      "cumulative": 2298,
+      "last_7_days": 19,
+      "last_30_days": 64,
+      "cumulative": 2301,
       "daily_average": 1.33,
       "first_date": "2022-02-24",
-      "observation_days": 1733
+      "observation_days": 1734
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "metric": "vehicles",
-      "latest_daily": 651,
-      "last_7_days": 2783,
-      "last_30_days": 12212,
-      "cumulative": 178713,
-      "daily_average": 103.12,
+      "latest_daily": 371,
+      "last_7_days": 2633,
+      "last_30_days": 12166,
+      "cumulative": 179084,
+      "daily_average": 103.28,
       "first_date": "2022-02-24",
-      "observation_days": 1733
+      "observation_days": 1734
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "metric": "special_equipment",
-      "latest_daily": 7,
-      "last_7_days": 23,
-      "last_30_days": 80,
+      "latest_daily": 0,
+      "last_7_days": 19,
+      "last_30_days": 76,
       "cumulative": 4932,
-      "daily_average": 2.85,
+      "daily_average": 2.84,
       "first_date": "2022-02-24",
-      "observation_days": 1733
+      "observation_days": 1734
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "metric": "air_defence_systems",
       "latest_daily": 1,
-      "last_7_days": 6,
-      "last_30_days": 46,
-      "cumulative": 1768,
+      "last_7_days": 7,
+      "last_30_days": 44,
+      "cumulative": 1769,
       "daily_average": 1.02,
       "first_date": "2022-02-24",
-      "observation_days": 1733
+      "observation_days": 1734
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "metric": "aircraft",
       "latest_daily": 0,
       "last_7_days": 0,
@@ -188,10 +188,10 @@
       "cumulative": 452,
       "daily_average": 0.26,
       "first_date": "2022-02-24",
-      "observation_days": 1733
+      "observation_days": 1734
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "metric": "helicopters",
       "latest_daily": 0,
       "last_7_days": 0,
@@ -199,40 +199,40 @@
       "cumulative": 356,
       "daily_average": 0.21,
       "first_date": "2022-02-24",
-      "observation_days": 1733
+      "observation_days": 1734
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "metric": "uav",
-      "latest_daily": 1459,
-      "last_7_days": 7886,
-      "last_30_days": 39198,
-      "cumulative": 618262,
-      "daily_average": 356.76,
+      "latest_daily": 1154,
+      "last_7_days": 7546,
+      "last_30_days": 38614,
+      "cumulative": 619416,
+      "daily_average": 357.22,
       "first_date": "2022-02-24",
-      "observation_days": 1733
+      "observation_days": 1734
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "metric": "unmanned_ground_vehicles",
       "latest_daily": 4,
-      "last_7_days": 53,
-      "last_30_days": 208,
-      "cumulative": 1925,
+      "last_7_days": 47,
+      "last_30_days": 206,
+      "cumulative": 1929,
       "daily_average": 1.11,
       "first_date": "2022-02-24",
-      "observation_days": 1733
+      "observation_days": 1734
     },
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "metric": "cruise_missiles",
       "latest_daily": 0,
       "last_7_days": 82,
       "last_30_days": 140,
       "cumulative": 5278,
-      "daily_average": 3.05,
+      "daily_average": 3.04,
       "first_date": "2022-02-24",
-      "observation_days": 1733
+      "observation_days": 1734
     }
   ]
 }
