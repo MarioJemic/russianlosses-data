@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
   "dataset": "frontline_snapshots",
-  "generated_at": "2026-11-24T16:02:24.065Z",
+  "generated_at": "2026-11-25T15:43:51.446Z",
   "coverage_start": "2022-02-23",
-  "coverage_end": "2026-11-23",
+  "coverage_end": "2026-11-24",
   "record_count": 324,
   "sources": [
     {
@@ -1632,13 +1632,13 @@
       "url": "/data/v1/frontline/history/deepstatemap_20261121.geojson"
     },
     {
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "phase": "full_scale_war",
-      "url": "/data/v1/frontline/history/deepstatemap_20261123.geojson"
+      "url": "/data/v1/frontline/history/deepstatemap_20261124.geojson"
     }
   ],
   "latest": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "url": "/data/v1/frontline/latest.geojson"
   }
 }
